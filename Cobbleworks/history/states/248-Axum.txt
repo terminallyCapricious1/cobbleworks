@@ -1,0 +1,22 @@
+state={
+	id=248
+	name="Axum"
+	state_category = metropolis
+	provinces={
+		1780 1785 2770 3424 3432 
+	}
+	history={
+		owner = LUM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			3432 20		#Axum
+		}
+		add_core_of = LUM
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+}

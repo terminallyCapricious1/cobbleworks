@@ -1,0 +1,8 @@
+supply_area={
+	id=89
+	name="North Osterian Islands"
+	value=0
+	states={
+		283 282 
+	}
+}

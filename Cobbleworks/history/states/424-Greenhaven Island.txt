@@ -1,0 +1,21 @@
+state={
+	id=424
+	name="Greenhaven Island"
+	state_category = rural
+	provinces={
+		2977 
+	}
+	manpower=232100
+	history={
+		owner = VIR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+		}
+		victory_points = {
+			2977 10
+		}
+		add_core_of = VIR
+	}
+	buildings_max_level_factor=1.000
+}

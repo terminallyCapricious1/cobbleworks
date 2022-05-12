@@ -1,0 +1,17 @@
+state={
+	id=150
+	name="Aureo"
+	state_category = pastoral
+	provinces={
+		773 2556 3343 
+	}
+	manpower=49523
+	history={
+		owner = HLG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HLG
+	}
+	buildings_max_level_factor=1.000
+}

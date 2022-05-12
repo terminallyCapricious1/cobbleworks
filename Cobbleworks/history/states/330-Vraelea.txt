@@ -1,0 +1,22 @@
+state={
+	id=330
+	name="Vraelea"
+	state_category = metropolis
+	provinces={
+		97 428 526 1437 1971 2031 2628 2855 2979 4034 
+	}
+	manpower=1000000
+	history={
+		owner = VRA
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 3 
+			infrastructure = 4
+		}
+		victory_points = {
+			1437 20		#Vraelea
+		}
+		add_core_of = VRA
+	}
+	buildings_max_level_factor=1.000
+}

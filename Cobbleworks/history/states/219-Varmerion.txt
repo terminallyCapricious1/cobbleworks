@@ -1,0 +1,22 @@
+state={
+	id=219
+	name="Varmerion"
+	state_category = metropolis
+	provinces={
+		89 247 683 803 1066 1981 2278 2414 3785 3788 3795 3796 
+	}
+	manpower=932000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2 
+			arms_factory = 2
+		}
+		victory_points = {
+			247 20
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

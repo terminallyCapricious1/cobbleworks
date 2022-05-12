@@ -1,0 +1,22 @@
+state={
+	id=356
+	name="Leythe"
+	state_category = town
+	provinces={
+		167 753 1227 1313 1387 1526 2180 2687 3213 3271 4221 4239 4245 4250 4260 4268 
+	}
+	manpower=750000
+	history = {
+		owner = LEY
+		buildings = {
+			industrial_complex = 1
+			arms_factory = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			4260 20		#Leythe
+		}
+		add_core_of = LEY
+	}
+	buildings_max_level_factor=1.000
+}

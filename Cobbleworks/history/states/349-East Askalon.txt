@@ -1,0 +1,24 @@
+state={
+	id=349
+	name="Posopolis"
+	state_category = metropolis
+	provinces={
+		39 553 1107 1128 1471 1663 3249 4249 4288 4296 4304 4315 
+	}
+	manpower=1263000
+	history={
+		owner = POS
+		add_core_of = POS
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+		}
+		victory_points = {
+			553 25		#Posopolis
+		}
+		victory_points = {
+			1107 10		#Averti
+		}
+	}
+	buildings_max_level_factor=1.000
+}

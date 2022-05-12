@@ -1,0 +1,8 @@
+supply_area={
+	id=60
+	name="Leyth"
+	value=0
+	states={
+		342 341 82 
+	}
+}

@@ -1,0 +1,5 @@
+RYZ_Westreach = {
+    color = rgb { 212 187 55 }
+    color_ui = rgb { 212 187 55 }
+}
+

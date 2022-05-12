@@ -1,0 +1,21 @@
+state={
+	id=91
+	name="Brazniciaya"
+	state_category = town
+	provinces={
+		57 1209 4272 4282 
+	}
+	manpower=800000
+	history={
+		owner = UBS
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			4272 12		#Brauhaven
+		}
+		add_core_of = UBS
+	}
+	buildings_max_level_factor=1.000
+}

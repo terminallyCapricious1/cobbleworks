@@ -1,0 +1,28 @@
+
+state={
+	id=280
+	name="Ustokol"
+
+	history={
+		owner = NRM
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			4688 5 
+		}
+		victory_points = {
+			593 15 
+		}
+		add_core_of = NRM
+	}
+
+	provinces={
+		593 4688 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

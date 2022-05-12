@@ -1,0 +1,17 @@
+state={
+	id=422
+	name="Kronos"
+	state_category = tiny_island
+	provinces={
+		2116 2154 
+	}
+	manpower=12424
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=111
+	name="Terra Marique"
+	state_category = town
+	provinces={
+		45 393 490 939 953 996 1296 1477 1576 1753 1972 2319 2660 2978 4130 4170 4218 
+	}
+	manpower=850000
+	history={
+		owner = THI
+		victory_points = {
+			4218 20 #Terra Marique
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

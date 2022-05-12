@@ -1,0 +1,23 @@
+
+state={
+	id=104
+	state_category = town
+	name="Central Apasiril"
+	provinces={
+		305 572 576 811 929 1099 1497 1650 1699 2215 2545 2836 3067 3097 3895 3901 3913 3914 3923 3931 3933 3947 
+	}
+	history={
+		owner = THI
+		victory_points = {
+			929 10 #Urnu-Arrak
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = THI
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=51
+	name="Ardat Mosul"
+	state_category = metropolis
+	history={
+		owner = ARD
+		victory_points = {
+			957 50
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 5
+			industrial_complex = 5 
+			3254 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = ARD
+	}
+	provinces={
+		168 788 843 957 1067 2296 2322 2329 3018 3254 4100 4133 
+	}
+	manpower=1400000
+	buildings_max_level_factor=1.000
+}

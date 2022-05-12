@@ -1,0 +1,8 @@
+supply_area={
+	id=6
+	name="North Andorn"
+	value=2
+	states={
+		135 136 130 133 134 
+	}
+}

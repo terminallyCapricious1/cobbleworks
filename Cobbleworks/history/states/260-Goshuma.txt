@@ -1,0 +1,22 @@
+
+state={
+	id=260
+	name="Goshuma"
+	state_category = rural
+	provinces={
+		643 1479 1737 2519 
+	}
+	manpower=450000
+	history={
+		owner = PLG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			1479 10		#Tengaesal
+		}
+		add_core_of = PLG
+	}
+	buildings_max_level_factor=1.000
+}

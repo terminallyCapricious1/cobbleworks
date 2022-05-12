@@ -1,0 +1,24 @@
+state={
+	id=119
+	name="Carthya"
+	provinces={
+		152 496 1073 1646 1996 2184 2352 2408 2593 2842 3027 3054 3353 3610 3628 3641 3657 3664 3669 3682 
+	}
+	state_category = large_city 
+	history={
+		owner = RYZ
+		victory_points = {
+			496 50
+		}
+		victory_points = {
+			3657 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 4
+		}
+	}
+	manpower = 1570000
+	buildings_max_level_factor=1.000
+}

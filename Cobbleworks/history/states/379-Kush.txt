@@ -1,0 +1,22 @@
+state={
+	id=379
+	name="Kush"
+	state_category = metropolis
+	provinces={
+		2318 4311 4324 
+	}
+	manpower=1550000
+	history={
+		owner = KUS
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 5 
+			infrastructure = 5
+		}
+		add_core_of = KUS
+		victory_points = {
+			4311 20
+		}
+	}
+	buildings_max_level_factor=1.000
+}

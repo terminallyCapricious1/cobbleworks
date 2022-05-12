@@ -1,0 +1,25 @@
+
+state={
+	id=80
+	name="Platitron"
+	state_category = metropolis
+	provinces={
+		31 372 619 1047 2003 2495 2845 2892 4229 4231 4243 4258 
+	}
+	manpower=1200000
+	history={
+		owner = UBS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+		victory_points = {
+			372 7		#Stadt, Hi Actes!
+		}
+		victory_points = {
+			2495 20		#Voskovy
+		}
+		add_core_of = UBS
+	}
+	buildings_max_level_factor=1.000
+}

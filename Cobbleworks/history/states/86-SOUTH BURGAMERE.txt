@@ -1,0 +1,24 @@
+state={
+	id=86
+	name="South Burgamere"
+	state_category = town
+	provinces={
+		206 703 706 861 1346 1483 1762 2071 2570 2771 3256 3350 4203 4213 4214 4219 4222 
+	}
+	manpower=750000
+	history={
+		owner = UBS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			1762 15		#Hyperborea - What no pussy does to a mf
+		}
+		victory_points = {
+			706 10		#Ansuzgebo
+		}
+		add_core_of = UBS
+	}
+	buildings_max_level_factor=1.000
+}

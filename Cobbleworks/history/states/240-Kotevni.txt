@@ -1,0 +1,17 @@
+state={
+	id=240
+	name="Kotevni"
+	state_category = pastoral
+	provinces={
+		2190 3465 3473 
+	}
+	manpower=38282
+	history={
+		owner = OWY
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = OWY
+	}
+	buildings_max_level_factor=1.000
+}

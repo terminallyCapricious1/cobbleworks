@@ -1,0 +1,8 @@
+supply_area={
+	id=70
+	name="Cobblelands"
+	value=0
+	states={
+		111 371 110 369 98 97 
+	}
+}

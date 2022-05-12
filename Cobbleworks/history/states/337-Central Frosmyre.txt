@@ -1,0 +1,26 @@
+
+state={
+	id=337
+	name="Central Frosmyre"
+	state_category = metropolis
+	provinces={
+		351 400 783 824 1344 1982 2880 4121 4134 4151 
+	}
+	manpower=1950000
+	history={
+		owner = MDR
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 2
+			infrastructure = 4
+		}
+		victory_points = {
+			4134 20		#Caylak
+		}
+		victory_points = {
+			2880 15		#Skargness
+		}
+		add_core_of = MDR
+	}
+	buildings_max_level_factor=1.000
+}

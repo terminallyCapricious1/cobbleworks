@@ -1,0 +1,21 @@
+state={
+	id=328
+	name="Tatonia"
+	state_category = town
+	provinces={
+		110 805 859 1325 2019 2353 2577 2600 2692 2916 3109 3202 4060 4079 4087 4088 
+	}
+	manpower=500000
+	history={
+		owner = TTO
+		buildings = {
+			arms_factory = 1
+			infrastructure = 1
+		}
+		victory_points = {
+			3202 10		#Wolfsfels
+		}
+		add_core_of = TTO
+	}
+	buildings_max_level_factor=1.000
+}

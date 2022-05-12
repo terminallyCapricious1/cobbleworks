@@ -1,0 +1,21 @@
+state={
+	id=313
+	name="Valron"
+	state_category = town
+	provinces={
+		252 522 708 870 1249 1332 1543 1619 1917 1931 2648 2860 2926 2984 3245 4573 4589 4604 4631 
+	}
+	manpower=550000
+	history={
+		owner = VIO
+		buildings = {
+			arms_factory = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			2648 10
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,69 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "new_scripted_gui_window"
+		position = { x = 0 y = 0}	
+		size = { width = 1600 height= 900 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_scripted_gui_window_background"
+		}
+
+		buttonType ={
+			name ="close_button"
+			spriteType = "GFX_close_button"
+			position = { x= 1460 y = 95 }
+			Orientation = "UPPER_LEFT"
+		}	
+
+		iconType ={
+			name ="andornflag"
+			spriteType = "GFX_andornflaga"
+			position = { x= 1300 y = 170 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = hse_gui_tip
+		}	
+
+		iconType ={
+			name ="bardoniaflag"
+			spriteType = "GFX_bardoniaflag"
+			position = { x= 1300 y = 320 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = bar_gui_tip
+		}	
+
+		iconType ={
+			name ="ryzanflag"
+			spriteType = "GFX_ryzanflag"
+			position = { x= 1300 y = 490 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = ryz_gui_tip
+		}	
+		iconType ={
+			name ="wivaflag"
+			spriteType = "GFX_wivaflag"
+			position = { x= 1300 y = 640 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = wiv_gui_tip
+		}	
+
+		instantTextboxType = {
+			name = "political_title"
+			position = { x = 860 y = 90 }
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "The Race for Andorn"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+	}
+}

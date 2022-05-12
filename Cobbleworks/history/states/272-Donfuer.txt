@@ -1,0 +1,21 @@
+state={
+	id=272
+	name="Donfuer"
+	state_category = rural
+	provinces={
+		1515 2616 2956 3062 3087 3503 3526 3527 3536 
+	}
+	manpower=300000
+	history={
+		owner = PLG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			3527 10		#Asgaroth
+		}
+		add_core_of = PLG
+	}
+	buildings_max_level_factor=1.000
+}

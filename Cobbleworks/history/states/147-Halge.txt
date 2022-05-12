@@ -1,0 +1,25 @@
+state={
+	id=147
+	name="Halge"
+	state_category = metropolis
+	provinces={
+		1139 2021 2597 3415 
+	}
+	manpower=1500000
+	history={
+		owner = HLG
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2 
+			infrastructure = 4
+		}
+		victory_points = {
+			2021 15		#Septrion
+		}
+		victory_points = {
+			3415 20		#Halge
+		}
+		add_core_of = HLG
+	}
+	buildings_max_level_factor=1.000
+}

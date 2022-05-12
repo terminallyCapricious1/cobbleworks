@@ -1,0 +1,17 @@
+state={
+	id=394
+	name="South Vandalah"
+	provinces={
+		1185 1507 2121 2468 2832 3074 4588 4616 4621 4625 4635 
+	}
+	state_category = rural
+	manpower=214923
+	history={
+		owner = VAN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VAN
+	}
+	buildings_max_level_factor=1.000
+}

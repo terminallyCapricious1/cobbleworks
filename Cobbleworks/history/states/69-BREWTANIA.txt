@@ -1,0 +1,23 @@
+
+state={
+	id=69
+	name="Brewtania"
+	state_category = town
+	provinces={
+		204 762 885 1262 1284 1893 2367 2487 2986 3766 
+	}
+	manpower=550000
+	history={
+		owner = BAR
+		victory_points = {
+			2986 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

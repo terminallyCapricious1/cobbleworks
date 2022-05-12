@@ -1,0 +1,18 @@
+state={
+	id=145
+	name="Taran'bak"
+	state_category = rural
+	provinces={
+		822 1626 2782 3486 
+	}
+	manpower=30988
+	history={
+		owner = TAR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = TAR
+	}
+	buildings_max_level_factor=1.000
+}

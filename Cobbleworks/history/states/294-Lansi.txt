@@ -1,0 +1,28 @@
+state={
+	id=294
+	name="Lansi"
+	state_category = megalopolis
+	provinces={
+		292 536 690 782 878 1434 2416 2500 2777 2859 3007 3386 3930 3940 3942 3944 3957 
+	}
+	manpower=2200000
+	history={
+		owner = AXR
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2 
+			infrastructure = 3
+		}
+		victory_points = {
+			2416 5		#Tehia
+		}
+		victory_points = {
+			1434 10		#Golgograd
+		}
+		victory_points = {
+			878 30		#Gortovar
+		}
+		add_core_of = AXR
+	}
+	buildings_max_level_factor=1.000
+}

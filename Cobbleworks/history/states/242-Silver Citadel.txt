@@ -1,0 +1,21 @@
+state={
+	id=242
+	name="Silver Citadel"
+	state_category = rural
+	history={
+		owner = OWY
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+		victory_points = {
+			966 15		#Silver Citadel
+		}
+		add_core_of = OWY
+	}
+	provinces={
+		95 533 966 1691 2345 2887 3518 3520 3524 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+}

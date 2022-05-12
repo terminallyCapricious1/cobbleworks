@@ -1,0 +1,8 @@
+supply_area={
+	id=74
+	name="West Najer"
+	value=0
+	states={
+		199 201 198 202 200 
+	}
+}

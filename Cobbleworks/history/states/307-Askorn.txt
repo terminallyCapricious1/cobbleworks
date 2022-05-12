@@ -1,0 +1,31 @@
+state={
+	id=307
+	name="Askorn"
+	state_category = metropolis
+	provinces={
+		224 1007 1146 1347 1452 1555 2032 2048 2247 2721 3068 3365 4583 4623 4650 
+	}
+	manpower=2250000
+	history={
+		owner = VIO
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2 
+			infrastructure = 3
+		}
+		victory_points = {
+			224 20		#Libertalia
+		}
+		victory_points = {
+			1555 10		#Shire
+		}
+		victory_points = {
+			1452 4		#Askorn
+		}
+		victory_points = {
+			4583 15		#Maurun
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

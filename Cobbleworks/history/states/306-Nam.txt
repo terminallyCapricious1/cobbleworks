@@ -1,0 +1,17 @@
+state={
+	id=306
+	name="Nam"
+	state_category = pastoral
+	provinces={
+		650 750 945 1012 1914 2331 2417 2419 2716 3158 3384 4640 4653 4668 
+	}
+	manpower=48382
+	history={
+		buildings = {
+			infrastructure = 1
+		}
+		owner = VIO
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

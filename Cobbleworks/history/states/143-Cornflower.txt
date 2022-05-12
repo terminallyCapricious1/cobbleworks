@@ -1,0 +1,23 @@
+
+state={
+	id=143
+	name="Cornflower"
+	state_category = town
+	provinces={
+		1414 2814 3274 3801 3807 
+	}
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+			arms_factory = 1
+		}
+		victory_points = {
+			3807 5
+		}
+		add_core_of = NIE
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+}

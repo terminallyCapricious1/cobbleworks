@@ -1,0 +1,22 @@
+
+state={
+	id=343
+	name="Sparrenedge"
+	state_category = rural
+	provinces={
+		219 451 1141 1354 1645 1763 2523 4385 4397 4419 4421 4433 4438 
+	}
+	manpower=349428
+	history={
+		owner = POS
+		add_core_of = POS
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			1763 5		#Sparrenedge
+		}
+	}
+	buildings_max_level_factor=1.000
+}

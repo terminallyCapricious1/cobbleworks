@@ -1,0 +1,9 @@
+strategic_region={
+	id=62
+	name="North Huitca Island"
+	provinces={
+		234 336 514 863 1172 1559 1848 2351 2362 2393 2407 2821 2951 3822 3837 3841 3853 3856 3867 3879 
+	}
+	weather={
+	}
+}

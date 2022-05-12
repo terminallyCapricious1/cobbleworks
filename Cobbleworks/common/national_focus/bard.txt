@@ -1,0 +1,1448 @@
+focus_tree = {
+	id = bard
+	continuous_focus_position = { x = 1700 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BAR
+		}
+	}
+	#The Bardonian Civil War
+	focus = {
+		id = BAR_the_bardonian_civil_war
+		icon = GFX_BAR_the_bardonian_civil_war-117138
+		x = 4
+		y = 0
+		cost = 3
+		completion_reward = {
+			country_event = { id = bardonia.1 }
+			hidden_effect = {
+				set_variable = {
+					var = bardoniaflagpos
+					value = 1300
+				}
+				set_variable = {
+					var = andornflagpos
+					value = 1300
+				}
+				set_variable = {
+					var = ryzanflagpos
+					value = 1300
+				}
+				set_variable = {
+					var = wivaflagpos
+					value = 1300
+				}
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#The Question of Andorn
+	focus = {
+		id = BAR_the_question_of_andorn
+		icon = GFX_BAR_the_question_of_andorn-117151
+		x = 2
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			country_event = { id = bardonia.2 }
+		}
+		prerequisite = { focus = BAR_the_bardonian_civil_war  }
+	}
+
+	#Victory over the Socialists
+	focus = {
+		id = BAR_victory_over_the_socialists
+		icon = GFX_BAR_victory_over_the_socialists-117142
+		x = 6
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			NOT = {
+				country_exists = NDR
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = bardtip1
+			add_state_core = 68
+			add_state_core = 72 
+			add_state_core = 71
+			set_capital = {state = 72}
+		}
+		prerequisite = { focus = BAR_the_bardonian_civil_war  }
+	}
+
+	#Paint the map yellow!
+	focus = {
+		id = BAR_paintthemapyellow
+		icon = GFX_BAR_paintthemapyellow-117510
+		x = 0
+		y = 3
+		cost = 3
+		completion_reward = {
+			custom_effect_tooltip = bardtip23
+			hidden_effect = {
+				add_to_variable = {
+					var = bardoniaflagpos
+					value = -190
+				}
+				IF = { 
+		    		limit = {
+		    			check_variable = { andornflagpos < 1300 }
+		    		}
+					add_to_variable = {
+						var = andornflagpos
+						value = 190
+					}
+				}
+				ELSE = {}
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BAR_crooked_traitors  }
+	}
+
+	#Crooked Traitors
+	focus = {
+		id = BAR_crooked_traitors
+		icon = GFX_BAR_crooked_traitors-117164
+		x = 1
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			country_event = { id = bardonia.4 }
+			add_political_power = 40
+		}
+		mutually_exclusive = { focus = BAR_our_best_friends  }
+		prerequisite = { focus = BAR_the_question_of_andorn  }
+	}
+
+	#Our Best Friends
+	focus = {
+		id = BAR_our_best_friends
+		icon = GFX_BAR_our_best_friends-117168
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			SAV = {
+				country_event = { id = bardonia.3 }
+			}
+		}
+		prerequisite = { focus = BAR_the_question_of_andorn  }
+		mutually_exclusive = { focus = BAR_crooked_traitors  }
+	}
+
+	#Intimidate Wivamovia
+	focus = {
+		id = BAR_intimidate_wivamovia
+		icon = GFX_BAR_intimidate_wivamovia-117489
+		x = 2
+		y = 3
+		cost = 5
+		completion_reward = {
+			WIV = {
+				country_event = { id = bardonia.23 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = BAR_crooked_traitors  focus = BAR_our_best_friends  }
+	}
+
+	#Ensure the HSE's Legitimacy
+	focus = {
+		id = BAR_ensurethehseslegitimacy
+		icon = GFX_BAR_ensurethehseslegitimacy-117526
+		x = 4
+		y = 3
+		cost = 3
+		completion_reward = {
+			custom_effect_tooltip = bardtip22
+			hidden_effect = {
+				add_to_variable = {
+					var = bardoniaflagpos
+					value = -190
+				}
+				add_to_variable = {
+					var = andornflagpos
+					value = -190
+				}
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BAR_our_best_friends  } prerequisite = { focus = BAR_anewhighcommand  }
+	}
+
+	#Industrial Intervention
+	focus = {
+		id = BAR_industrial_intervention
+		icon = GFX_BAR_industrial_intervention-117558
+		x = 1
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BAR_intimidate_wivamovia  } prerequisite = { focus = BAR_paintthemapyellow  }
+	}
+
+	#Investment in the North
+	focus = {
+		id = BAR_investment_in_the_north
+		icon = GFX_BAR_investment_in_the_north-117540
+		x = 3
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		bypass = {
+			has_country_flag = Andornsayno
+		}
+		completion_reward = {
+			custom_effect_tooltip = bardtip23
+			SAV = {
+				country_event = { id = bardonia.29 }
+			}
+		}
+		prerequisite = { focus = BAR_intimidate_wivamovia  } prerequisite = { focus = BAR_ensurethehseslegitimacy  }
+	}
+
+	#The Resolution of Andorn
+	focus = {
+		id = BAR_the_resolution_of_andorn
+		icon = GFX_BAR_the_resolution_of_andorn-117566
+		x = 2
+		y = 5
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = BAR_investment_in_the_north  focus = BAR_industrial_intervention  }
+	}
+
+	#A New High Command?
+	focus = {
+		id = BAR_anewhighcommand
+		icon = GFX_BAR_anewhighcommand-117570
+		x = 5
+		y = 2
+		cost = 3
+		completion_reward = {
+			country_event = { id = bardonia.22 }
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = BAR_victory_over_the_socialists  }
+	}
+
+	#The Perfidious Baykons
+	focus = {
+		id = BAR_the_perfidious_baykons
+		icon = GFX_BAR_the_perfidious_baykons-117757
+		x = 17
+		y = 1
+		cost = 1
+		completion_reward = {
+			BAR = {
+				country_event = { id = bardonia.18 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = BAR_setting_the_bounds_wider  }
+	}
+
+	#To Die for Bardonia
+	focus = {
+		id = BAR_to_die_for_bardonia
+		icon = GFX_BAR_to_die_for_bardonia-125559
+		x = 8
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+			remove_ideas = shattered_visage2
+			hidden_effect = {
+				remove_ideas = shattered_visage
+			}
+		}
+		prerequisite = { focus = BAR_establish_the_westreach_protectorate  } prerequisite = { focus = BAR_into_plagadonia  }
+	}
+
+	#New Dorasterrock Line
+	focus = {
+		id = BAR_new_dorasterrock_line
+		icon = GFX_goal_generic_fortify_city
+		x = 8
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			custom_effect_tooltip = bardtip33
+			72 = {
+				add_building_construction = {
+					type = bunker
+					province = 3656
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 846
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 155
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 1757
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 729
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 2975
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		prerequisite = { focus = BAR_to_die_for_bardonia  }
+	}
+
+	#Arm our Allies
+	focus = {
+		id = BAR_arm_our_allies
+		icon = GFX_BAR_arm_our_allies-125848
+		x = 6
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			custom_effect_tooltip = bardtip34
+		}
+		prerequisite = { focus = BAR_to_die_for_bardonia  }
+	}
+
+	#Punish the Athazolant
+	focus = {
+		id = BAR_punish_the_athazolant
+		icon = GFX_BAR_punish_the_athazolant-125822
+		x = 10
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		completion_reward = {
+			create_wargoal = {
+			    type = annex_everything
+			    target = ATH
+			}
+		}
+		prerequisite = { focus = BAR_just_how_far_we_can_go  }
+	}
+
+	#A Dandelist Utopia
+	focus = {
+		id = BAR_a_dandelist_utopia
+		icon = GFX_BAR_a_dandelist_utopia-125859
+		x = 12
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			country_event = { id = bardonia.46 }
+			add_tech_bonus = {
+				name = electronics_bonus
+				bonus = 1.0
+				uses = 2
+				category = electronics
+			}
+		}
+		prerequisite = { focus = BAR_approve_the_bardonian_reform_act  } prerequisite = { focus = BAR_dandelist_science  }
+	}
+
+	#Just how far we can go
+	focus = {
+		id = BAR_just_how_far_we_can_go
+		icon = GFX_BAR_just_how_far_we_can_go-125814
+		x = 10
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+			swap_ideas = { 
+			  remove_idea = Fervent_Nat 
+			  add_idea = Undying_Nat 
+			}
+		}
+		prerequisite = { focus = BAR_establish_the_westreach_protectorate  } prerequisite = { focus = BAR_a_dandelist_utopia  } prerequisite = { focus = BAR_into_plagadonia  }
+	}
+
+	#Dandelist Science
+	focus = {
+		id = BAR_dandelist_science
+		icon = GFX_BAR_dandelist_science-125592
+		x = 14
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			swap_ideas = { 
+			  remove_idea = Dandelist_revive1 
+			  add_idea = Dandelist_revive2 
+			}
+		}
+
+		prerequisite = { focus = BAR_enforce_the_art_of_war  }
+	}
+
+	#Into Plagadonia
+	focus = {
+		id = BAR_into_plagadonia
+		icon = GFX_BAR_into_plagadonia-125590
+		x = 8
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		completion_reward = {}
+		prerequisite = { focus = BAR_a_kingdom_for_our_people  } prerequisite = { focus = BAR_buy_the_mesa  }
+	}
+
+	#Enforce the Art of War
+	focus = {
+		id = BAR_enforce_the_art_of_war
+		icon = GFX_BAR_enforce_the_art_of_war-125582
+		x = 12
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = Dandie_guard_better
+				}
+ 				swap_ideas = { 
+				  remove_idea = Dandie_guard_better 
+				  add_idea = Dandie_guard_better2 
+				}
+			}
+			else_if = {
+			    limit = {
+			        has_idea = Dandie_guard_hands
+			    }
+ 				swap_ideas = { 
+				  remove_idea = Dandie_guard_hands 
+				  add_idea = Dandie_guard_hands2 
+				}
+			}
+		}
+		prerequisite = { focus = BAR_call_to_auron  } prerequisite = { focus = BAR_dandelist_revival  }
+	}
+
+	#Approve the Bardonian Reform Act
+	focus = {
+		id = BAR_approve_the_bardonian_reform_act
+		icon = GFX_BAR_approve_the_bardonian_reform_act-125588
+		x = 12
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			remove_ideas = pop_decline
+		}
+		prerequisite = { focus = BAR_enforce_the_art_of_war  }
+	}
+
+	#Buy the Mesa
+	focus = {
+		id = BAR_buy_the_mesa
+		icon = GFX_BAR_buy_the_mesa-125585
+		x = 8
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		completion_reward = {
+			SEW = {
+				country_event = { id = bardonia.49 }
+			}
+		}
+		prerequisite = { focus = BAR_acquiring_ducats  }
+	}
+
+	#A Kingdom for our People
+	focus = {
+		id = BAR_a_kingdom_for_our_people
+		icon = GFX_BAR_a_kingdom_for_our_people-125584
+		x = 6
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = BAR_acquiring_ducats  }
+	}
+
+	#Acquiring Ducats
+	focus = {
+		id = BAR_acquiring_ducats
+		icon = GFX_BAR_acquiring_ducats-125583
+		x = 8
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_timed_idea = { 
+				idea = Investments_bar 
+				days = 180
+			} 
+			72 = {
+				add_building_construction = {
+					type = industrial_complex
+				    level = 2
+				    instant_build = yes
+				}
+			}
+		}
+		prerequisite = { focus = BAR_the_view_with_uni  } prerequisite = { focus = BAR_call_to_auron  }
+	}
+
+	#Establish the Westreach Protectorate
+	focus = {
+		id = BAR_establish_the_westreach_protectorate
+		icon = GFX_BAR_establish_the_westreach_protectorate-125593
+		x = 10
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_TFV_AUTONOMY
+		}
+		completion_reward = {
+			custom_effect_tooltip = bardtip32
+		}
+		prerequisite = { focus = BAR_skewer_ryzan  }
+	}
+
+	#Return of the Prophet
+	focus = {
+		id = BAR_return_of_the_prophet
+		icon = GFX_BAR_return_of_the_prophet-125573
+		allow_branch = { has_country_flag = bardprophet }
+		x = 10
+		y = 6
+		cost = 4.2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Call to Auron
+	focus = {
+		id = BAR_call_to_auron
+		icon = GFX_BAR_call_to_auron-125576
+		x = 10
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		completion_reward = {
+			custom_effect_tooltip = bardtip31
+			AUR = {
+				country_event = { id = bardonia.43 }
+			}
+		}
+		prerequisite = { focus = BAR_return_of_the_prophet  }
+	}
+
+	#Dandelist Revival
+	focus = {
+		id = BAR_dandelist_revival
+		icon = GFX_BAR_dandelist_revival-125577
+		x = 12
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+			add_ideas = Dandelist_revive1
+		}
+		prerequisite = { focus = BAR_return_of_the_prophet  }
+	}
+
+	#Final Preperations
+	focus = {
+		id = BAR_final_preperations
+		icon = GFX_BAR_final_preperations-125580
+		x = 10
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			add_ideas = service_by_requirement
+			add_manpower = 250000 
+		}
+		prerequisite = { focus = BAR_call_to_auron  } prerequisite = { focus = BAR_the_view_with_uni  } prerequisite = { focus = BAR_dandelist_revival  }
+	}
+
+	#Skewer Ryzan
+	focus = {
+		id = BAR_skewer_ryzan
+		icon = GFX_BAR_skewer_ryzan-125587
+		x = 10
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		completion_reward = {
+			country_event = { id = bardonia.47 }
+			declare_war_on = {
+			    target = RYZ
+			    type = annex_everything
+			}
+		}
+		prerequisite = { focus = BAR_final_preperations  }
+	}
+
+	#Hands as an Auxiliary Force
+	focus = {
+		id = BAR_hands_as_an_auxiliary_force
+		icon = GFX_BAR_hands_as_an_auxiliary_force-125555
+		x = 20
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			swap_ideas = { 
+			  remove_idea = Dandie_guard 
+			  add_idea = Dandie_guard_better 
+			}
+		}
+		prerequisite = { focus = BAR_establish_the_dandelion_guard  }
+		mutually_exclusive = { focus = BAR_rein_in_the_hands  }
+	}
+
+	#Deploy Hand Divisions
+	focus = {
+		id = BAR_deploy_hand_divisions
+		icon = GFX_BAR_deploy_hand_divisions-125550
+		x = 22
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			hidden_effect = {
+				load_oob = "BAR_hands"
+			}
+			custom_effect_tooltip = bardtip27
+		}
+		prerequisite = { focus = BAR_rein_in_the_hands  }
+	}
+
+	#Repair our Stockpiles
+	focus = {
+		id = BAR_repair_our_stockpiles
+		icon = GFX_BAR_repair_our_stockpiles-117582
+		x = 7
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			swap_ideas = { 
+			  remove_idea = auronspeak_lost 
+			  add_idea = auronspeak_lost2 
+			}
+		}
+		prerequisite = { focus = BAR_victory_over_the_socialists  }
+	}
+
+	#Cow the Garfists
+	focus = {
+		id = BAR_cow_the_garfists
+		icon = GFX_BAR_cow_the_garfists-117588
+		x = 9
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			remove_ideas = garfist_resistance 
+		}
+		prerequisite = { focus = BAR_victory_over_the_socialists  }
+	}
+
+	#Securing our Position
+	focus = {
+		id = BAR_securing_our_position
+		icon = GFX_BAR_securing_our_position-117590
+		x = 6
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			swap_ideas = { 
+			  remove_idea = shattered_visage 
+			  add_idea = shattered_visage2 
+			} 
+		}
+		prerequisite = { focus = BAR_repair_our_stockpiles  } prerequisite = { focus = BAR_cow_the_garfists  } prerequisite = { focus = BAR_anewhighcommand  }
+	}
+
+	#Talks with Niedia
+	focus = {
+		id = BAR_talks_with_niedia
+		icon = GFX_BAR_talks_with_niedia-117593
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_war_support = 0.1
+			NIE = {
+				country_event = { id = bardonia.5 }
+			} 
+		}
+		prerequisite = { focus = BAR_securing_our_position  }
+	}
+
+	#Reach out to Huitca
+	focus = {
+		id = BAR_reach_out_to_huitca
+		icon = GFX_BAR_reach_out_to_huitca-117592
+		x = 7
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_war_support = 0.1
+			HUI = {
+				country_event = { id = bardonia.8 }
+			} 
+		}
+		prerequisite = { focus = BAR_securing_our_position  }
+	}
+
+	#Foundation of the Allium Alliance
+	focus = {
+		id = BAR_foundation_of_the_allium_alliance
+		icon = GFX_BAR_foundation_of_the_allium_alliance-117595
+		x = 6
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			custom_effect_tooltip = bardtip8
+			country_event = { id = bardonia.11 }
+		}
+		prerequisite = { focus = BAR_talks_with_niedia  } prerequisite = { focus = BAR_reach_out_to_huitca  }
+	}
+
+	#Integrate Andorn
+	focus = {
+		id = BAR_integrate_andorn
+		icon = GFX_BAR_integrate_andorn-117597
+		x = 8
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			custom_effect_tooltip = bardtip16
+			hidden_effect = {
+				add_state_core = 123
+				add_state_core = 130
+				add_state_core = 136
+				add_state_core = 135
+				add_state_core = 137
+				add_state_core = 129
+				add_state_core = 124
+			}
+		}
+		prerequisite = { focus = BAR_cow_the_garfists } prerequisite = { focus = BAR_repair_our_stockpiles  }
+	}
+
+	#The Ashes of Valle
+	focus = {
+		id = BAR_the_ashes_of_valle
+		icon = GFX_BAR_the_ashes_of_valle-117603
+		x = 10
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		available = {
+			owns_state = 153
+		}
+		completion_reward = {
+			custom_effect_tooltip = bardtip15
+			hidden_effect = {
+				add_state_core = 152
+				add_state_core = 154
+				add_state_core = 155
+				add_state_core = 153
+				add_state_core = 127
+				add_state_core = 126
+			}
+		}
+		prerequisite = { focus = BAR_cow_the_garfists  }
+	}
+
+	#Protect Auron's Peak
+	focus = {
+		id = BAR_protectauronspeak
+		icon = GFX_BAR_protectauronspeak-117606
+		x = 9
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			give_guarantee = AUR
+			swap_ideas = { 
+			  remove_idea = auronspeak_lost2 
+			  add_idea = auronspeak_lost3 
+			}
+		}
+		prerequisite = { focus = BAR_integrate_andorn  } prerequisite = { focus = BAR_the_ashes_of_valle  }
+	}
+
+	#Exerting our Influence
+	focus = {
+		id = BAR_exerting_our_influence
+		icon = GFX_BAR_exerting_our_influence-117677
+		x = 9
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_ideas = Exerting_influence 
+		}
+		prerequisite = { focus = BAR_protectauronspeak  }
+	}
+
+	#Spring of the Dandelions
+	focus = {
+		id = BAR_spring_of_the_dandelions
+		icon = GFX_BAR_spring_of_the_dandelions-117686
+		x = 6
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			custom_effect_tooltip = bardtip29
+			add_stability = 0.20
+			add_timed_idea = { 
+				idea = Pop_Boom 
+				days = 365 
+			} 
+			set_country_flag = dandspring
+			mark_focus_tree_layout_dirty = yes
+		}
+		prerequisite = { focus = BAR_the_resolution_of_andorn  } prerequisite = { focus = BAR_exerting_our_influence  } prerequisite = { focus = BAR_foundation_of_the_allium_alliance  }
+	}
+
+	#Setting the Bounds Wider
+	focus = {
+		id = BAR_setting_the_bounds_wider
+		icon = GFX_BAR_setting_the_bounds_wider-117690
+		available = {
+			allow_branch = { has_country_flag = dandspring }
+		}
+		allow_branch = { has_country_flag = dandspring }
+		x = 17
+		y = 0
+		cost = 5
+		completion_reward = {
+			swap_ideas = { 
+			  remove_idea = Exerting_influence 
+			  add_idea = Fervent_Nat 
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+	}
+
+	#Interests in Bizesonne
+	focus = {
+		id = BAR_interests_in_bizesonne
+		icon = GFX_BAR_interests_in_bizesonne-125491
+		x = 15
+		y = 1
+		cost = 5
+		completion_reward = {
+			BAR = {
+				country_event = { id = bardonia.19 }
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = BAR_setting_the_bounds_wider  }
+	}
+
+	#The View with Uni
+	focus = {
+		id = BAR_the_view_with_uni
+		icon = GFX_BAR_the_view_with_uni-125579
+		x = 8
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		completion_reward = {
+			add_war_support = 0.2
+			add_ideas = war_economy
+		}
+		prerequisite = { focus = BAR_return_of_the_prophet  }
+	}
+
+	#Eldham Colonies?
+	focus = {
+		id = BAR_eldhamcolonies
+		icon = GFX_BAR_eldhamcolonies-125498
+		x = 19
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		completion_reward = {
+			country_event = { id = bardonia.30 }
+		}
+		prerequisite = { focus = BAR_setting_the_bounds_wider  }
+	}
+
+	#Way up North
+	focus = {
+		id = BAR_way_up_north
+		icon = GFX_BAR_way_up_north-125526
+		x = 17
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		completion_reward = {
+			HLG = {
+				country_event = { id = bardonia.33 }
+			}
+		}
+		prerequisite = { focus = BAR_the_perfidious_baykons  } prerequisite = { focus = BAR_interests_in_bizesonne  } prerequisite = { focus = BAR_eldhamcolonies  }
+	}
+
+	#Wrangle Lennox
+	focus = {
+		id = BAR_wrangle_lennox
+		icon = GFX_BAR_wrangle_lennox-125540
+		x = 17
+		y = 3
+		cost = 5
+		available = {
+			OR = {
+				has_completed_focus = BAR_rapid_enchantment
+				has_completed_focus = BAR_all_roads_lead_to_the_dorasterrocks
+			}
+			OR = {
+				has_completed_focus = BAR_rein_in_the_hands
+				has_completed_focus = BAR_deploy_the_dandelion_guard
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		completion_reward = {
+			LEN = {
+				country_event = { id = bardonia.38 }
+			}
+		}
+		prerequisite = { focus = BAR_way_up_north  }
+	}
+
+	#Prosperity for Bardonia
+	focus = {
+		id = BAR_prosperity_for_bardonia
+		icon = GFX_BAR_prosperity_for_bardonia-117689
+		x = 13
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			country_event = { id = bardonia.41 }
+		}
+		prerequisite = { focus = BAR_setting_the_bounds_wider  }
+	}
+
+	#Revive the Dorasterrock Market
+	focus = {
+		id = BAR_revive_the_dorasterrock_market
+		icon = GFX_BAR_revive_the_dorasterrock_market-117702
+		x = 14
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_ideas = NDR_Market
+		}
+		prerequisite = { focus = BAR_prosperity_for_bardonia  }
+		mutually_exclusive = { focus = BAR_investinginauronspeak }
+	}
+
+	#Revive Dorasterrock City
+	focus = {
+		id = BAR_revive_dorasterrock_city
+		icon = GFX_BAR_revive_dorasterrock_city-117704
+		x = 14
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			add_victory_points = {
+				province = 2058
+				value = 10
+			}
+			70 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+				    type = industrial_complex
+				    level = 3
+				    instant_build = yes
+				}
+				add_manpower = 400000
+			}
+		}
+		prerequisite = { focus = BAR_revive_the_dorasterrock_market  }
+	}
+
+	#All Roads lead to the Dorasterrocks
+	focus = {
+		id = BAR_all_roads_lead_to_the_dorasterrocks
+		icon = GFX_BAR_all_roads_lead_to_the_dorasterrocks-117709
+		x = 14
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			72 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+				    type = industrial_complex
+				    level = 3
+				    instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+		}
+		prerequisite = { focus = BAR_revive_dorasterrock_city  }
+	}
+
+	#Investing in Auron's Peak
+	focus = {
+		id = BAR_investinginauronspeak
+		icon = GFX_BAR_investinginauronspeak-117711
+		x = 12
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_timed_idea = { 
+				idea = Investments_bar 
+				days = 180
+			} 
+			77 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+				    type = arms_factory
+				    level = 3
+				    instant_build = yes
+				}
+			}
+			76 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+				    type = arms_factory
+				    level = 3
+				    instant_build = yes
+				}
+			}
+		}		
+		prerequisite = { focus = BAR_prosperity_for_bardonia  }
+		mutually_exclusive = { focus = BAR_revive_the_dorasterrock_market  }
+	}
+
+	#Industry in the Outer Zones
+	focus = {
+		id = BAR_industry_in_the_outer_zones
+		icon = GFX_BAR_industry_in_the_outer_zones-117714
+		x = 12
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			71 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				    type = arms_factory
+				    level = 1
+				    instant_build = yes
+				}
+			}
+			69 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				    type = arms_factory
+				    level = 1
+				    instant_build = yes
+				}
+			}
+			66 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				    type = arms_factory
+				    level = 1
+				    instant_build = yes
+				}
+			}
+			70 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				    type = arms_factory
+				    level = 1
+				    instant_build = yes
+				}
+			}
+			75 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				    type = arms_factory
+				    level = 1
+				    instant_build = yes
+				}
+			}
+		}	
+		prerequisite = { focus = BAR_investinginauronspeak  }
+	}
+
+	#Rapid Enchantment
+	focus = {
+		id = BAR_rapid_enchantment
+		icon = GFX_BAR_rapid_enchantment-117752
+		x = 12
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 2
+			    category = infantry_tech
+			}
+		}
+		prerequisite = { focus = BAR_industry_in_the_outer_zones  }
+	}
+
+	#Establish the Dandelion Guard
+	focus = {
+		id = BAR_establish_the_dandelion_guard
+		icon = GFX_BAR_establish_the_dandelion_guard-117694
+		x = 21
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		mutually_exclusive = { focus = BAR_rein_in_the_hands }
+		completion_reward = {
+			add_ideas = Dandie_guard
+		}
+		prerequisite = { focus = BAR_setting_the_bounds_wider  }
+	}
+
+	#Rein in the Hands
+	focus = {
+		id = BAR_rein_in_the_hands
+		icon = GFX_BAR_rein_in_the_hands-125542
+		x = 22
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		mutually_exclusive = { focus = BAR_establish_the_dandelion_guard }
+		completion_reward = {
+			swap_ideas = { 
+			  remove_idea = Dandie_guard 
+			  add_idea = Dandie_guard_hands 
+			}
+		}
+		prerequisite = { focus = BAR_establish_the_dandelion_guard  }
+	}
+
+	#Deploy the Dandelion Guard
+	focus = {
+		id = BAR_deploy_the_dandelion_guard
+		icon = GFX_BAR_deploy_the_dandelion_guard-125559
+		x = 20
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		completion_reward = {
+			hidden_effect = {
+				load_oob = "BAR_dguard"
+			}
+			custom_effect_tooltip = bardtip26
+		}
+		prerequisite = { focus = BAR_hands_as_an_auxiliary_force  }
+	}
+
+	#Expand the Sciences
+	focus = {
+		id = BAR_expand_the_sciences
+		icon = GFX_BAR_expand_the_sciences-125842
+		x = 8
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			add_to_tech_sharing_group = bard_share_tech
+			IF = { 
+		    	limit = {
+		    		HUI = {
+		    			is_in_faction_with = BAR
+		    		}
+		    	}
+				HUI = {
+					add_to_tech_sharing_group = bard_share_tech
+				}
+			}
+			IF = { 
+		   		limit = {
+		   			NIE = {
+		   				is_in_faction_with = BAR
+		   			}
+		   		}
+				NIE = {
+					add_to_tech_sharing_group = bard_share_tech
+				}
+			}
+			add_tech_bonus = {
+				name = bard_bonus
+				bonus = 2.0
+				uses = 2
+				category = electronics
+			}
+		}
+		prerequisite = { focus = BAR_new_dorasterrock_line  } prerequisite = { focus = BAR_arm_our_allies  }
+	}
+
+	#A New Bardonian Navy
+	focus = {
+		id = BAR_a_new_bardonian_navy
+		icon = GFX_BAR_a_new_bardonian_navy-125594
+		x = 12
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			navy_experience = 80
+			BAR = {
+				country_event = { id = bardonia.52 }
+			}
+		}
+		prerequisite = { focus = BAR_a_dandelist_utopia  } prerequisite = { focus = BAR_establish_the_westreach_protectorate  }
+	}
+
+	#Fleet in Being
+	focus = {
+		id = BAR_fleet_in_being
+		icon = GFX_goal_generic_amphibious_assault
+		x = 12
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.75
+				uses = 5
+				category = fleet_in_being_tree
+			}
+		}
+		prerequisite = { focus = BAR_a_new_bardonian_navy  }
+	}
+
+	#Naval Base: New Savras
+	focus = {
+		id = BAR_navalbasenewsavras
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 14
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = BAR_a_new_bardonian_navy  }
+		bypass = {
+			NOT = {
+				owns_state = 138
+			}
+		}
+		completion_reward = {
+			138 = {
+				add_building_construction = {
+					type = naval_base
+					province = 3485
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Naval Base: Solarnaria
+	focus = {
+		id = BAR_navalbasesolarnaria
+		icon = GFX_goal_generic_navy_carrier
+		x = 14
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			68 = {
+				add_building_construction = {
+					type = naval_base
+					province = 445
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+		prerequisite = { focus = BAR_navalbasenewsavras  }
+	}
+
+}

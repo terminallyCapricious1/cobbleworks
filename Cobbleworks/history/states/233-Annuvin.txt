@@ -1,0 +1,20 @@
+state={
+	id=233
+	name="Annuvin"
+	state_category = rural
+	provinces={
+		189 430 469 1010 1055 1196 3184 3951 3954 3971 3983 3997 4012 
+	}
+	manpower=350000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			3971 8
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=397
+	name="Italiant Countryside"
+	state_category = pastoral
+	provinces={
+		236 239 591 647 719 800 1008 1105 1135 1160 1326 1791 1799 2610 3005 3332 3370 4609 4638 4657 4672 4681 4685 
+	}
+	manpower=32815
+	history={
+		owner = SOU
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOU
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=364
+	name="Auszan"
+	state_category = metropolis
+	provinces={
+		123 545 1165 1925 2124 2270 2301 2757 2867 2923 3008 3094 3331 3336 4302 4303 4306 4318 4322 4325 4327 4330 
+	}
+	manpower=1100000
+	history={
+		owner = AKR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 3 
+			infrastructure = 3
+		}
+		victory_points = {
+			4303 20		#Auszan
+		}
+		victory_points = {
+			3094 5		#Lionore
+		}
+		add_core_of = AKR
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,28 @@
+state={
+	id=25
+	name="North Hapatmitas"
+	state_category = large_town
+	provinces={
+		484 574 928 1370 1552 1710 2281 2947 2965 3028 4335 4343 4355 
+	}
+	manpower=700000
+	history={
+		owner = ULD
+		victory_points = {
+			4335 10
+		}
+		victory_points = {
+			928 30
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
+			2965 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

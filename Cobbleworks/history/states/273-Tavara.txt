@@ -1,0 +1,17 @@
+state={
+	id=273
+	name="Tavara"
+	state_category = pastoral
+	provinces={
+		735 1131 1765 1924 3511 3531 3537 
+	}
+	manpower=49393
+	history={
+		owner = PLG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PLG
+	}
+	buildings_max_level_factor=1.000
+}

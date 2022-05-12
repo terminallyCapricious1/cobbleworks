@@ -1,0 +1,17 @@
+state={
+	id=340
+	name="Mudrock Forests"
+	state_category = pastoral
+	provinces={
+		7 119 780 972 1087 1261 1270 1578 2326 3176 3935 3966 3984 4020 4029 4030 4036 
+	}
+	history={
+		owner = MDR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MDR
+	}
+	manpower=38383
+	buildings_max_level_factor=1.000
+}

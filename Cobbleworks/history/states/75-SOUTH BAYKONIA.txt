@@ -1,0 +1,21 @@
+state={
+	id=75
+	name="South Baykonia"
+	state_category = town
+	provinces={
+		257 378 1197 1671 2222 2237 2284 2397 3327 3634 3658 
+	}
+	manpower=550000
+	history={
+		owner = BAR
+		victory_points = {
+			3634 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

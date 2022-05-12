@@ -1,0 +1,25 @@
+state={
+	id=128
+	name="South Wivamovia"
+	provinces={
+		107 124 129 686 1702 1877 2559 2830 2997 3513 
+	}
+	state_category = rural
+	history={
+		owner = WIV
+		victory_points = {
+			2997 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			2997 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = WIV
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+}

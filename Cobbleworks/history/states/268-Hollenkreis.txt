@@ -1,0 +1,21 @@
+state={
+	id=268
+	name="Hollenkreis"
+	state_category = rural
+	provinces={
+		520 810 2745 3227 3461 
+	}
+	manpower=250000
+	history={
+		owner = VIO
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			3227 5		#Hollenkreis
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

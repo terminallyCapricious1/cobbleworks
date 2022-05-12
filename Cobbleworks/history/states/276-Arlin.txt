@@ -1,0 +1,18 @@
+state={
+	id=276
+	name="Arlin"
+	state_category = rural
+	provinces={
+		639 872 895 2966 3559 3570 3576 4698 
+	}
+	manpower=200000
+	history={
+		owner = PLG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = PLG
+	}
+	buildings_max_level_factor=1.000
+}

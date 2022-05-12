@@ -1,0 +1,21 @@
+state={
+	id=209
+	state_category = rural
+	name="Dracade"
+	provinces={
+		217 855 1476 1957 2065 2388 3104 4016 4047 4055 
+	}
+	manpower=650000
+	history={
+		owner = CAV
+		victory_points = {
+			2388 15 #DragoSpiro
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = CAV
+	}
+	buildings_max_level_factor=1.000
+}

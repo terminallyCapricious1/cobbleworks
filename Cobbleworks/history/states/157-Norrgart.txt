@@ -1,0 +1,28 @@
+state={
+	id=157
+	name="Norrgart"
+	state_category = megalopolis
+	provinces={
+		1283 2229 2666 3401 3410 3418 
+	}
+	manpower=2000000
+	history={
+		owner = OWY
+		buildings = {
+			industrial_complex = 3
+			arms_factory = 2 
+			infrastructure = 4
+		}
+		victory_points = {
+			2229 15		#Lidlborough
+		}
+		victory_points = {
+			3410 10		#Lei Feng Village
+		}
+		victory_points = {
+			2666 25		#Astoria
+		}
+		add_core_of = OWY
+	}
+	buildings_max_level_factor=1.000
+}

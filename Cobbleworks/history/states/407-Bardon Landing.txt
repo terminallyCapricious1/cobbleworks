@@ -1,0 +1,20 @@
+state={
+	id=407
+	state_category = rural
+	name="Bardon Landing"
+	provinces={
+		3041 
+	}
+	manpower=12300
+	history={
+		owner = BAR
+		buildings = {
+			infrastructure = 2
+			3041 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,35 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			NDR = {
+				declare_war_on = {
+					target = BAR
+					type = civil_war
+				}
+			}
+			VAL = {
+		        country_event = { id = bardonia.16 days = 44 }
+			}
+		}
+	}
+	on_capitulation = {
+    	effect = {
+      		if = {
+        		limit = { tag = BAR FROM = { tag = NDR } }
+        		NDR = {
+        			annex_country = {
+            			target = BAR
+            		}
+          		}
+        	}
+      		if = {
+        		limit = { tag = VAL FROM = { tag = BAR } }
+        		BAR = {
+        			annex_country = {
+            			target = VAL
+            		}
+          		}
+        	}
+      	}
+    }
+}

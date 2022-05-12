@@ -1,0 +1,31 @@
+
+state={
+	id=18
+	name="BOULDEROV"
+	state_category = metropolis
+	history={
+		owner = ULD
+		victory_points = { #Ziemia
+			28 20
+		}
+		victory_points = { #Fort Rochosa
+			4541 30
+		}
+		victory_points = { #Cragford
+			2396 10
+		}
+		victory_points = { #Winchester
+			3106 30
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
+		add_core_of = ULD
+	}
+	provinces={
+		28 102 254 256 272 482 823 946 958 1199 1292 1829 2081 2111 2396 2582 2639 2850 3011 3106 3166 3276 3383 4511 4518 4529 4532 4538 4541 4544 4559 4585 
+	}
+	manpower=2500000
+	buildings_max_level_factor=1.000
+}

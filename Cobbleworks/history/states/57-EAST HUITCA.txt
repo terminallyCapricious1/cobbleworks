@@ -1,0 +1,32 @@
+
+state={
+	id=57
+	name="East Huitca"
+	state_category = metropolis
+	provinces={
+		418 1056 1393 2451 2646 2690 2715 3037 3235 3303 3993 3996 4037 
+	}
+	manpower=2150000
+	history={
+		owner = HUI
+		victory_points = { #sandburg
+			2715 20
+		}
+		victory_points = { #dailag
+			3037 20
+		}
+		victory_points = { #fortaleza
+			3235 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 4
+			3996 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

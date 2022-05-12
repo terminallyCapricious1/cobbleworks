@@ -1,0 +1,8 @@
+supply_area={
+	id=52
+	name="Abyssal Forests"
+	value=0
+	states={
+		323 328 327 326 
+	}
+}

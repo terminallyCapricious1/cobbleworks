@@ -1,0 +1,25 @@
+state={
+	id=378
+	name="Naitorattor"
+	state_category = metropolis
+	provinces={
+		177 620 623 634 1422 1522 1760 1939 1993 2364 2483 2640 2898 3289 4225 4234 4257 4269 4298 
+	}
+	manpower=1400000
+	history={
+		owner = COB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2 
+		}
+		victory_points = {
+			4257 18	#Hiyokudo
+		}
+		victory_points = {
+			1939 20	#Eryrith
+		}
+		add_core_of = COB
+	}
+	buildings_max_level_factor=1.000
+}

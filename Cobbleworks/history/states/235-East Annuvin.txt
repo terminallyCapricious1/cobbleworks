@@ -1,0 +1,17 @@
+state={
+	id=235
+	name="East Annuvin"
+	state_category = pastoral
+	provinces={
+		384 1501 1910 2939 3250 3961 3986 3992 
+	}
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIE
+	}
+	manpower= 61258
+	buildings_max_level_factor=1.000
+}

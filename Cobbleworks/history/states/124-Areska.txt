@@ -1,0 +1,22 @@
+state={
+	id=124
+	name="Areska"
+	state_category = rural
+	history={
+		owner = SAV
+		victory_points = {
+			286 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SAV
+
+	}
+
+	provinces={
+		285 286 290 886 1641 2295 2694 2949 3306 3588 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+}

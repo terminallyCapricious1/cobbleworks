@@ -1,0 +1,21 @@
+state={
+	id=342
+	name="Serafini"
+	state_category = town
+	provinces={
+		148 260 502 827 1218 1603 2761 4127 4136 4153 4171 
+	}
+	manpower=528292
+	history={
+		owner = SR1
+		buildings = {
+			arms_factory = 1 
+			infrastructure = 3
+		}
+		victory_points = {
+			502 12		#Serafini
+		}
+		add_core_of = SR1
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=153
+	name="Luperkania"
+	state_category = large_town
+	provinces={
+		76 3463 
+	}
+	manpower=250000
+	history={
+		owner = VAL
+		victory_points = {
+			76 10
+		}
+		buildings = {
+			76 = {
+				naval_base = 4
+			}
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = VAL
+	}
+	buildings_max_level_factor=1.000
+}

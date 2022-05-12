@@ -1,0 +1,20 @@
+state={
+	id=239
+	name="Ravgaard"
+	state_category = town
+	provinces={
+		927 1446 1884 1888 2780 3131 3180 
+	}
+	manpower=500000
+	history={
+		owner = OWY
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			3131 10		#Venzor
+		}
+		add_core_of = OWY
+	}
+	buildings_max_level_factor=1.000
+}

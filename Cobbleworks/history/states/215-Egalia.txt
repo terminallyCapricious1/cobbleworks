@@ -1,0 +1,17 @@
+state={
+	id=215
+	name="Egalia"
+	state_category = pastoral
+	provinces={
+		321 1104 1648 1730 2293 2542 2844 3033 3763 3769 3771 
+	}
+	manpower=33219
+	buildings_max_level_factor=1.000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIE
+	}
+}

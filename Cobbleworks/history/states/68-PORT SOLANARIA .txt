@@ -1,0 +1,22 @@
+state={
+	id=68
+	name="Port Solanaria"
+	state_category = town
+	history={
+		owner = NDR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			445 20
+		}
+		add_core_of = NDR
+	}
+	provinces={
+		445 693 906 1205 1268 1381 1436 1744 1968 1989 2117 2799 3003 3278 3301 3354 3726 3748 3755 3764 3789 
+	}
+	manpower=534521
+	buildings_max_level_factor=1.000
+}

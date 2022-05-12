@@ -1,0 +1,21 @@
+state={
+	id=223
+	state_category = pastoral
+	name="Castillion"
+	provinces={
+		1345 1406 1718 1723 1891 2346 2439 3317 3708 3727 3736 3746 
+	}
+	manpower=250000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+		}
+		victory_points = {
+			1723 2
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

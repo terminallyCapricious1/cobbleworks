@@ -1,0 +1,24 @@
+state={
+	id=31
+	state_category = metropolis
+	name="Aurora"
+	provinces={
+		151 307 441 508 627 724 756 857 993 1034 1144 1166 1212 1224 1378 1631 1743 1756 1927 2149 2849 3038 3072 3124 3273 3316 4387 4394 4408 4416 4423 4437 4450 4457 4459 4469 
+	}
+	manpower=2000000
+	history={
+		owner = ULD
+		victory_points = {
+			4394 20
+		}
+		victory_points = {
+			1144 10
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 6
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

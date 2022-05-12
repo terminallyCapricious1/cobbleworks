@@ -1,0 +1,8 @@
+supply_area={
+	id=11
+	name="North Huitca Island"
+	value=0
+	states={
+		54 414 53 55 412 
+	}
+}

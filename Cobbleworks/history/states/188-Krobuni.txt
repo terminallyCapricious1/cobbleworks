@@ -1,0 +1,21 @@
+state={
+	id=188
+	name="Krobuni"
+	state_category = town
+	provinces={
+		311 2827 2866 3247 3739 
+	}
+	manpower=400000
+	history={
+		owner = KRO
+		buildings = {
+			arms_factory = 1 
+			infrastructure = 3
+		}
+		victory_points = {
+			311 10		#New Saulot
+		}
+		add_core_of = KRO
+	}
+	buildings_max_level_factor=1.000
+}

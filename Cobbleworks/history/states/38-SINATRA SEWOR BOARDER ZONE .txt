@@ -1,0 +1,23 @@
+
+state={
+	id=38
+	name="Sinatra"
+	state_category = town
+	provinces={
+		1337 2656 4226 4233 4240 4253 
+	}
+	manpower= 138212
+	history={
+		owner = SIN
+		victory_points = {
+			4226 15
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
+		}
+		add_core_of = SIN
+	}
+	buildings_max_level_factor=1.000
+}

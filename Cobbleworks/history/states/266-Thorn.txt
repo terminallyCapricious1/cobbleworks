@@ -1,0 +1,18 @@
+state={
+	id=266
+	name="Thorn"
+	provinces={
+		604 1314 1720 2554 3631 3645 
+	}
+	state_category = pastoral
+	manpower=94832
+	history={
+		owner = THR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 1
+		}
+		add_core_of = THR
+	}
+	buildings_max_level_factor=1.000
+}

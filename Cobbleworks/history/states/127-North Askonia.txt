@@ -1,0 +1,23 @@
+state={
+	id=127
+	name="North Askonia"
+	state_category = town
+	provinces={
+		303 1530 1618 2751 2890 
+	}
+	history={
+		owner = VAL
+		victory_points = {
+			2751 10
+		}
+		buildings = {
+			2751 = {
+				naval_base = 4
+			}
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+}

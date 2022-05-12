@@ -1,0 +1,21 @@
+state={
+	id=409
+	name="Bordunhaven"
+	state_category = small_island 
+	provinces={
+		1871 4702 4703 
+	}
+	history={
+		owner = SAV
+		victory_points = {
+			4702 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SAV
+
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+}

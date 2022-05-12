@@ -1,0 +1,8 @@
+supply_area={
+	id=41
+	name="Cibor"
+	value=0
+	states={
+		426 314 315 317 311 318 319 316 
+	}
+}

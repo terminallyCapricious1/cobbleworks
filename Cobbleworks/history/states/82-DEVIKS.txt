@@ -1,0 +1,27 @@
+
+state={
+	id=82
+	name="Deviks"
+	history={
+		owner = UBS
+		add_core_of = UBS
+		buildings = {
+			arms_factory = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			2635 10 
+		}
+		victory_points = {
+			4217 10 
+		}
+
+	}
+
+	provinces={
+		114 1668 1853 2050 2586 2635 4197 4217 4224 
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

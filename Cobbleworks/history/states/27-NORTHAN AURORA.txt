@@ -1,0 +1,26 @@
+
+state={
+	id=27
+	state_category = large_town
+	name="Northern Aurora"
+	provinces={
+		73 248 349 470 513 716 921 979 1027 1147 1257 1311 1410 1565 2004 2138 2277 2306 2343 2409 2709 2819 2943 3088 3333 3375 4262 4265 4279 4280 4292 4338 
+	}
+	manpower=900000
+	history={
+		owner = ULD
+		victory_points = {
+			2277 20
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			2277 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

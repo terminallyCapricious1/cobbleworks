@@ -1,0 +1,21 @@
+state={
+	id=141
+	name="Southeast Norfthorn"
+	state_category = rural
+	provinces={
+		442 606 1580 2119 3544 3547 3553 3554 3563 
+	}
+	manpower=250000
+	history={
+		owner = NRF
+		victory_points = {
+			3544 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = NRF
+	}
+	buildings_max_level_factor=1.000
+}

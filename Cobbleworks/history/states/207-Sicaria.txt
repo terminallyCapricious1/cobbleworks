@@ -1,0 +1,21 @@
+state={
+	id=207
+	name="Sicaria"
+	state_category = rural
+	provinces={
+		1560 3506 3515 
+	}
+	manpower=300000
+	history={
+		owner = NAJ
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+		}
+		victory_points = {
+			1560 10		#Fort Sicaria
+		}
+		add_core_of = NAJ
+	}
+	buildings_max_level_factor=1.000
+}

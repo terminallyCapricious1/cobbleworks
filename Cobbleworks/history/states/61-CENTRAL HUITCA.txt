@@ -1,0 +1,18 @@
+state={
+	id=61
+	name="Central Huitca"
+	state_category = pastoral
+	provinces={
+		380 1502 2988 4006 4014 
+	}
+	manpower=38229
+	history={
+		owner = HUI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1 
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

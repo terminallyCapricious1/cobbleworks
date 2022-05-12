@@ -1,0 +1,17 @@
+state={
+	id=262
+	name="Karkis"
+	state_category = rural
+	provinces={
+		324 699 1035 1083 1655 1959 3423 3439 4687 
+	}
+	manpower=200000
+	history={
+		owner = PLG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PLG
+	}
+	buildings_max_level_factor=1.000
+}

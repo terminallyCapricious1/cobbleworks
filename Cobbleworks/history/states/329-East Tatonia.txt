@@ -1,0 +1,17 @@
+state={
+	id=329
+	state_category = pastoral
+	name="East Tatonia"
+	provinces={
+		584 667 680 1204 1610 2007 2236 3293 4033 4063 4077 4081 4101 
+	}
+	manpower=32832
+	history={
+		owner = TTO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TTO
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=354
+	name="Bezcharian"
+
+	history={
+		owner = LEY
+		buildings = {
+			arms_factory = 1
+			infrastructure = 2
+
+		}
+		add_core_of = LEY
+
+	}
+
+	provinces={
+		1879 2099 2177 2182 3186 3239 4278 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

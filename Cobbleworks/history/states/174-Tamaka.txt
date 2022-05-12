@@ -1,0 +1,21 @@
+state={
+	id=174
+	state_category = rural
+	name="Tamaka"
+	provinces={
+		80 197 465 710 1062 1412 1571 1662 2128 2268 3693 3719 3765 
+	}
+	manpower=250000
+	history={
+		owner = ARL
+		victory_points = {
+			2128 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2 
+		}
+		add_core_of = ARL
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=404
+	name="Cloudbreach"
+	state_category = pastoral
+	provinces={
+		66 483 622 1288 1606 2053 2594 3159 4564 4607 4608 
+	}
+	manpower=90273
+	history={
+		owner = SOU
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOU
+	}
+	buildings_max_level_factor=1.000
+}

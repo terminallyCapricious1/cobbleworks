@@ -1,0 +1,9 @@
+
+supply_area={
+	id=9
+	name="Agnarian"
+	value=0
+	states={
+		179 178 180 139 424 
+	}
+}

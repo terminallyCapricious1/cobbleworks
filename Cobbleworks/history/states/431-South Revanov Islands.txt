@@ -1,0 +1,17 @@
+state={
+	id=431
+	state_category = tiny_island
+	name="South Revanov Islands"
+	provinces={
+		2792 3222 3871 4712 
+	}
+	manpower=38218
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

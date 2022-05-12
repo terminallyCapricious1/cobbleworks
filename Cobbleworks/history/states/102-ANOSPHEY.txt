@@ -1,0 +1,22 @@
+state={
+	id=102
+	name="Anosphiae"
+	state_category = metropolis
+	provinces={
+		426 752 766 1080 1327 1418 1464 1698 2091 2251 2473 2664 3107 3943 3955 3959 3968 3969 3975 3985 3994 4018 
+	}
+	manpower=1250000
+	history={
+		owner = THI
+		victory_points = {
+			1698 30 #Anosphiae
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 3
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

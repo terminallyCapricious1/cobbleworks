@@ -1,0 +1,17 @@
+state={
+	id=249
+	name="Karaviola"
+	state_category = pastoral
+	provinces={
+		4690 4692 
+	}
+	manpower=52192
+	history={
+		owner = ALI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ALI
+	}
+	buildings_max_level_factor=1.000
+}

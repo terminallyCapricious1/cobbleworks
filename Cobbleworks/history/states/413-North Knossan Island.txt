@@ -1,0 +1,18 @@
+state={
+	id=413
+	name="North Knossan Island"
+	state_category = town
+	provinces={
+		2591 
+	}
+	history={
+		owner = BAR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = BAR
+	}
+	manpower=412000
+	buildings_max_level_factor=1.000
+}

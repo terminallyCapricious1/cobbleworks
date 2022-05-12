@@ -1,0 +1,21 @@
+state={
+	id=49
+	name="East Ardat-Mosul"
+	state_category = rural
+	provinces={
+		271 433 754 1057 1065 1301 1815 2622 3090 3258 4092 
+	}
+	manpower=148292
+	history={
+		owner = ARD
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			1057 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = ARD
+	}
+	buildings_max_level_factor=1.000
+}

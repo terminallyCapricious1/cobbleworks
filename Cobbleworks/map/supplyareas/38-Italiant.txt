@@ -1,0 +1,8 @@
+supply_area={
+	id=38
+	name="Italiant"
+	value=0
+	states={
+		402 400 397 394 396 395 392 391 
+	}
+}

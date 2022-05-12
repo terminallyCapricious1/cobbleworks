@@ -1,0 +1,1135 @@
+﻿###########################
+# Bardonia Default Route Events
+###########################
+
+add_namespace = bardonia
+
+# Bardonian Civil War
+country_event = {
+	id = bardonia.1	#Bardonian civil war
+	title = bardonia.1.t
+	desc = bardonia.1.d
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.1.a
+	}
+}
+
+country_event = {
+	id = bardonia.2	#Intel on Andorn
+	title = bardonia.2.t
+	desc = bardonia.2.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.2.a
+	}
+}
+
+country_event = {
+	id = bardonia.3	#Bardonia offers Aid to Andorn
+	title = bardonia.3.t
+	desc = bardonia.3.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.3.a
+		custom_effect_tooltip = bardtip23
+		123 = {
+		    add_extra_state_shared_building_slots = 2
+		    add_building_construction = {
+		        type = industrial_complex
+		        level = 4
+		        instant_build = yes
+		    }
+		}
+		hidden_effect = {
+			BAR = {
+				country_event = { id = bardonia.27 } 
+			}
+		}
+	}
+	option = {
+		name = bardonia.3.b # Will not give Bardonia influence points
+		custom_effect_tooltip = bardtip24
+		hidden_effect = {
+			BAR = {
+				country_event = { id = bardonia.28 } 
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.4	#Land Invasion of Andorn plan
+	title = bardonia.4.t
+	desc = bardonia.4.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.4.a
+		army_experience = 10
+	}
+}
+
+country_event = {
+	id = bardonia.5	#Offer to Niedia
+	title = bardonia.5.t
+	desc = bardonia.5.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.5.a
+		ai_chance = { factor = 800 }
+		custom_effect_tooltip = bardtip2	
+		hidden_effect = {
+			BAR = {
+				country_event = { id = bardonia.6 } 
+				set_country_flag = niediayes	
+			}
+		}
+	}
+	option = {
+		name = bardonia.5.b
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = bardtip3
+		hidden_effect = {
+			BAR = {
+				country_event = { id = bardonia.7 } 
+				set_country_flag = niediano	
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.6	Niedia Accepts
+	title = bardonia.6.t
+	desc = bardonia.6.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.6.a
+		custom_effect_tooltip = bardtip4
+	}
+}
+
+country_event = {
+	id = bardonia.7	#Niedia Denies
+	title = bardonia.7.t
+	desc = bardonia.7.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.7.a
+		custom_effect_tooltip = bardtip5
+	}
+}
+
+country_event = {
+	id = bardonia.8	#Offer to Huitca
+	title = bardonia.8.t
+	desc = bardonia.8.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.8.a
+		ai_chance = { factor = 800 }
+		custom_effect_tooltip = bardtip2	
+		hidden_effect = {
+			BAR = {
+				country_event = { id = bardonia.9 } 
+				set_country_flag = huitcayes	
+			}
+		}
+	}
+	option = {
+		name = bardonia.8.b
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = bardtip3
+		hidden_effect = {
+			BAR = {
+				country_event = { id = bardonia.10 } 
+				set_country_flag = huitcano	
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.9	#Huitca yes
+	title = bardonia.9.t
+	desc = bardonia.9.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.9.a
+		custom_effect_tooltip = bardtip6
+	}
+}
+
+country_event = {
+	id = bardonia.10 #Huitca no
+	title = bardonia.10.t
+	desc = bardonia.10.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.10.a
+		custom_effect_tooltip = bardtip7
+	}
+}
+
+country_event = {
+	id = bardonia.11 #Allium Alliance form bard
+	title = bardonia.11.t
+	desc = bardonia.11.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.11.a
+		if = { 
+		    limit = { has_country_flag = niediayes }
+		    custom_effect_tooltip = bardtip9
+			hidden_effect = {
+				create_faction = Allium_Alliance
+				BAR = {
+					add_to_faction = NIE
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { has_country_flag = niediano }
+				custom_effect_tooltip = bardtip10
+			}
+		} ##########Divider, bottom line is for huitca shit############
+		if = { 
+		    limit = { 
+		    	has_country_flag = huitcayes
+		    }
+		    IF = {
+		    	limit = { 
+		    		has_country_flag = niediayes
+		    		has_country_flag = huitcayes
+		    	}
+		    	custom_effect_tooltip = bardtip11
+				hidden_effect = {
+					BAR = {
+						add_to_faction = HUI
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { 
+						has_country_flag = niediano
+						has_country_flag = huitcayes
+					}
+					custom_effect_tooltip = bardtip11
+					hidden_effect = {
+						create_faction = Allium_Alliance
+						BAR = {
+							add_to_faction = HUI
+						}
+					}
+				}
+				else_if = {
+				    limit = { has_country_flag = huitcano }
+				    custom_effect_tooltip = bardtip12
+				}
+			}
+		}
+		if = { 
+		    limit = { 
+		    	has_country_flag = niediano
+		    	has_country_flag = huitcano
+		    }
+			hidden_effect = {
+				create_faction = Allium_Alliance
+			}
+		}
+		if = { 
+		    limit = { 
+		    	has_country_flag = niediayes
+		    	has_country_flag = huitcayes
+		    }
+			hidden_effect = {
+				news_event = { id = bardonia.12 days = 3 }
+			}
+		}
+		else = {
+		    limit = { 
+		    	has_country_flag = niediayes
+		    	has_country_flag = huitcano
+		    }
+			hidden_effect = {
+				news_event = { id = bardonia.13 days = 3 }
+			}
+		}
+		else = {
+		    limit = { 
+		    	has_country_flag = niediano
+		    	has_country_flag = huitcayes
+		    }
+			hidden_effect = {
+				news_event = { id = bardonia.14 days = 3 }
+			}
+		}
+		else = {
+		    limit = { 
+		    	has_country_flag = niediano
+		    	has_country_flag = huitcano
+		    }
+			hidden_effect = {
+				news_event = { id = bardonia.15 days = 3 }
+			}
+		}
+	}
+}
+
+news_event = {
+	id = bardonia.12 #Allium wit Niedia and Huitca
+	title = bardonia.12.t
+	desc = bardonia.12.d
+	picture = GFX_news_event_009
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.12.a
+		hidden_effect = {
+			clr_country_flag = niediayes
+			clr_country_flag = huitcayes
+		}
+	}
+}
+
+news_event = {
+	id = bardonia.13 #Allium wit Niedia
+	title = bardonia.13.t
+	desc = bardonia.13.d
+	picture = GFX_news_event_009
+
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.13.a
+		hidden_effect = {
+			clr_country_flag = niediayes
+			clr_country_flag = huitcano
+		}
+	}
+}
+
+news_event = {
+	id = bardonia.14 #Allium wit Huitca
+	title = bardonia.14.t
+	desc = bardonia.14.d
+	picture = GFX_news_event_009
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.14.a
+		hidden_effect = {
+			clr_country_flag = niediano
+			clr_country_flag = huitcayes
+		}
+	}
+}
+
+news_event = {
+	id = bardonia.15 #Allium wit nobody, sad
+	title = bardonia.15.t
+	desc = bardonia.15.d
+	picture = GFX_news_event_009
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.15.a
+		hidden_effect = {
+			clr_country_flag = niediano
+			clr_country_flag = huitcano
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.16	#Valle War (Valle POV)
+	title = bardonia.16.t
+	desc = bardonia.16.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.16.a
+		custom_effect_tooltip = bardtip13
+		declare_war_on = {
+		    target = BAR
+		    type = annex_everything
+		}
+		hidden_effect = {
+			BAR = {
+				country_event = { id = bardonia.17 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.17	#Valle dec war (Bard POV)
+	title = bardonia.17.t
+	desc = bardonia.17.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.17.a
+		custom_effect_tooltip = bardtip14
+	}
+}
+
+country_event = {
+	id = bardonia.18	#The King in Baykonia
+	title = bardonia.18.t
+	desc = bardonia.18.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.18.a
+		add_stability = 0.10
+	}
+	option = {
+		name = bardonia.18.b
+		add_political_power = 100
+	}
+}
+
+country_event = {
+	id = bardonia.19	#Bizesonne ultimatum
+	title = bardonia.19.t
+	desc = bardonia.19.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.19.a
+		ai_chance = { factor = 100 }
+		give_guarantee = BIZ
+	}
+	option = {
+		name = bardonia.19.b
+		ai_chance = { factor = 100 }
+		BIZ = {
+			country_event = { id = bardonia.20 }
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.20	#Ultimatum to Bizesonne (To bizesonne)
+	title = bardonia.20.t
+	desc = bardonia.20.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.20.a
+		BAR = {
+			transfer_state = 132
+			add_state_core = 132
+		}
+		BAR = {
+			country_event = { id = bardonia.37 }
+		}
+	}
+	option = {
+		name = bardonia.20.b
+		BAR = {
+			country_event = { id = bardonia.21 }
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.21	#Bizesonne Denies
+	title = bardonia.21.t
+	desc = bardonia.21.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.21.a
+		declare_war_on = {
+		    target = BIZ
+		    type = annex_everything
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.22	#New High Command, pass the boof
+	title = bardonia.22.t
+	desc = bardonia.22.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.22.a
+		custom_effect_tooltip = bardtip17
+		recruit_character = BAR_ICE
+		recruit_character = BAR_AXYR
+		recruit_character = BAR_CREZY
+	}
+}
+
+country_event = {
+	id = bardonia.23 #Wivamovia Ultimatum (To wiva)
+	title = bardonia.23.t
+	desc = bardonia.23.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.23.a 	# NO thanks
+		IF = {
+			limit = {
+				in_in_faction = yes
+			}
+			ai_chance = { factor = 9000 }
+		}
+		custom_effect_tooltip = bardtip18	
+		hidden_effect = {
+			IF = { 
+			    limit = {
+			    	is_in_faction = yes
+			    }
+			    BAR = {
+			    	country_event = { id = bardonia.26 }
+			    }
+			}
+			else = { 
+				BAR = {
+					country_event = { id = bardonia.24 } 
+				}
+			}
+		}
+	}
+	option = {
+		name = bardonia.23.b 	#Wiva yess
+		ai_chance = { factor = 320 }
+		custom_effect_tooltip = bardtip19
+		hidden_effect = {
+			BAR = {
+				country_event = { id = bardonia.25 } 
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.24	#Wiva denies no faction
+	ai_chance = { factor = 100 }
+	title = bardonia.24.t
+	desc = bardonia.24.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.24.a
+		declare_war_on = {
+		    target = WIV
+		    type = annex_everything
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.25	#Wiva Accepts
+	title = bardonia.25.t
+	desc = bardonia.25.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.25.a
+		custom_effect_tooltip = bardtip20
+		puppet = WIV
+		hidden_effect = {
+			add_to_variable = {
+				var = bardoniaflagpos
+				value = -190
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.26	#Wiva denies in faction
+	title = bardonia.26.t
+	desc = bardonia.26.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.26.a
+		custom_effect_tooltip = bardtip21
+		IF = { 
+    		limit = {
+    			check_variable = { bardoniaflagpos < 1300 }
+    		}
+			add_to_variable = {
+				var = bardoniaflagpos
+				value = 190
+			}
+		}
+		ELSE = {}
+	}
+}
+
+country_event = {
+	id = bardonia.27	#Andorn says yea to aid
+	title = bardonia.27.t
+	desc = bardonia.27.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.27.a
+		custom_effect_tooltip = bardtip20
+		add_to_variable = {
+			var = bardoniaflagpos
+			value = -190
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.28	#Andorn says no to aid
+	title = bardonia.28.t
+	desc = bardonia.28.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.28.a
+		custom_effect_tooltip = bardtip25
+		hidden_effect = {
+			set_country_flag = Andornsayno
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.29	#Bardonia sends Aid
+	title = bardonia.29.t
+	desc = bardonia.29.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.29.a
+		custom_effect_tooltip = bardtip23
+		123 = {
+			add_building_construction = {
+			    type = arms_factory
+			    level = 4
+			    instant_build = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.30	#Eldham Investments
+	title = bardonia.30.t
+	desc = bardonia.30.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.30.a 	#yes
+		random_list = {
+		    50 = {
+		    	country_event = { id = bardonia.31 } 
+		    }
+		    50 = {
+		    	country_event = { id = bardonia.32 } 
+		    }
+		}
+	}
+	option = { 					#no
+		name = bardonia.30.b
+	}
+}
+
+country_event = {
+	id = bardonia.31	#Eldham win
+	title = bardonia.31.t
+	desc = bardonia.31.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.31.a
+		add_ideas = Dandelonia
+	}
+}
+
+country_event = {
+	id = bardonia.32	#Eldham fail
+	title = bardonia.32.t
+	desc = bardonia.32.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.32.a
+		add_timed_idea = {
+		    idea = eldham_fail_bard
+		    days = 180
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.33	#Halge ultimatum
+	title = bardonia.33.t
+	desc = bardonia.33.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.33.a  #We surrender
+		ai_chance = { factor = 85 }
+		BAR = {
+			annex_country = {
+			    target = HLG
+			    transfer_troops = yes
+			}
+			country_event = { id = bardonia.34 }
+		}
+	}
+	option = {
+		name = bardonia.33.b
+		ai_chance = { factor = 50 }
+		BAR = {
+			country_event = { id = bardonia.35 }
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.34	#Halge surrenders
+	title = bardonia.34.t
+	desc = bardonia.34.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.34.a
+	}
+}
+
+country_event = {
+	id = bardonia.35	#Halge resists
+	title = bardonia.35.t
+	desc = bardonia.35.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.35.a
+		ai_chance = { factor = 1000 }
+		declare_war_on = {
+		    target = HLG
+		    type = annex_everything
+		}
+	}
+
+	option = {
+		name = bardonia.35.b
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			HLG = {
+				country_event = { id = bardonia.36 }	
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.36	#Bardonia backs down
+	title = bardonia.36.t
+	desc = bardonia.36.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.36.a
+	}
+}
+
+country_event = {
+	id = bardonia.37	#Wivamovia accepts demands
+	title = bardonia.37.t
+	desc = bardonia.37.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.37.a
+	}
+}
+
+country_event = {
+	id = bardonia.38	#Lennox ultimatum
+	title = bardonia.38.t
+	desc = bardonia.38.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.38.a  #We accept
+		ai_chance = { factor = 500 }
+		BAR = {
+			annex_country = {
+			    target = LEN
+			    transfer_troops = yes
+			}
+			country_event = { id = bardonia.39 }
+		}
+	}
+	option = {
+		name = bardonia.38.b
+		ai_chance = { factor = 500 }
+		BAR = {
+			country_event = { id = bardonia.40 }
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.39	#Lennox accepts demands
+	title = bardonia.39.t
+	desc = bardonia.39.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.39.a
+	}
+}
+
+country_event = {
+	id = bardonia.40	#Lennox imprisons delegates
+	title = bardonia.40.t
+	desc = bardonia.40.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.40.a
+		declare_war_on = {
+		    target = LEN
+		    type = annex_everything
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.41	#Addressing our Economic Issues
+	title = bardonia.41.t
+	desc = bardonia.41.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.41.a
+		add_political_power = 100
+	}
+}
+
+country_event = {
+	id = bardonia.42	#Return of the Prophet
+	title = bardonia.42.t
+	desc = bardonia.42.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	trigger = {
+		tag = BAR
+		has_completed_focus = BAR_wrangle_lennox
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+	}
+
+	option = {
+		name = bardonia.42.a
+		custom_effect_tooltip = bardtip28
+		custom_effect_tooltip = bardtip29
+		hidden_effect = {
+			complete_national_focus = BAR_return_of_the_prophet
+			set_country_flag = bardprophet
+			mark_focus_tree_layout_dirty = yes
+			create_country_leader = {
+				name = "Unic0rnb0i"
+				desc = "POLITICS_PETER_II_DESC"
+				picture = "UNI.dds"
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = { }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.43	#CALL to Auron
+	title = bardonia.43.t
+	desc = bardonia.43.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.43.a #yes
+		ai_chance = { factor = 2000 }
+		BAR = {
+			transfer_state = 77
+			add_state_core = 77
+			transfer_state = 76
+			add_state_core = 76
+		}
+		BAR = {
+			country_event = { id = bardonia.45 }
+		}
+	}
+	option = {
+		name = bardonia.43.b  #no
+		ai_chance = { factor = 100 }
+		BAR = {
+			country_event = { id = bardonia.44 }
+			add_state_core = 76
+			add_state_core = 77
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.44	#Auron Denies
+	title = bardonia.44.t
+	desc = bardonia.44.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.44.a
+		declare_war_on = {
+		    target = AUR
+		    type = annex_everything
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.45	#Auron accepts
+	title = bardonia.45.t
+	desc = bardonia.45.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.45.a 
+	}
+}
+
+country_event = {
+	id = bardonia.46	#Dandelist Utopia
+	title = bardonia.46.t
+	desc = bardonia.46.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.46.a 
+		swap_ideas = { 
+		  remove_idea = Dandelist_revive2
+		  add_idea = Dandelist_revive3
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.47	#The Ryzan War
+	title = bardonia.47.t
+	desc = bardonia.47.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.47.a
+		hidden_effect = {
+			news_event = { id = bardonia.48 days = 3 }
+		}
+	}
+}
+
+news_event = {
+	id = bardonia.48 #Bard Invasion Ryzan
+	title = bardonia.48.t
+	desc = bardonia.48.d
+	picture = GFX_news_event_056
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.48.a
+	}
+}
+
+country_event = {
+	id = bardonia.49	#Mesa pls
+	title = bardonia.49.t
+	desc = bardonia.49.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.49.a  #yes
+		ai_chance = { factor = 50 }
+		ARD = {
+			transfer_state = 44
+			add_state_core = 44
+			transfer_state = 43
+			add_state_core = 43
+			transfer_state = 39
+			add_state_core = 39
+		}
+		country_event = { id = bardonia.50 }
+		}
+	}
+	option = {
+		name = bardonia.49.b #no
+		ai_chance = { factor = 150 }
+		BAR = {
+			country_event = { id = bardonia.51 }
+		}
+	}
+}
+
+country_event = {
+	id = bardonia.50	#Mesa accepted
+	title = bardonia.50.t
+	desc = bardonia.50.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.50.a 
+		44 = {
+		    add_extra_state_shared_building_slots = 2
+		    add_building_construction = {
+		        type = industrial_complex
+		        level = 2
+		        instant_build = yes
+		    }
+		    add_manpower = 200000
+		}
+		39 = {
+		    add_extra_state_shared_building_slots = 2
+		    add_building_construction = {
+		        type = industrial_complex
+		        level = 2
+		        instant_build = yes
+		    }
+		    add_manpower = 200000
+		}
+	}
+}
+
+
+country_event = {
+	id = bardonia.51	#Mesa denied
+	title = bardonia.51.t
+	desc = bardonia.51.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.51.a 
+	}
+}
+
+country_event = {
+	id = bardonia.52	#Bard navy
+	title = bardonia.52.t
+	desc = bardonia.52.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bardonia.52.a 
+	}
+}

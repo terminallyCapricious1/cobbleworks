@@ -1,0 +1,8 @@
+supply_area={
+	id=63
+	name="Kibbutz"
+	value=0
+	states={
+		366 367 365 
+	}
+}

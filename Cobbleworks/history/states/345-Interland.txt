@@ -1,0 +1,25 @@
+state={
+	id=345
+	name="Interland"
+	state_category = large_town
+	provinces={
+		651 666 781 785 2030 2235 2606 2779 3056 3057 3077 4336 4350 4359 4365 
+	}
+	manpower=900000
+	history={
+		owner = POS
+		add_core_of = POS
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			infrastructure = 3
+		}
+		victory_points = {
+			2030 20		#Interdam
+		}
+		victory_points = {
+			666 5		#Traviel
+		}
+	}
+	buildings_max_level_factor=1.000
+}

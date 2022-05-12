@@ -1,0 +1,25 @@
+
+state={
+	id=59
+	name="North Huitca"
+	state_category = rural
+	provinces={
+		86 268 1074 2122 2521 3026 3148 3926 3934 3945 
+	}
+	manpower=250000
+	history={
+		owner = HUI
+		victory_points = {
+			2521 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			2521 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

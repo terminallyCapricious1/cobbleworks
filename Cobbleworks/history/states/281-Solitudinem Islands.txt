@@ -1,0 +1,22 @@
+
+state={
+	id=281
+	name="Solitudinem Islands"
+	provinces={
+		4700 4701 4704 
+	}
+	state_category = town
+	manpower=550000
+	history={
+		owner = SLT
+		buildings = {
+			arms_factory = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			4701 10		#St. Acol's Fort
+		}
+		add_core_of = SLT
+	}
+	buildings_max_level_factor=1.000
+}

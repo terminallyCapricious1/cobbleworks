@@ -1,0 +1,25 @@
+state={
+	id=36
+	name="Caprica"
+	state_category = town
+	provinces={
+		362 637 1319 1798 2224 2505 2567 3223 4212 4238 4256 4290 
+	}
+	history={
+		owner = CAP
+		victory_points = {
+			4256 15
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2 
+			4256 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = CAP
+	}
+	manpower=302183
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=29
+	name="South Aurora"
+	state_category = town
+	provinces={
+		30 276 312 414 549 583 595 602 673 774 1075 1178 1272 1289 1306 1561 1862 1951 1983 1988 2000 2230 2339 2516 2703 2758 2877 3001 3112 3137 3285 3318 3387 4470 4478 4481 4489 4498 
+	}
+	manpower=500000
+	history={
+		owner = ULD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

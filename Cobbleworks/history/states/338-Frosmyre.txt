@@ -1,0 +1,26 @@
+state={
+	id=338
+	name="Frosmyre"
+	state_category = metropolis
+	provinces={
+		573 587 1335 1632 1825 2302 2410 4172 4215 
+	}
+	manpower=1200000
+	history={
+		owner = FJ1
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			infrastructure = 4
+		}
+		victory_points = {
+			1825 20		#Fros Myre
+		}
+		victory_points = {
+			1335 15		#Connacht
+		}
+		add_core_of = FJ1
+	}
+
+	buildings_max_level_factor=1.000
+}

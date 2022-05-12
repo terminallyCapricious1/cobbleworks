@@ -1,0 +1,22 @@
+BAR_puppet = {
+	
+	allowed = {
+	
+	}
+
+	visible = {
+		original_tag = BAR
+	}
+}
+
+BAR_equipment = {
+	
+	allowed = {
+	
+	}
+
+	visible = {
+		original_tag = BAR
+		has_completed_focus = BAR_arm_our_allies
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=258
+	name="Tempo"
+	state_category = town
+	provinces={
+		612 1173 1746 3095 3320 3467 3488 
+	}
+	manpower=550000
+	history={
+		owner = PLG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			3320 20		#Sakurai_Tempo
+		}
+		add_core_of = PLG
+	}
+	buildings_max_level_factor=1.000
+}

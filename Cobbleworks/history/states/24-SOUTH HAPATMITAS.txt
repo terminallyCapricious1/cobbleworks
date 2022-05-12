@@ -1,0 +1,27 @@
+state={
+	id=24
+	name="South Hapatimas"
+	state_category = metropolis
+	provinces={
+		493 850 1194 1251 1266 1442 1503 1759 2171 2299 2305 2406 2456 2575 2815 2954 3059 3078 3140 3260 3296 4395 4401 4409 4415 4418 4429 4432 4442 4448 4452 
+	}
+	history={
+		owner = ULD
+		victory_points = { #Agiasgach
+			4409 20
+		}
+		victory_points = { #Starsnatch's Peak
+			1194 10
+		}
+		victory_points = { #Midgard
+			1759 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+		}
+		add_core_of = ULD
+	}
+	manpower=2400000
+	buildings_max_level_factor=1.000
+}

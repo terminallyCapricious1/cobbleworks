@@ -1,0 +1,22 @@
+state={
+	id=303
+	name="De Sloog"
+	state_category = metropolis
+	provinces={
+		72 348 608 1440 2020 2337 2948 4428 4434 
+	}
+	manpower=1100000
+	history={
+		owner = VIO
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 3
+			infrastructure = 3
+		}
+		victory_points = {
+			1440 20
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

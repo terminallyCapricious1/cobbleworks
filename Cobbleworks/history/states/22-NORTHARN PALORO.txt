@@ -1,0 +1,18 @@
+state={
+	id=22
+	name="Northern Paloro"
+	state_category = metropolis
+	provinces={
+		1493 1781 2110 2189 2478 2899 4399 4403 4407 4431 
+	}
+	manpower=99387
+	history={
+		owner = ULD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

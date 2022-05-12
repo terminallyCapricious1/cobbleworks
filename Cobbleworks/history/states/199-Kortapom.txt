@@ -1,0 +1,17 @@
+state={
+	id=199
+	name="Kortapom"
+	provinces={
+		92 1053 1092 1544 1866 1892 2829 2907 3156 3611 
+	}
+	state_category = wasteland
+	manpower=39392
+	history={
+		owner = NAJ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NAJ
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,9 @@
+
+supply_area={
+	id=3
+	name="West Ryzan"
+	value=15
+	states={
+		120 116 117 432 
+	}
+}

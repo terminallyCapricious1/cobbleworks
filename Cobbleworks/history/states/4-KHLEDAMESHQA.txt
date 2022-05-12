@@ -1,0 +1,27 @@
+state={
+	id=4
+	name="Alokhrad"
+	state_category = metropolis
+	provinces={
+		394 529 821 1792 2033 2094 2143 2872 3208 3361 
+	}
+	manpower=1400000
+	history={
+		owner = ULD
+		victory_points = { #Uk-Nassul
+			821 10
+		}
+		victory_points = { #Astrova
+			529 10
+		}
+		victory_points = { #Eraqat
+			394 15
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

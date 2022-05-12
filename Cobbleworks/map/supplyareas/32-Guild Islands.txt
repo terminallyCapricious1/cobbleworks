@@ -1,0 +1,8 @@
+supply_area={
+	id=32
+	name="Guild Islands"
+	value=0
+	states={
+		383 
+	}
+}

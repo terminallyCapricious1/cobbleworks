@@ -1,0 +1,17 @@
+state={
+	id=213
+	name="Drasil"
+	state_category = rural
+	provinces={
+		230 915 1605 1628 1755 2202 2210 2442 2663 2713 3732 3734 3744 3759 3770 
+	}
+	manpower=262893
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

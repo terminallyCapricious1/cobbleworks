@@ -1,0 +1,20 @@
+state={
+	id=98
+	state_category = rural
+	name="Lardburg"
+	provinces={
+		3031 4166 
+	}
+	history={
+		owner = THI
+		victory_points = {
+			4166 5 #Lardburg, why tf is this a state?
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = THI
+	}
+	manpower=129302
+	buildings_max_level_factor=1.000
+}

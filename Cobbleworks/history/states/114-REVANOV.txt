@@ -1,0 +1,22 @@
+
+state={
+	id=114
+	name="Revanov"
+	state_category = rural
+	provinces={
+		615 617 874 975 1665 1887 2054 2634 2653 2686 2864 2927 3824 3826 3851 
+	}
+	manpower=450000
+	history={
+		owner = THI
+		victory_points = {
+			2653 10 #Kierkewick
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

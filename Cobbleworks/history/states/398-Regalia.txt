@@ -1,0 +1,22 @@
+state={
+	id=398
+	name="Regalia"
+	state_category = megalopolis
+	provinces={
+		353 590 912 1063 1120 1280 1309 1876 2475 2515 2853 3127 3211 4634 4642 4660 4663 4664 4678 
+	}
+	manpower=2000000
+	history={
+		owner = REG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2 
+			arms_factory = 2
+		}
+		victory_points = {
+			4663 30	#Atopolis
+		}
+		add_core_of = REG
+	}
+	buildings_max_level_factor=1.000
+}

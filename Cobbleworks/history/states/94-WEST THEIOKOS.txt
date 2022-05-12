@@ -1,0 +1,18 @@
+
+state={
+	id=94
+	name="West Theiokos"
+	state_category = pastoral
+	provinces={
+		17 476 511 538 740 868 887 1156 1532 2485 2527 2662 2764 3937 3941 3952 3962 3977 
+	}
+	manpower=150000
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

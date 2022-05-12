@@ -1,0 +1,24 @@
+
+state={
+	id=341
+	name="Leyth"
+	history={
+		owner = SR1
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			518 10		#Envy
+		}
+		add_core_of = SR1
+	}
+
+	provinces={
+		6 50 345 354 518 531 778 1443 1509 1666 1834 3215 4181 4193 4195 4196 4210 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

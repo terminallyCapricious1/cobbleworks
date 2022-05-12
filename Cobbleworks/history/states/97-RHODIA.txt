@@ -1,0 +1,17 @@
+state={
+	id=97
+	name="Rhodia"
+	state_category = pastoral
+	provinces={
+		674 1775 1973 2876 3076 4158 
+	}
+	manpower=43384
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

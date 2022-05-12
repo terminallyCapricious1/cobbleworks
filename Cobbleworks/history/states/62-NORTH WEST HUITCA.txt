@@ -1,0 +1,21 @@
+state={
+	id=62
+	state_category = rural
+	name="Upperwest Huitca"
+	provinces={
+		22 358 1738 2601 3132 3963 
+	}
+	manpower=250000
+	history={
+		owner = HUI
+		victory_points = {
+			1738 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=19
+	state_category = town
+	name="Eastern Lietmarg"
+	provinces={
+		438 1110 1140 1407 1616 1617 1642 1722 1961 1963 2275 2340 2552 2837 2942 3267 4624 4639 4649 4661 4666 4671 4679 4683 
+	}
+	history={
+		owner = ULD
+		victory_points = {
+			1616 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = ULD
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+}

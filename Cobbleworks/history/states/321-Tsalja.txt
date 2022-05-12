@@ -1,0 +1,18 @@
+state={
+	id=321
+	name="Tsalja"
+	state_category = town
+	provinces={
+		1009 2262 2870 4554 4576 
+	}
+	manpower=348213
+	history={
+		owner = PAH
+		buildings = {
+			industrial_complex = 1 
+			infrastructure = 1
+		}
+		add_core_of = PAH
+	}
+	buildings_max_level_factor=1.000
+}

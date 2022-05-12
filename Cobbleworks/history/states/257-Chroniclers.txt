@@ -1,0 +1,24 @@
+state={
+	id=257
+	name="Chroniclers"
+	state_category = town
+	provinces={
+		898 1416 1986 2046 3225 3284 3407 3434 3445 
+	}
+	manpower=650000
+	history={
+		owner = CHR
+		buildings = {
+			industrial_complex = 1 
+			infrastructure = 2
+		}
+		victory_points = {
+			3434 10		#Sar-Panagah
+		}
+		victory_points = {
+			3445 5		#Half-horn
+		}
+		add_core_of = CHR
+	}
+	buildings_max_level_factor=1.000
+}

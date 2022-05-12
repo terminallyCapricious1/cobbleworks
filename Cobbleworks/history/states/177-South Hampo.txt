@@ -1,0 +1,17 @@
+state={
+	id=177
+	state_category = rural
+	name="South Hampo"
+	provinces={
+		1353 1419 1505 2783 2871 3829 3848 
+	}
+	history={
+		owner = ARL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ARL
+	}
+	manpower=28131
+	buildings_max_level_factor=1.000
+}

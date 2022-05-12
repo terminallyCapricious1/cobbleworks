@@ -1,0 +1,25 @@
+state={
+	id=41
+	name="South Solisos"
+	state_category = town
+	provinces={
+		171 447 879 1804 3079 3155 4169 4180 4183 4188 
+	}
+	history={
+		owner = SOL
+		victory_points = {
+			3079 15
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			3079 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = SOL
+	}
+	manpower=421230
+	buildings_max_level_factor=1.000
+}

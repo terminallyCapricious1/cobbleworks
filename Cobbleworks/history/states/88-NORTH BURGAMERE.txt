@@ -1,0 +1,16 @@
+state={
+	id=88
+	name="Burgamerian Plain"
+	provinces={
+		454 605 657 672 952 2317 2341 2488 2724 2789 4097 4104 4105 4111 4114 4119 
+	}
+	manpower=29310
+	history={
+		owner = UBS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = UBS
+	}
+	buildings_max_level_factor=1.000
+}

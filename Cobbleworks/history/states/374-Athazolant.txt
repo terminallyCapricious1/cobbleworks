@@ -1,0 +1,22 @@
+state={
+	id=374
+	state_category = town
+	name="Athazolant"
+	provinces={
+		577 676 917 1304 1707 1867 4246 4267 4275 4276 4283 4284 4307 
+	}
+	manpower=500000
+	history={
+		owner = ATH
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2 
+			arms_factory = 1
+		}
+		victory_points = {
+			4275 15	#Athazolant
+		}
+		add_core_of = ATH
+	}
+	buildings_max_level_factor=1.000
+}

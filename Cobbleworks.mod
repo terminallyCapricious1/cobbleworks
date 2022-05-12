@@ -30,4 +30,4 @@ replace_path="common/characters"
 replace_path="common/generation"
 replace_path="history/general"
 supported_version="1.11.2"
-path="C:/Users/spoke/Documents/Paradox Interactive/Hearts of Iron IV/mod/Cobbleworks"
+path="mod/Cobbleworks

@@ -1,0 +1,21 @@
+state={
+	id=245
+	name="Arcus"
+	state_category = rural
+	provinces={
+		685 871 1179 1523 1896 2705 3286 3549 3557 
+	}
+	manpower=350000
+	history={
+		owner = ALI
+		buildings = {
+			arms_factory = 1
+			infrastructure = 1
+		}
+		victory_points = {
+			3557 5		#Bainfalla
+		}
+		add_core_of = ALI
+	}
+	buildings_max_level_factor=1.000
+}

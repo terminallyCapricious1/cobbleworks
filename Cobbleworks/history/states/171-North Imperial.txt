@@ -1,0 +1,24 @@
+
+state={
+	id=171
+	name="North Imperial"
+	state_category = town
+	provinces={
+		391 682 1527 2309 2313 2658 3643 3644 3666 
+	}
+	history={
+		owner = ARL
+		victory_points = {
+			2309 15
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1 
+		}
+		add_core_of = ARL
+	}
+	manpower=300000
+
+	buildings_max_level_factor=1.000
+}

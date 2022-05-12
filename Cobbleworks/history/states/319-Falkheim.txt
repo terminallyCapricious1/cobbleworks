@@ -1,0 +1,17 @@
+state={
+	id=319
+	name="Falkheim"
+	state_category = pastoral
+	provinces={
+		439 3268 
+	}
+	manpower=44292
+	history={
+		owner = AEZ
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AEZ
+	}
+	buildings_max_level_factor=1.000
+}

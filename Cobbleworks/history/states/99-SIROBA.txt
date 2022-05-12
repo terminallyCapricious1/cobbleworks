@@ -1,0 +1,17 @@
+state={
+	id=99
+	name="Siroba"
+	state_category = rural
+	provinces={
+		5 455 646 919 1273 2225 2587 2599 2675 3006 3060 3122 3368 3369 3850 3860 3862 3885 3899 
+	}
+	manpower=350000
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

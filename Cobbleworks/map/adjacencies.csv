@@ -1,0 +1,23 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+1969;4702;sea;8224;-1;-1;-1;-1;;Savras-Bordunhaven
+2778;2912;sea;10913;-1;-1;-1;-1;;Vologda-East Vologda
+2010;2481;sea;8455;-1;-1;-1;-1;;Sinatra Sewor-Sinatra Sewor Island
+2174;299;sea;8591;-1;-1;-1;-1;;Sinatra Sewor-South Sinatra Sewor
+4233;4232;sea;7306;-1;-1;-1;-1;;SINATRA SEWOR BOARDER ZONE-SINATRA SEWOR BOARDER ISLAND
+1556;2996;sea;8515;-1;-1;-1;-1;;Valyrian-Greater Lennox
+4311;4324;sea;11650;-1;-1;-1;-1;;Kush-Kush
+2242;1040;sea;6004;-1;-1;-1;-1;;Volturus Islands-Volturus Islands
+1884;2807;sea;6936;-1;-1;-1;-1;;Ravgaard-East Bern Vralas
+3000;880;sea;6745;-1;-1;-1;-1;;North Adytum-Viodoxa
+4398;2649;sea;8334;-1;-1;-1;-1;;Viodoxa-Viodoxa
+2649;3151;sea;7770;-1;-1;-1;-1;;Viodoxa-Viodoxa
+3151;4430;sea;7770;-1;-1;-1;-1;;Viodoxa-Viodoxa
+832;4467;sea;9648;-1;-1;-1;-1;;Tvear-Tvear
+4480;4468;sea;7625;-1;-1;-1;-1;;Charon-Tvear
+2952;2794;sea;10456;-1;-1;-1;-1;;Cibor-Pineland
+739;1979;sea;7188;-1;-1;-1;-1;;Red Pheonix-Jamestown
+4690;4692;sea;10248;-1;-1;-1;-1;;Karaviola-Karaviola
+79;3523;sea;10728;-1;-1;-1;-1;;Paludis Plain-Paludis Island
+3447;3453;sea;9390;-1;-1;-1;-1;;Western Sand Republic-Valle
+585;76;sea;7168;-1;-1;-1;-1;;Valle-Luperkania
+-1;-1;;-1;-1;-1;-1;-1;-1

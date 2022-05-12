@@ -1,0 +1,25 @@
+state={
+	id=305
+	name="Augmentum Terra"
+	state_category = metropolis
+	provinces={
+		420 625 730 1465 1899 2280 2891 2980 3209 4619 4655 
+	}
+	manpower=1000000
+	history={
+		owner = VIO
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2 
+			infrastructure = 3
+		}
+		victory_points = {
+			420 20
+		}
+		victory_points = {
+			1899 10
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

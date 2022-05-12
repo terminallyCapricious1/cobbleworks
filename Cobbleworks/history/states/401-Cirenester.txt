@@ -1,0 +1,18 @@
+state={
+	id=401
+	name="Cirenester"
+	state_category = rural
+	provinces={
+		46 49 499 562 1145 1810 2057 3032 3205 
+	}
+	manpower=142093
+	history={
+		owner = CIR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+		}
+		add_core_of = CIR
+	}
+	buildings_max_level_factor=1.000
+}

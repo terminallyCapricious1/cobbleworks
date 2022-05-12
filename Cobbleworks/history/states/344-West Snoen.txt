@@ -1,0 +1,25 @@
+state={
+	id=344
+	state_category = large_town
+	name="West Snoen"
+	provinces={
+		147 473 1341 1920 1929 2929 4317 4328 4337 
+	}
+	manpower=1050000
+	history={
+		owner = AVR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2 
+			infrastructure = 3
+		}
+		victory_points = {
+			1929 10		#Tryodenn
+		}
+		victory_points = {
+			2929 20		#Vaussuiean
+		}
+		add_core_of = AVR
+	}
+	buildings_max_level_factor=1.000
+}

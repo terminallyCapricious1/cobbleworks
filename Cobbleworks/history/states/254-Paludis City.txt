@@ -1,0 +1,18 @@
+
+state={
+	id=254
+	name="Paludis Plain"
+	state_category = tiny_island 
+	provinces={
+		79 1915 2279 
+	}
+	manpower=22932
+	history={
+		owner = ALI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ALI
+	}
+	buildings_max_level_factor=1.000
+}

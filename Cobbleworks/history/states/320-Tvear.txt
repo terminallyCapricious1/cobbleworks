@@ -1,0 +1,17 @@
+state={
+	id=320
+	name="Tvear"
+	state_category = pastoral
+	provinces={
+		797 832 2165 3020 4467 4468 
+	}
+	manpower=153823
+	history={
+		owner = VIO
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

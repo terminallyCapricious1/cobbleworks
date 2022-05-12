@@ -1,0 +1,28 @@
+
+state={
+	id=17
+	name="Eastern Boulderov"
+	state_category = town
+	provinces={
+		416 596 914 1082 1189 1390 2360 2561 2886 2889 3173 4568 4581 4591 4617 4627 4729 
+	}
+	history={
+		owner = ULD
+		victory_points = { #odeila
+			4568 20
+		}
+		victory_points = { #Nottingham
+			1082 10
+		}
+		victory_points = { #Boldara
+			1189 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = ULD
+	}
+	manpower=850000
+	buildings_max_level_factor=1.000
+}

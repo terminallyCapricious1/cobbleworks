@@ -1,0 +1,17 @@
+state={
+	id=95
+	name="Theiokos"
+	state_category = pastoral
+	provinces={
+		74 767 1014 1297 1413 1457 1612 1741 2209 2422 3890 3912 3949 
+	}
+	manpower=12484
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

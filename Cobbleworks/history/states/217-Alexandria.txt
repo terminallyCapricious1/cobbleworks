@@ -1,0 +1,25 @@
+state={
+	id=217
+	name="Alexandria"
+	state_category = town
+	provinces={
+		904 998 1044 1241 1303 1591 1614 2148 2185 2359 3808 3810 3819 
+	}
+	manpower=750000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1 
+			arms_factory = 1
+		}
+		victory_points = {
+			2359 10		#alexandria
+		}
+		victory_points = {
+			3810 13		#Fort Penelope
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

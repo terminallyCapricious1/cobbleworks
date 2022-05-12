@@ -1,0 +1,8 @@
+supply_area={
+	id=85
+	name="Boarav"
+	value=0
+	states={
+		250 251 252 256 253 264 
+	}
+}

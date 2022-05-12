@@ -1,0 +1,29 @@
+
+state={
+	id=327
+	name="Mothoraine"
+	state_category = metropolis
+	provinces={
+		200 1127 1426 1990 2446 2868 2938 2953 2969 4108 4110 4174 
+	}
+	manpower=1950000
+	history={
+		owner = SR1
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 4 
+			infrastructure = 4
+		}
+		victory_points = {
+			2868 25		#Mothoraine
+		}
+		victory_points = {
+			4108 20		#Windrop
+		}
+		victory_points = {
+			1426 10		#TheWhiteKnights
+		}
+		add_core_of = SR1
+	}
+	buildings_max_level_factor=1.000
+}

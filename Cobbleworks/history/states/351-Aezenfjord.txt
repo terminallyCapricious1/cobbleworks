@@ -1,0 +1,21 @@
+state={
+	id=351
+	name="Aezenfjord"
+	state_category = rural
+	provinces={
+		154 165 176 738 973 1072 1498 1585 1639 1686 2415 2421 2704 2769 2825 3119 3120 3259 4371 4384 4386 4411 4420 4425 4440 
+	}
+	manpower=300000
+	history={
+		owner = AEZ
+		buildings = {
+			industrial_complex = 1 
+			infrastructure = 2
+		}
+		victory_points = {
+			3259 5		#Aezenfjord
+		}
+		add_core_of = AEZ
+	}
+	buildings_max_level_factor=1.000
+}

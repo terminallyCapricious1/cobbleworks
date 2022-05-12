@@ -1,0 +1,22 @@
+
+state={
+	id=93
+	name="Auraion"
+	state_category = town
+	provinces={
+		29 207 270 315 481 575 806 989 1077 1609 1687 1736 1809 1850 1883 1930 2008 2508 2884 2920 3843 3861 3869 3875 3878 3884 3886 3903 3905 3915 3917 
+	}
+	manpower=750000
+	history={
+		owner = THI
+		victory_points = {
+			3917 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

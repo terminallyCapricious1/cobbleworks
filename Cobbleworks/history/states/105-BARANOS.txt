@@ -1,0 +1,18 @@
+
+state={
+	id=105
+	name="Baranos"
+	state_category = tiny_island
+	provinces={
+		185 3224 
+	}
+	manpower=24591
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,8 @@
+supply_area={
+	id=71
+	name="Athazolant"
+	value=0
+	states={
+		105 374 373 376 370 421 
+	}
+}

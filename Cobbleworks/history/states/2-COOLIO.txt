@@ -1,0 +1,29 @@
+
+state={
+	id=2
+	state_category = metropolis
+	name="Montroig"
+	provinces={
+		187 263 296 316 588 720 1397 1423 1970 2350 3154 4320 4349 4357 4367 
+	}
+	manpower=4000000
+	history={
+		owner = ULD
+		victory_points = {
+			4349 50
+		}
+		victory_points = {
+			263 20
+		}
+		victory_points = {
+			1397 15
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 5
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=382
+	state_category = rural
+	name="Lumaire Island"
+	provinces={
+		903 2915 3220 4488 
+	}
+	manpower=250000
+	history={
+		owner = SOU
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+		}
+		add_core_of = SOU
+	}
+	buildings_max_level_factor=1.000
+}

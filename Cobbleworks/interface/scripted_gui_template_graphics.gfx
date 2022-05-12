@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_scripted_gui_window_background"
+		textureFile = "/gfx/interface/scripted_gui_graphics/scripted_gui_background.dds"
+	}
+	spriteType = {
+		name = "GFX_close_button"
+		textureFile = "/gfx/interface/scripted_gui_graphics/close_button.dds"
+	}
+	spriteType = {
+		name = "GFX_andornflaga"
+		textureFile = "/gfx/interface/scripted_gui_graphics/andornflaga.dds"
+	}
+	spriteType = {
+		name = "GFX_bardoniaflag"
+		textureFile = "/gfx/interface/scripted_gui_graphics/bardoniaflag.dds"
+	}
+	spriteType = {
+		name = "GFX_ryzanflag"
+		textureFile = "/gfx/interface/scripted_gui_graphics/ryzanflag.dds"
+	}
+	spriteType = {
+		name = "GFX_wivaflag"
+		textureFile = "/gfx/interface/scripted_gui_graphics/wivaflag.dds"
+	}
+}

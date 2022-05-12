@@ -1,0 +1,18 @@
+
+state={
+	id=178
+	name="Green Haven"
+	state_category = pastoral
+	provinces={
+		214 665 2125 3167 3178 3893 3907 
+	}
+	manpower=37029
+	history={
+		owner = VIR
+		buildings = {
+			infrastructure = 1 
+		}
+		add_core_of = VIR
+	}
+	buildings_max_level_factor=1.000
+}

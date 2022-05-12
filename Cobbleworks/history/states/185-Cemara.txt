@@ -1,0 +1,21 @@
+state={
+	id=185
+	name="Cemara"
+	state_category = rural
+	provinces={
+		249 876 1018 1041 2905 3639 3652 3685 
+	}
+	manpower=250000
+	history={
+		owner = FLR
+		buildings = {
+			arms_factory = 1 
+			infrastructure = 3
+		}
+		victory_points = {
+			3685 5		#Uzamo
+		}
+		add_core_of = FLR
+	}
+	buildings_max_level_factor=1.000
+}

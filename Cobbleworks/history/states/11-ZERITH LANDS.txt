@@ -1,0 +1,17 @@
+state={
+	id=11
+	name="Zerith Lands"
+	state_category = pastoral
+	provinces={
+		304 734 860 960 2014 2044 4643 
+	}
+	manpower=38213
+	history={
+		owner = ULD
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

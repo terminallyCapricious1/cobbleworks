@@ -1,0 +1,26 @@
+
+state={
+	id=42
+	name="South Sinatra Sewor"
+	history={
+		owner = SEW
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			2261 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = SEW
+		victory_points = {
+			763 20
+		}
+	}
+
+	provinces={
+		58 299 458 635 763 829 1658 2074 2087 2092 2261 2918 2959 2964 3105 4204 4207 4208 
+	}
+	manpower=1350000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

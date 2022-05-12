@@ -1,0 +1,27 @@
+
+state={
+	id=355
+	name="Avarian Crownlands"
+
+	history={
+		owner = AVR
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			infrastructure = 4
+
+		}
+		victory_points = {
+			3310 21 
+		}
+		add_core_of = AVR
+
+	}
+
+	provinces={
+		241 339 395 568 1420 1563 2756 3310 4308 4309 4310 
+	}
+	manpower=1600000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

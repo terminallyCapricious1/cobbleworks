@@ -1,0 +1,8 @@
+supply_area={
+	id=37
+	name="Libertalia"
+	value=0
+	states={
+		307 305 321 306 309 
+	}
+}

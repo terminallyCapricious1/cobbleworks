@@ -1,0 +1,25 @@
+state={
+	id=220
+	name="Nis Arkhall"
+	state_category = metropolis
+	provinces={
+		106 487 792 1358 1849 1859 2158 2162 2323 2472 2739 3086 3110 3803 3812 
+	}
+	manpower=1200000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2 
+			arms_factory = 2
+		}
+		victory_points = { #TWM
+			1859 15
+		}
+		victory_points = { #Nis Arkhall
+			3086 15
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

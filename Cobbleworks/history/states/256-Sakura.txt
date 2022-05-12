@@ -1,0 +1,22 @@
+state={
+	id=256
+	name="Sakura"
+	state_category = metropolis
+	provinces={
+		504 2178 2512 3117 3427 
+	}
+	manpower=1700000
+	history={
+		owner = PLG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			504 30		#Kitaichi
+		}
+		add_core_of = PLG
+	}
+	buildings_max_level_factor=1.000
+}

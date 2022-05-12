@@ -1,0 +1,9 @@
+
+supply_area={
+	id=2
+	name="South Andorn"
+	value=10
+	states={
+		124 123 132 129 137 409 
+	}
+}

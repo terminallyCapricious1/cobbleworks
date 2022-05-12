@@ -1,0 +1,25 @@
+state={
+	id=87
+	name="Burgamere"
+	state_category = metropolis
+	provinces={
+		116 164 172 180 228 370 507 580 787 980 1186 1944 2612 2930 3292 4167 4185 4190 
+	}
+	manpower=1750000
+	history={
+		owner = UBS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			1186 25		#Duragrad
+		}
+		victory_points = {
+			2930 6		#Shrewsburgh
+		}
+		add_core_of = UBS
+	}
+	buildings_max_level_factor=1.000
+}

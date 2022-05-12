@@ -1,0 +1,21 @@
+state={
+	id=221
+	name="Jharana"
+	state_category = town
+	provinces={
+		244 401 629 747 765 969 995 1252 1478 2055 2080 2685 2744 3093 3738 3750 3751 3758 3776 3779 
+	}
+	manpower=400000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+		}
+		victory_points = {
+			765 10 #Wood Hut
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

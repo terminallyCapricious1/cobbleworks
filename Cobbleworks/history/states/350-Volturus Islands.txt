@@ -1,0 +1,25 @@
+state={
+	id=350
+	name="Volturus Islands"
+	state_category = large_town
+	provinces={
+		1040 1195 1761 2242 2382 2781 3177 4381 4391 4726 
+	}
+	manpower=950000
+	history={
+		owner = POS
+		add_core_of = POS
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			1040 15		#Tvurs
+		}
+		victory_points = {
+			2242 5		#Nueva Sonora
+		}
+	}
+	buildings_max_level_factor=1.000
+}

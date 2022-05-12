@@ -1,0 +1,18 @@
+state={
+	id=39
+	state_category = town
+	name="Sinatra Sewor Island"
+	provinces={
+		139 687 1329 2200 2481 4720 4721 
+	}
+	manpower=129310
+	history={
+		owner = SEW
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = SEW
+	}
+	buildings_max_level_factor=1.000
+}

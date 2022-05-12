@@ -1,0 +1,17 @@
+state={
+	id=187
+	name="Upper Meza"
+	state_category = wasteland
+	provinces={
+		448 1223 2315 3627 3648 
+	}
+	manpower=28323
+	history={
+		owner = FLR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = FLR
+	}
+	buildings_max_level_factor=1.000
+}

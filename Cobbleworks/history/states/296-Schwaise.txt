@@ -1,0 +1,18 @@
+
+state={
+	id=296
+	name="Schwaize"
+	state_category = pastoral
+	provinces={
+		539 563 1524 1977 2245 2443 2714 2750 3909 3910 3922 
+	}
+	manpower=73922
+	history={
+		owner = AXR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = AXR
+	}
+	buildings_max_level_factor=1.000
+}

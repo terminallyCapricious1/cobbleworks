@@ -1,0 +1,21 @@
+state={
+	id=84
+	name="Morskaya"
+	state_category = town
+	provinces={
+		327 1064 1081 1897 1960 2551 3204 4168 4187 4200 
+	}
+	manpower=600000
+	history={
+		owner = UBS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			2551 5		#Morskaya
+		}
+		add_core_of = UBS
+	}
+	buildings_max_level_factor=1.000
+}

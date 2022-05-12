@@ -1,0 +1,8 @@
+supply_area={
+	id=21
+	name="Greater Regnum"
+	value=0
+	states={
+		56 59 62 63 61 57 416 419 415 
+	}
+}

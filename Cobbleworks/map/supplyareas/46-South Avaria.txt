@@ -1,0 +1,8 @@
+supply_area={
+	id=46
+	name="South Avaria"
+	value=0
+	states={
+		351 348 352 343 425 
+	}
+}

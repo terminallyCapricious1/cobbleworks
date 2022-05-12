@@ -1,0 +1,28 @@
+state={
+	id=28
+	state_category = megalopolis 
+	name="Northwest Aurora"
+	provinces={
+		38 82 385 599 1193 1307 1403 1766 1820 1976 2198 2206 2357 2372 2581 2725 3281 3315 3352 3374 4312 4316 4333 4342 4345 4352 4354 4361 4363 
+	}
+	manpower=8100000
+	history={
+		owner = ULD
+		victory_points = {
+			3374 50
+		}
+		victory_points = {
+			4312 20
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 6
+			industrial_complex = 6 
+			2965 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

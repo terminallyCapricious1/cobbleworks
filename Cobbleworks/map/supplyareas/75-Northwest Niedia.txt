@@ -1,0 +1,8 @@
+supply_area={
+	id=75
+	name="Northwest Niedia"
+	value=0
+	states={
+		213 214 211 212 
+	}
+}

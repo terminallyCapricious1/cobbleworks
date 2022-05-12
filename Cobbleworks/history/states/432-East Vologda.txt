@@ -1,0 +1,22 @@
+state={
+	id=432
+	name="East Vologda"
+	provinces={
+		1980 2912 3313 
+	}
+	state_category = town
+	history={
+		owner = RYZ
+		victory_points = {
+			1980 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = RYZ
+
+	}
+	manpower=523200
+	buildings_max_level_factor=1.000
+}

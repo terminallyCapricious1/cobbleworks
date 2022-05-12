@@ -1,0 +1,28 @@
+
+state={
+	id=115
+	name="Oakmarch-Shangcheng"
+	state_category = metropolis
+	provinces={
+		100 140 319 804 948 1466 1545 2489 2493 2901 3836 3852 
+	}
+	history={
+		owner = THI
+		victory_points = {
+			1545 20 #Tarnwick
+		}
+		victory_points = {
+			319 10 #Newbury
+		}
+		victory_points = {
+			3836 10 #Kyydrosil
+		}
+		buildings = {
+			infrastructure = 4 
+			arms_factory = 3
+		}
+		add_core_of = THI
+	}
+	manpower=2100000
+	buildings_max_level_factor=1.000
+}

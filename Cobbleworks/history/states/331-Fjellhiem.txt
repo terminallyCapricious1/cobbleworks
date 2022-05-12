@@ -1,0 +1,22 @@
+state={
+	id=331
+	name="Fjellheim"
+	state_category = metropolis
+	provinces={
+		32 731 1362 2624 
+	}
+	manpower=1200000
+	history={
+		owner = FJE
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2 
+			infrastructure = 4
+		}
+		victory_points = {
+			1362 20		#Fjellheim
+		}
+		add_core_of = FJE
+	}
+	buildings_max_level_factor=1.000
+}

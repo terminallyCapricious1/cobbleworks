@@ -1,0 +1,20 @@
+state={
+	id=386
+	name="Anni"
+	state_category = rural
+	provinces={
+		892 1298 1336 1602 1623 1882 1932 2212 2334 3233 4569 4595 
+	}
+	manpower=150232
+	history={
+		owner = FRO
+		victory_points = {
+			1602 5
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FRO
+	}
+	buildings_max_level_factor=1.000
+}

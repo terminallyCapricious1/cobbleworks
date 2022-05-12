@@ -1,0 +1,8 @@
+supply_area={
+	id=15
+	name="Bern Vralas"
+	value=0
+	states={
+		236 238 239 241 
+	}
+}

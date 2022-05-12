@@ -1,0 +1,17 @@
+state={
+	id=156
+	name="Nikupa"
+	state_category = pastoral
+	provinces={
+		328 726 1163 2425 2603 3399 3400 
+	}
+	manpower=34812
+	history={
+		owner = OWY
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = OWY
+	}
+	buildings_max_level_factor=1.000
+}

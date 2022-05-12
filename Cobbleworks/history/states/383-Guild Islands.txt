@@ -1,0 +1,22 @@
+state={
+	id=383
+	name="Guild Islands"
+	state_category = metropolis
+	provinces={
+		786 1574 2043 2060 2955 4332 4347 4368 4723 4724 4725 
+	}
+	manpower=1000000
+	history={
+		owner = SOU
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2 
+			infrastructure = 3
+		}
+		victory_points = {
+			786 10
+		}
+		add_core_of = SOU
+	}
+	buildings_max_level_factor=1.000
+}

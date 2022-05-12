@@ -1,0 +1,8 @@
+supply_area={
+	id=20
+	name="Kaahiru"
+	value=0
+	states={
+		43 44 51 48 39 
+	}
+}

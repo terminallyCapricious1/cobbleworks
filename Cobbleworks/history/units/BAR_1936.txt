@@ -1,0 +1,95 @@
+﻿division_template = {
+	name = "Bardonian Infantry"
+
+	#division_names_group = AFG_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+units = {
+	#BAR Army
+	division = {
+		name = "Mobius Division"
+		location = 2986
+		division_template = "Bardonian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Hands Regiment"
+		location = 2487
+		division_template = "Bardonian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Hands Regiment"
+		location = 338
+		division_template = "Revolutionary Guard"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Hands Regiment"
+		location = 638
+		division_template = "Bardonian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Dorasterrock Guard"
+		location = 3772
+		division_template = "Bardonian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "First Baykonian Band"
+		location = 1373
+		division_template = "Bardonian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Second Baykonian Band"
+		location = 3760
+		division_template = "Bardonian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Lobopolis Garrison"
+		location = 762
+		division_template = "Bardonian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Bardonian Royal Guard"
+		location = 1601
+		division_template = "Bardonian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Anti-Communist Brigade"
+		location = 1262
+		division_template = "Bardonian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Northern Guard I "
+		location = 1519
+		division_template = "Bardonian Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Northern Guard II "
+		location = 1918
+		division_template = "Bardonian Infantry"
+		start_experience_factor = 0.3
+	}
+}

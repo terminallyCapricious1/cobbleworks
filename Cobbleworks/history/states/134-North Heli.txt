@@ -1,0 +1,22 @@
+state={
+	id=134
+	name="North Heli"
+	state_category = town
+	provinces={
+		830 1100 1339 1674 1902 2164 2223 2661 2833 3392 3393 3430 
+	}
+	history={
+		owner = HEL
+		victory_points = {
+			1100 30
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
+		}
+		add_core_of = HEL
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+}

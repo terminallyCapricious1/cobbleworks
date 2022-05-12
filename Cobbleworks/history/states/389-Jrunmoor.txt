@@ -1,0 +1,17 @@
+state={
+	id=389
+	name="Jrunmoor"
+	state_category = pastoral
+	provinces={
+		191 525 909 963 1084 1421 1551 2380 2934 3111 4606 4613 
+	}
+	manpower=31821
+	history={
+		owner = FRO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FRO
+	}
+	buildings_max_level_factor=1.000
+}

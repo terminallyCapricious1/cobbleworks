@@ -1,0 +1,17 @@
+state={
+	id=255
+	name="Grovehelm"
+	state_category = pastoral
+	provinces={
+		340 386 834 882 2373 2517 2879 3487 
+	}
+	manpower=97291
+	history={
+		owner = ALI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ALI
+	}
+	buildings_max_level_factor=1.000
+}

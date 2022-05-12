@@ -1,0 +1,17 @@
+state={
+	id=45
+	state_category = tiny_island
+	name="West Sinatra Island"
+	provinces={
+		26 2674 4232 
+	}
+	history={
+		owner = SIN
+		buildings = {
+			infrastructure = 1		
+		}
+		add_core_of = SIN
+	}
+	manpower=12482
+	buildings_max_level_factor=1.000
+}

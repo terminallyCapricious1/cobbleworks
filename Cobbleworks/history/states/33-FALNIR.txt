@@ -1,0 +1,22 @@
+state={
+	id=33
+	name="Falnir"
+	state_category = metropolis
+	provinces={
+		1245 4592 4598 
+	}
+	manpower=1350000
+	history={
+		owner = FAL
+		victory_points = {
+			1245 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		add_core_of = FAL
+	}
+	buildings_max_level_factor=1.000
+}

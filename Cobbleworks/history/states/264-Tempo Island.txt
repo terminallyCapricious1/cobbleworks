@@ -1,0 +1,21 @@
+state={
+	id=264
+	name="Duran"
+	state_category = rural
+	provinces={
+		4691 
+	}
+	manpower=250000
+	history={
+		owner = PLG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			4691 5		#Duran
+		}
+		add_core_of = PLG
+	}
+	buildings_max_level_factor=1.000
+}

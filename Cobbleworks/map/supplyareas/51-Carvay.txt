@@ -1,0 +1,8 @@
+supply_area={
+	id=51
+	name="Carvay"
+	value=0
+	states={
+		181 47 413 165 65 162 161 163 164 209 
+	}
+}

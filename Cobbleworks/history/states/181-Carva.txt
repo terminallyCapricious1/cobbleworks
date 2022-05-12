@@ -1,0 +1,17 @@
+state={
+	id=181
+	name="Carva"
+	state_category = tiny_island
+	provinces={
+		2882 
+	}
+	manpower=33823
+	history={
+		owner = CAV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CAV
+	}
+	buildings_max_level_factor=1.000
+}

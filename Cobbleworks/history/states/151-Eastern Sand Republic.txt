@@ -1,0 +1,21 @@
+state={
+	id=151
+	name="Eastern Sand Republic"
+	state_category = rural
+	provinces={
+		136 308 1203 1265 1802 1918 2711 2902 3226 3446 3449 3471 
+	}
+	manpower=150000
+	history={
+		owner = BAR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			3226 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

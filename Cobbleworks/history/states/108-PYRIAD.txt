@@ -1,0 +1,18 @@
+
+state={
+	id=108
+	state_category = pastoral
+	name="Pyriad"
+	provinces={
+		88 346 848 1028 1198 1391 1513 1711 1786 1994 2743 2831 3203 3290 3349 4044 4078 4118 
+	}
+	manpower=350000
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

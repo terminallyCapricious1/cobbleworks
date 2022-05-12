@@ -1,0 +1,21 @@
+state={
+	id=336
+	name="Nyr Tlorn"
+	state_category = rural
+	provinces={
+		183 198 578 1143 1184 1321 1467 1598 1907 2260 2812 2990 3270 4162 4164 
+	}
+	manpower=350000
+	history={
+		owner = MDR
+		buildings = {
+			arms_factory = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			4164 10		#Nyr Tlorn
+		}
+		add_core_of = MDR
+	}
+	buildings_max_level_factor=1.000
+}

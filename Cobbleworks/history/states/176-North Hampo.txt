@@ -1,0 +1,18 @@
+state={
+	id=176
+	state_category = rural
+	name="North Hampo"
+	provinces={
+		466 1045 1541 1694 1895 2109 2186 2399 2518 2699 2893 3774 3793 
+	}
+	manpower=150000
+	history={
+		owner = ARL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1 
+		}
+		add_core_of = ARL
+	}
+	buildings_max_level_factor=1.000
+}

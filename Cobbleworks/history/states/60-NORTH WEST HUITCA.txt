@@ -1,0 +1,24 @@
+state={
+	id=60
+	state_category = town
+	name="Northwest Huitca"
+	provinces={
+		283 408 1070 1078 1481 1516 2252 2333 2471 2749 2914 3200 3982 4007 4021 4023 4032 4048 
+	}
+	manpower=550000
+	history={
+		owner = HUI
+		victory_points = {
+			1481 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			1481 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

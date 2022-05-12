@@ -1,0 +1,17 @@
+state={
+	id=168
+	name="West Erume"
+	state_category = rural
+	provinces={
+		320 678 1593 2368 3149 3820 3834 
+	}
+	history={
+		owner = ARL
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ARL
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+}

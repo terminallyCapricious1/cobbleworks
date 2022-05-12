@@ -1,0 +1,25 @@
+
+state={
+	id=122
+	name="Nebskoslavia"
+	state_category = town
+    history={
+		owner = RYZ
+		victory_points = {
+			1286 20
+		}
+		victory_points = {
+			3599 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		add_core_of = RYZ
+	}
+	provinces={
+		211 427 601 640 776 1000 1115 1286 1967 2009 2220 2530 3572 3574 3593 3599 
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+}

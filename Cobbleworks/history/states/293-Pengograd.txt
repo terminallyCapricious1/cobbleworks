@@ -1,0 +1,21 @@
+state={
+	id=293
+	name="Pengograd"
+	state_category = rural
+	provinces={
+		517 986 1046 1050 1539 1633 1828 3275 4015 4038 4051 
+	}
+	manpower=300000
+	history={
+		owner = AXR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			1539 5		#Aetia
+		}
+		add_core_of = AXR
+	}
+	buildings_max_level_factor=1.000
+}

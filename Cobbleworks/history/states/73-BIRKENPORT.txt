@@ -1,0 +1,21 @@
+state={
+	id=73
+	name="Birkenport"
+	provinces={
+		1494 1557 1587 1638 1643 1735 2466 3125 3592 
+	}
+	manpower=250000
+	state_category = town
+	history={
+		owner = BAR
+		victory_points = {
+			1557 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

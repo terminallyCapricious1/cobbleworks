@@ -1,0 +1,25 @@
+
+state={
+	id=323
+	state_category = rural
+	name="Nova Gora"
+	provinces={
+		203 373 530 697 1690 2564 2693 2945 4045 4056 4067 4093 
+	}
+	manpower=700000
+	history={
+		owner = SRF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1 
+		}
+		victory_points = {
+			4067 5
+		}
+		victory_points = {
+			4093 10
+		}
+		add_core_of = SRF
+	}
+	buildings_max_level_factor=1.000
+}

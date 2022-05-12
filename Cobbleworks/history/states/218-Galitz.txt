@@ -1,0 +1,21 @@
+state={
+	id=218
+	name="Galitz"
+	state_category = rural
+	provinces={
+		9 1098 1183 1400 1630 3689 3699 3707 3725 
+	}
+	manpower=220000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+		}
+		victory_points = {
+			9 5
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

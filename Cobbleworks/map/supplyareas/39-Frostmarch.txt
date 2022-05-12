@@ -1,0 +1,8 @@
+supply_area={
+	id=39
+	name="Frostmarch"
+	value=0
+	states={
+		389 390 393 385 386 387 384 388 
+	}
+}

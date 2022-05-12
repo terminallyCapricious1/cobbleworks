@@ -1,0 +1,8 @@
+supply_area={
+	id=50
+	name="North Avaria"
+	value=0
+	states={
+		349 344 347 345 346 
+	}
+}

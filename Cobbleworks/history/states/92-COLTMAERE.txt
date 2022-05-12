@@ -1,0 +1,17 @@
+state={
+	id=92
+	name="Coltmaere"
+	state_category = pastoral
+	provinces={
+		2095 2286 2386 4710 
+	}
+	manpower=42089
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,9 @@
+
+supply_area={
+	id=53
+	name="Axrella"
+	value=0
+	states={
+		331 332 293 292 428 
+	}
+}

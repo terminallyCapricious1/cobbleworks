@@ -1,0 +1,22 @@
+state={
+	id=132
+	name="Bizesonne"
+	state_category = metropolis
+	provinces={
+		521 655 715 1155 1600 2514 3617 3637 
+	}
+	manpower=1000000
+	history={
+		owner = BIZ
+		victory_points = {
+			3637 30
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3 
+		}
+		add_core_of = BIZ
+	}
+	buildings_max_level_factor=1.000
+}

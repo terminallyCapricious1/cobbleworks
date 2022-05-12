@@ -1,0 +1,22 @@
+
+state={
+	id=244
+	name="Grover Countryside"
+	state_category = rural
+	provinces={
+		314 2194 3230 3476 3484 3495 3497 
+	}
+	manpower=300000
+	history={
+		owner = ALI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			3476 5		#Ejroma
+		}
+		add_core_of = ALI
+	}
+	buildings_max_level_factor=1.000
+}

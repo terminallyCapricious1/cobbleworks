@@ -1,0 +1,29 @@
+
+state={
+	id=164
+	name="Carvay"
+	state_category = metropolis
+	provinces={
+		67 515 551 1022 1361 1474 1998 2701 2776 3385 3989 4002 
+	}
+	manpower=2450000
+	history={
+		owner = CAV
+		victory_points = {
+			1022 20 #Carvay
+		}
+		victory_points = {
+			67 10 #Port Ravenus
+		}
+		victory_points = {
+			1998 10 #Kamigawa
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		add_core_of = CAV
+	}
+	buildings_max_level_factor=1.000
+}

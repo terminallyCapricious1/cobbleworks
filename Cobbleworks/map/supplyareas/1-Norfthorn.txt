@@ -1,0 +1,8 @@
+supply_area={
+	id=1
+	name="Norfthorn"
+	value=3
+	states={
+		141 142 140 
+	}
+}

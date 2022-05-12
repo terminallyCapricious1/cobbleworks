@@ -1,0 +1,17 @@
+state={
+	id=317
+	name="East Cibor Forests"
+	state_category = pastoral
+	provinces={
+		389 631 749 769 1589 2028 2571 4525 4540 4552 4728 
+	}
+	manpower=38282
+	history={
+		owner = VIO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

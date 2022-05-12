@@ -1,0 +1,9 @@
+
+supply_area={
+	id=13
+	name="South Fish"
+	value=0
+	states={
+		153 154 144 155 149 146 145 138 407 
+	}
+}

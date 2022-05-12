@@ -1,0 +1,32 @@
+
+state={
+	id=26
+	state_category = metropolis
+	name="Hapatmitas"
+	provinces={
+		115 133 360 649 1229 1398 1480 1500 1586 1774 1870 1936 2096 2444 2573 3264 3345 4305 4314 4326 4329 4340 4346 4353 4364 4370 
+	}
+	manpower=3121200
+	history={
+		owner = ULD
+		victory_points = {
+			2444 15
+		}
+		victory_points = {
+			4329 20
+		}
+		victory_points = {
+			1936 10
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3 
+			2010 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

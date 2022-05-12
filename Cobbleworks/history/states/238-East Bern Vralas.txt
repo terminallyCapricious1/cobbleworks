@@ -1,0 +1,31 @@
+state={
+	id=238
+	name="East Bern Vralas"
+	state_category = megalopolis
+	provinces={
+		109 437 1125 2049 2173 2681 2807 2818 3532 
+	}
+	manpower=2750000
+	history={
+		owner = OWY
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		victory_points = {
+			2173 5		#Hayat
+		}
+		victory_points = {
+			3532 16		#Frostarch Keep
+		}
+		victory_points = {
+			109 20		#Vhagaria
+		}
+		victory_points = {
+			2809 35		#Duskopion
+		}
+		add_core_of = OWY
+	}
+	buildings_max_level_factor=1.000
+}

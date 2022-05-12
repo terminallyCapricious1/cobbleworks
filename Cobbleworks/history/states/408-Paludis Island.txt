@@ -1,0 +1,17 @@
+state={
+	id=408
+	name="Paludis Island"
+	state_category = tiny_island
+	provinces={
+		2126 3523 
+	}
+	manpower=20932
+	history={
+		owner = ALI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ALI
+	}
+	buildings_max_level_factor=1.000
+}

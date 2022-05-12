@@ -1,0 +1,14 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_axyr"
+		texturefile = "gfx/interface/ideas/idea_axyr.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_crezy"
+		texturefile = "gfx/interface/ideas/idea_crezy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ice"
+		texturefile = "gfx/interface/ideas/idea_ice.dds"
+	}
+}

@@ -1,0 +1,8 @@
+supply_area={
+	id=35
+	name="Viodoxa Islands"
+	value=0
+	states={
+		299 320 
+	}
+}

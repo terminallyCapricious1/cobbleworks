@@ -1,0 +1,18 @@
+state={
+	id=106
+	name="Calor"
+	state_category = rural
+	provinces={
+		930 1114 2332 3035 3182 4230 4252 
+	}
+	manpower=200000
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

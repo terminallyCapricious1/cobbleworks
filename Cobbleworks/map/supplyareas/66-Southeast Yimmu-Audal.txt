@@ -1,0 +1,8 @@
+supply_area={
+	id=66
+	name="Southeast Yimmu-Audal"
+	value=0
+	states={
+		107 108 101 103 
+	}
+}

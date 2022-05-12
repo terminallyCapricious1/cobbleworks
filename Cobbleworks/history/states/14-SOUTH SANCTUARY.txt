@@ -1,0 +1,21 @@
+state={
+	id=14
+	name="South Sanctuary"
+	state_category = rural
+	provinces={
+		103 153 188 505 1142 1247 1903 2181 2400 2464 2560 2822 3241 3287 4475 4482 4492 4503 4514 4531 
+	}
+	manpower=423000
+	buildings_max_level_factor=1.000
+	history={
+		owner = ULD
+		victory_points = {
+			1247 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = ULD
+	}
+}

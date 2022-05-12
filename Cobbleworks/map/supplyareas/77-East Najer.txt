@@ -1,0 +1,9 @@
+
+supply_area={
+	id=77
+	name="East Najer"
+	value=0
+	states={
+		206 203 205 204 429 
+	}
+}

@@ -1,0 +1,17 @@
+state={
+	id=310
+	name="Hireathium"
+	state_category = rural
+	provinces={
+		62 495 2029 2175 2312 2479 2638 2869 3034 3064 3168 3288 4563 4575 4594 4602 4656 
+	}
+	manpower=200200
+	history={
+		owner = VIO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

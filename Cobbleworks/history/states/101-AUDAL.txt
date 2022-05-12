@@ -1,0 +1,26 @@
+
+state={
+	id=101
+	state_category = metropolis
+	name="Urnu-Arrak"
+	provinces={
+		220 412 475 516 1384 1485 1678 1843 2327 2389 2615 2618 3096 4042 4053 4057 4071 4073 4075 
+	}
+	manpower=2650000
+	history={
+		owner = THI
+		victory_points = {
+			220 40 #Urnu-Arrak
+		}
+		victory_points = {
+			1678 15 #Amos
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 3
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

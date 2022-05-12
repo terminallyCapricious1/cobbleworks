@@ -1,0 +1,8 @@
+supply_area={
+	id=67
+	name="Northwest Yimmu-Audal"
+	value=0
+	states={
+		95 94 93 112 
+	}
+}

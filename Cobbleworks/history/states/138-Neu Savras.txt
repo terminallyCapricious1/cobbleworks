@@ -1,0 +1,25 @@
+state={
+	id=138
+	name="Neu Savras"
+	state_category = town
+	provinces={
+		1169 1382 1637 3475 3485 
+	}
+	history={
+		owner = NSV
+		victory_points = {
+			3485 10
+		}
+		buildings = {
+			3485 = {
+				naval_base = 2
+			}
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = NSV
+	}
+	manpower=650000
+	buildings_max_level_factor=1.000
+}

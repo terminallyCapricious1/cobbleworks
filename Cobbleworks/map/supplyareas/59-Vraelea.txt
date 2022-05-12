@@ -1,0 +1,8 @@
+supply_area={
+	id=59
+	name="Vraelea"
+	value=0
+	states={
+		329 330 
+	}
+}

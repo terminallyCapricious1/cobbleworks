@@ -1,0 +1,28 @@
+state={
+	id=203
+	name="Pomjad"
+	state_category = megalopolis
+	provinces={
+		130 137 231 344 368 443 456 528 894 1039 1285 1322 1338 1570 2086 2151 2157 2241 2428 2469 2501 2619 2755 2895 3099 3366 3550 3555 3562 3578 3589 3594 
+	}
+	manpower=2200000
+	history = {
+		owner = NAJ
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			456 20		#Campus_Ordo
+		}
+		victory_points = {
+			894 20		#Nahrayn
+		}
+		victory_points = {
+			2151 20		#Murmudas
+		}
+		add_core_of = NAJ
+	}
+	buildings_max_level_factor=1.000
+}

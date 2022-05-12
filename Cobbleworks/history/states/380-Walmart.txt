@@ -1,0 +1,18 @@
+state={
+	id=380
+	state_category = town
+	name="Walmart"
+	provinces={
+		1020 2950 3210 4449 4458 
+	}
+	manpower=38510
+	history={
+		owner = VAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3 
+		}
+		add_core_of = VAN
+	}
+	buildings_max_level_factor=1.000
+}

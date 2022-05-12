@@ -1,0 +1,21 @@
+state={
+	id=162
+	name="Kawalapua"
+	state_category = rural
+	provinces={
+		56 150 181 944 991 1133 1667 1948 2243 2631 2718 2766 2852 3242 3896 3911 3929 3939 3953 
+	}
+	manpower=450000
+	history={
+		owner = CAV
+		victory_points = {
+			56 5 #Chapeco
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = CAV
+	}
+	buildings_max_level_factor=1.000
+}

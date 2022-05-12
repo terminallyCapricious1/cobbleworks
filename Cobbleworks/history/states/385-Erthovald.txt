@@ -1,0 +1,27 @@
+state={
+	id=385
+	name="Erthovald"
+	state_category = town
+	provinces={
+		201 226 564 611 704 1356 1359 1660 1835 1880 2042 2051 2073 2736 2992 2999 4513 4515 4530 4536 
+	}
+	manpower=450000
+	history={
+		owner = FRO
+		victory_points = {
+			1356 5
+		}
+		victory_points = {
+			1359 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1356 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = FRO
+	}
+	buildings_max_level_factor=1.000
+}

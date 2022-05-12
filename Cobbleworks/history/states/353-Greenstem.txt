@@ -1,0 +1,17 @@
+state={
+	id=353
+	name="Eastend Greenstem"
+	state_category = pastoral
+	provinces={
+		1890 2170 4216 4223 
+	}
+	manpower=39283
+	history={
+		owner = GRN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GRN
+	}
+	buildings_max_level_factor=1.000
+}

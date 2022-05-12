@@ -1,0 +1,21 @@
+state={
+	id=311
+	name="Castra Morta"
+	state_category = town
+	provinces={
+		42 222 477 1240 1450 2239 2655 2878 3231 3300 4577 4587 4600 4610 4626 
+	}
+	manpower=700000
+	history={
+		owner = VIO
+		buildings = {
+			arms_factory = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			2239 10
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=292
+	name="Axrella"
+	state_category = metropolis
+	provinces={
+		35 143 435 707 926 1253 1486 1714 2467 2541 2742 3956 3988 4005 4028 4031 
+	}
+	manpower=1350000
+	buildings_max_level_factor=1.000
+	history={
+		owner = AXR
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2 
+			infrastructure = 3
+		}
+		victory_points = {
+			3956 15		#Solograd
+		}
+		victory_points = {
+			2742 20		#Vosokogrod
+		}
+		add_core_of = AXR
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=78
+	name="Gdanyc"
+	state_category = metropolis
+	provinces={
+		261 306 798 1137 1316 1492 1732 2486 2994 3580 3598 3619 3620 
+	}
+	manpower=1150000
+	history={
+		owner = BAR
+		victory_points = {
+			3580 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

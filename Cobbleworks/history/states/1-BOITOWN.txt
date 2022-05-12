@@ -1,0 +1,18 @@
+state={
+	id=1
+	name="Boitown"
+	state_category = town
+	provinces={
+		196 569 1597 2741 3058 3065 4264 4271 4281 4289 4301 
+	}
+	manpower=432000
+	history={
+		owner = ULD
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

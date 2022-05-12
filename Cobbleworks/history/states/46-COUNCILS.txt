@@ -1,0 +1,26 @@
+
+state={
+	id=46
+	state_category = town
+	name="Councils"
+	history={
+		owner = KOC
+		victory_points = {
+			1330 5
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			1330 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = KOC
+	}
+	provinces={
+		121 356 554 901 1330 4035 4062 4066 
+	}
+	manpower=284292
+	buildings_max_level_factor=1.000
+}

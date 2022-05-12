@@ -1,0 +1,18 @@
+state={
+	id=50
+	state_category = pastoral
+	name="Outer Ardat-Mosul"
+	provinces={
+		250 4179 
+	}
+	history={
+		owner = ARD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = ARD
+	}
+	manpower=24000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=116
+	name="Ryzan"
+	provinces={
+		891 1215 1405 1733 1900 2506 2873 3694 3698 3730 3741 
+	}
+	manpower=650000
+	state_category = rural
+	history={
+		owner = RYZ
+		victory_points = {
+			2506 20
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = RYZ
+	}
+	buildings_max_level_factor=1.000
+}

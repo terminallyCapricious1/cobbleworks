@@ -1,0 +1,8 @@
+supply_area={
+	id=76
+	name="East Simulami"
+	value=0
+	states={
+		193 196 190 192 188 191 
+	}
+}

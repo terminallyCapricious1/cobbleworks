@@ -1,0 +1,25 @@
+state={
+	id=362
+	name="Adris"
+	state_category = megalopolis
+	provinces={
+		737 777 1495 1803 1911 1919 1945 2036 2707 3216 4242 4259 4270 4285 4286 
+	}
+	manpower=3100000
+	history={
+		owner = AKR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 3 
+			infrastructure = 4
+		}
+		victory_points = {
+			4270 35		#Friholm
+		}
+		victory_points = {
+			1842 20		#Jovheim
+		}
+		add_core_of = AKR
+	}
+	buildings_max_level_factor=1.000
+}

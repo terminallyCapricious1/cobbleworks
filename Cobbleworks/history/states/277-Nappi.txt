@@ -1,0 +1,25 @@
+state={
+	id=277
+	name="Nappi"
+	state_category = town
+	provinces={
+		997 1254 1290 2267 2303 2375 2383 3101 3194 3341 3573 3582 3584 3616 
+	}
+	manpower=600000
+	history={
+		owner = SLT
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			infrastructure = 3
+		}
+		victory_points = {
+			997 10		#Nappi
+		}
+		victory_points = {
+			1290 5		#Purgatio
+		} 
+		add_core_of = SLT
+	}
+	buildings_max_level_factor=1.000
+}

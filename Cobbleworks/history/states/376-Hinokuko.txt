@@ -1,0 +1,22 @@
+state={
+	id=376
+	name="Hinokuko"
+	state_category = large_town
+	provinces={
+		534 1819 2113 2553 4261 4294 
+	}
+	manpower=900000
+	history={
+		owner = HIN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1 
+		}
+		victory_points = {
+			4261 20	#Revaria
+		}
+		add_core_of = HIN
+	}
+	buildings_max_level_factor=1.000
+}

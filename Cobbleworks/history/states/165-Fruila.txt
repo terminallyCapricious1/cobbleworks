@@ -1,0 +1,21 @@
+state={
+	id=165
+	state_category = rural
+	name="Fruila"
+	provinces={
+		335 431 1171 2039 2197 2250 3967 3970 3978 3999 4000 4008 
+	}
+	manpower=600000
+	history={
+		owner = CAV
+		victory_points = {
+			3970 10 #PortaFiume
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = CAV
+	}
+	buildings_max_level_factor=1.000
+}

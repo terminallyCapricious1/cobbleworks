@@ -1,0 +1,25 @@
+state={
+	id=402
+	name="Lumaire"
+	state_category = metropolis
+	provinces={
+		11 460 849 1059 1167 1953 2430 2450 2453 2576 4528 4534 4539 4553 4556 4572 
+	}
+	manpower=1100000
+	history={
+		owner = SOU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2 
+			arms_factory = 1
+		}
+		victory_points = {
+			1167 15	#Lumaire
+		}
+		victory_points = {
+			2450 15	#Windcliff
+		}
+		add_core_of = SOU
+	}
+	buildings_max_level_factor=1.000
+}

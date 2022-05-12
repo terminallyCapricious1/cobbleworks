@@ -1,0 +1,24 @@
+state={
+	id=47
+	name="Inades"
+	provinces={
+		1052 
+	}
+	state_category = pastoral
+	history={
+		owner = INA
+		victory_points = {
+			1052 15
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			1052 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = INA
+	}
+	manpower=129487
+	buildings_max_level_factor=1.000
+}

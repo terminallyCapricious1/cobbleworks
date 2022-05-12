@@ -1,0 +1,22 @@
+state={
+	id=142
+	name="Southwest Norfthorn"
+	state_category = metropolis
+	provinces={
+		19 332 423 725 1130 1372 1394 2101 2401 2547 2773 2787 2791 3543 3551 3583 3591 
+	}
+	manpower=1300000
+	history={
+		owner = NRF
+		victory_points = {
+			1394 30
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3 
+		}
+		add_core_of = NRF
+	}
+	buildings_max_level_factor=1.000
+}

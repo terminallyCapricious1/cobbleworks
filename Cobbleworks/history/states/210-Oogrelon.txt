@@ -1,0 +1,18 @@
+state={
+	id=210
+	name="Oogrelon"
+	state_category = rural
+	provinces={
+		77 269 976 1342 1908 2535 2636 3674 3695 
+	}
+	history={
+		owner = BAR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BAR
+	}
+	manpower=63020
+	buildings_max_level_factor=1.000
+}

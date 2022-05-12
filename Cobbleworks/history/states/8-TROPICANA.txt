@@ -1,0 +1,21 @@
+state={
+	id=8
+	state_category = rural
+	name="Tropicana"
+	provinces={
+		486 956 1015 1293 1310 1673 2335 2510 2585 2657 2810 2858 3170 3240 3308 4555 4565 4593 
+	}
+	manpower=300000
+	history={
+		owner = ULD
+		victory_points = {
+			1310 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

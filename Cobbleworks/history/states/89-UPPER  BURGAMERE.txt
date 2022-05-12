@@ -1,0 +1,17 @@
+state={
+	id=89
+	name="Marxcow"
+	state_category = pastoral
+	provinces={
+		175 235 343 1613 2256 2272 4132 4142 
+	}
+	manpower=61282
+	history={
+		owner = UBS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = UBS
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=241
+	name="Bekiw Lor"
+	state_category = pastoral
+	provinces={
+		723 851 908 1599 2266 2449 2838 3305 3348 3517 
+	}
+	manpower=93819
+	history={
+		owner = OWY
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = OWY
+	}
+	buildings_max_level_factor=1.000
+}

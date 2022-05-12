@@ -1,0 +1,21 @@
+state={
+	id=81
+	name="Red Pheonix"
+	state_category = town
+	provinces={
+		157 739 751 900 1259 1282 1558 1719 2106 2525 2680 3197 4254 4277 4287 4293 
+	}
+	manpower=550000
+	history={
+		owner = UBS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			4277 10		#Red Pheonix
+		}
+		add_core_of = UBS
+	}
+	buildings_max_level_factor=1.000
+}

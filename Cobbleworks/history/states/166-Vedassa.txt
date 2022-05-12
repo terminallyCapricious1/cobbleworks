@@ -1,0 +1,18 @@
+state={
+	id=166
+	name="Vedassa"
+	state_category = rural
+	provinces={
+		403 1682 2069 2120 2129 2248 2644 2735 3587 3600 3607 
+	}
+	manpower=142922
+	history={
+		owner = ARL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = ARL
+	}
+	buildings_max_level_factor=1.000
+}

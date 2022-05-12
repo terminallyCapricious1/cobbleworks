@@ -1,0 +1,25 @@
+
+state={
+	id=314
+	name="Nova Carian Forests"
+	state_category = town
+	provinces={
+		111 406 452 711 760 1363 1408 2461 2669 2678 2688 3015 3108 4520 4558 4570 
+	}
+	manpower=700000
+	history={
+		owner = VIO
+		buildings = {
+			industrial_complex = 2 
+			infrastructure = 2
+		}
+		victory_points = {
+			1408 10
+		}
+		victory_points = {
+			2678 10
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

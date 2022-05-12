@@ -1,0 +1,25 @@
+state={
+	id=44
+	state_category = town
+	name="Sinatra Sewor"
+	provinces={
+		134 679 1112 1813 2010 2075 2159 2174 2342 2765 3080 3084 3103 4131 4154 4176 
+	}
+	history={
+		owner = SEW
+		victory_points = {
+			4154 15
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2 
+			2010 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = SEW
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+}

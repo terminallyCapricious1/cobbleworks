@@ -1,0 +1,17 @@
+state={
+	id=370
+	state_category = rural
+	name="Meydan"
+	provinces={
+		227 1220 1360 2059 3367 4205 
+	}
+	manpower=95824
+	history={
+		owner = SIR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SIR
+	}
+	buildings_max_level_factor=1.000
+}

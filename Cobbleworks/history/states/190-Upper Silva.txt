@@ -1,0 +1,22 @@
+state={
+	id=190
+	name="Silva"
+	state_category = large_town
+	provinces={
+		365 1079 1150 1704 1839 2145 2347 2420 2727 3323 3690 3703 3709 
+	}
+	manpower=800000
+	history={
+		owner = FLR
+		buildings = {
+			arms_factory = 1 
+			industrial_complex = 1
+			infrastructure = 4
+		}
+		victory_points = {
+			3690 20		#Silva
+		}
+		add_core_of = FLR
+	}
+	buildings_max_level_factor=1.000
+}

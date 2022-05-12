@@ -1,0 +1,17 @@
+state={
+	id=259
+	name="Southern Chroniclers"
+	state_category = wasteland
+	provinces={
+		2298 3443 3448 
+	}
+	history={
+		owner = CHR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CHR
+	}
+	manpower=6382
+	buildings_max_level_factor=1.000
+}

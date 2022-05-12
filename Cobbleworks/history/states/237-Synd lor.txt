@@ -1,0 +1,21 @@
+state={
+	id=237
+	name="Synd Lor"
+	state_category = town
+	provinces={
+		262 1154 1371 1473 1490 1575 2135 3470 3480 
+	}
+	history={
+		owner = OWY
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			1154 20		#RosehillCastle
+		}
+		add_core_of = OWY
+	}
+	manpower=850000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=10
+	name="Eastern Territories"
+	state_category = rural
+	provinces={
+		831 1277 1340 1488 1562 1588 1692 1764 1865 2102 2246 2614 2747 2803 3134 3342 3372 3382 4545 4551 
+	}
+	history={
+		owner = ULD
+		victory_points = {
+			1488 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = ULD
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+}

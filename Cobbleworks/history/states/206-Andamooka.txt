@@ -1,0 +1,29 @@
+
+state={
+	id=206
+	name="Andamooka"
+	state_category = metropolis
+	provinces={
+		145 179 208 300 949 1088 1751 2040 2070 3102 3351 3661 3663 3679 3681 3687 3691 3692 3710 3715 3723 3731 
+	}
+	manpower=1500000
+	history={
+		owner = NAJ
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2 
+			infrastructure = 3
+		}
+		victory_points = {
+			3692 15		#Sigtuna
+		}
+		victory_points = {
+			3723 20		#Skahashi
+		}
+		victory_points = {
+			3731 15		#Sigtuna_Nafar
+		}
+		add_core_of = NAJ
+	}
+	buildings_max_level_factor=1.000
+}

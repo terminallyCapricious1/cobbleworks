@@ -1,0 +1,9 @@
+
+supply_area={
+	id=8
+	name="South Aurlunor"
+	value=0
+	states={
+		176 169 183 143 167 168 177 410 118 
+	}
+}

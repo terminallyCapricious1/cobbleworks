@@ -1,0 +1,17 @@
+state={
+	id=410
+	state_category = tiny_island
+	name="East Deutzan Island"
+	provinces={
+		4709 
+	}
+	manpower=12843
+	history={
+		owner = RYZ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RYZ
+	}
+	buildings_max_level_factor=1.000
+}

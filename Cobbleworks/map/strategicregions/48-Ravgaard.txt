@@ -1,0 +1,9 @@
+strategic_region={
+	id=48
+	name="Ravgaard"
+	provinces={
+		927 1446 1884 1888 2780 3131 3180 
+	}
+	weather={
+	}
+}

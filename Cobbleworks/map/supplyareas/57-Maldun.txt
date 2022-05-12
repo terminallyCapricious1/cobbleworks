@@ -1,0 +1,8 @@
+supply_area={
+	id=57
+	name="Maldun"
+	value=0
+	states={
+		298 297 290 
+	}
+}

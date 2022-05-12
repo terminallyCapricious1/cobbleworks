@@ -1,0 +1,168 @@
+BAR_puppet = {
+	bard_westreach = {
+
+		allowed = {
+            has_completed_focus = BAR_establish_the_westreach_protectorate
+        }
+
+        cost = 50
+        fire_only_once = yes
+
+        available = {
+        	has_completed_focus = BAR_establish_the_westreach_protectorate
+			NOT = {
+				country_exists = RYZ
+			}
+       		controls_state = 119
+			controls_state = 122
+			controls_state = 121
+			controls_state = 120
+			controls_state = 120
+			controls_state = 120
+			controls_state = 117
+			controls_state = 432
+        }
+
+        visible = {
+		}
+
+        complete_effect = {
+			RYZ = {
+				IF = {
+					BAR = {
+						controls_state = 194
+						controls_state = 118
+					}
+	       			transfer_state = 194
+					transfer_state = 118
+				}
+       			transfer_state = 119
+				transfer_state = 122
+				transfer_state = 121
+				transfer_state = 120
+				transfer_state = 120
+				transfer_state = 120
+				transfer_state = 117
+				transfer_state = 432
+				transfer_state = 116
+				set_cosmetic_tag = RYZ_Westreach
+				set_politics = {
+					ruling_party = neutrality
+				    elections_allowed = no
+				    last_election = "1935.12.17"
+				    election_frequency = 48
+				    long_name = BOA_party_long
+				    name = BOA
+				}
+				create_country_leader = {
+					name = "Jacob Azurov"
+					desc = "POLITICS_JOSEF_TERBOVEN_DESC"
+					picture = GFX_portrait_Jacob_Azurov
+					expire = "1965.1.1"
+					ideology = Moderatism
+					traits = {}
+				}
+			}
+			BAR = {
+				puppet = RYZ
+				set_autonomy = { target = RYZ autonomy_state = autonomy_integrated_puppet }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+BAR_equipment = {
+	BAR_eq_NIE = {
+
+		allowed = {
+            is_in_faction_with = NIE
+        }
+
+        cost = 50
+        fire_only_once = yes
+
+        available = {
+        	is_in_faction_with = NIE
+			has_equipment = {
+			    infantry_equipment_1 > 1000
+			}
+        }
+
+        visible = {
+		}
+
+        complete_effect = {
+			send_equipment = {
+			    equipment = infantry_equipment
+			    amount = 1000
+			    target = NIE
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	BAR_eq_HUI = {
+
+		allowed = {
+            is_in_faction_with = HUI
+        }
+
+        cost = 50
+        fire_only_once = yes
+
+        available = {
+        	is_in_faction_with = HUI
+			has_equipment = {
+			    infantry_equipment_1 > 1000
+			}
+        }
+
+        visible = {
+		}
+
+        complete_effect = {
+			send_equipment = {
+			    equipment = infantry_equipment
+			    amount = 1000
+			    target = HUI
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	BAR_eq_CAV = {
+
+		allowed = {
+            is_in_faction_with = CAV
+        }
+
+        cost = 50
+        fire_only_once = yes
+
+        available = {
+        	is_in_faction_with = CAV
+			has_equipment = {
+			    infantry_equipment_1 > 1000
+			}
+        }
+
+        visible = {
+		}
+
+        complete_effect = {
+			send_equipment = {
+			    equipment = infantry_equipment
+			    amount = 1000
+			    target = CAV
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

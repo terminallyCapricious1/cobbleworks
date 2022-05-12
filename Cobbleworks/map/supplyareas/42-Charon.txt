@@ -1,0 +1,8 @@
+supply_area={
+	id=42
+	name="Charon"
+	value=0
+	states={
+		312 304 302 
+	}
+}

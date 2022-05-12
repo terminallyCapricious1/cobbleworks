@@ -1,0 +1,20 @@
+state={
+	id=182
+	name="West Bardon Island"
+	state_category = tiny_island 
+	provinces={
+		2933 
+	}
+	manpower=21382
+	history={
+		owner = BAR
+		buildings = {
+			infrastructure = 1
+			2933 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

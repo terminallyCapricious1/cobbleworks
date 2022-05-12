@@ -1,0 +1,17 @@
+state={
+	id=420
+	state_category = tiny_island
+	name="Myrmark Island"
+	provinces={
+		3263 
+	}
+	history={
+		owner = SIR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SIR
+	}
+	manpower=28518
+	buildings_max_level_factor=1.000
+}

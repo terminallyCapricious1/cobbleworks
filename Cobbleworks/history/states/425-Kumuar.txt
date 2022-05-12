@@ -1,0 +1,21 @@
+state={
+	id=425
+	name="Kumuar"
+	state_category = rural
+	provinces={
+		371 
+	}
+	manpower=400000
+	history={
+		owner = VIO
+		buildings = {
+			industrial_complex = 1 
+			infrastructure = 2
+		}
+		victory_points = {
+			371 5		#Kumuar
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

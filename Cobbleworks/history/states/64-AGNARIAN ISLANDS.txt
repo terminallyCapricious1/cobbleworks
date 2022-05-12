@@ -1,0 +1,22 @@
+state={
+	id=64
+	state_category = town
+	name="Agnarian Islands"
+	provinces={
+		2529 4003 4017 4716 
+	}
+	history={
+		owner = AGN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			4003 10
+		}
+		add_core_of = AGN
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+}

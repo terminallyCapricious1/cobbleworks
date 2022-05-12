@@ -1,0 +1,17 @@
+state={
+	id=427
+	name="Kemon"
+	state_category = tiny_island
+	provinces={
+		2218 3189 3195 
+	}
+	history={
+		owner = VIO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VIO
+	}
+	manpower=1922
+	buildings_max_level_factor=1.000
+}

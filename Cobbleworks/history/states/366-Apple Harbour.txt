@@ -1,0 +1,17 @@
+state={
+	id=366
+	name="Apple Harbour"
+	state_category = pastoral
+	provinces={
+		122 581 984 1026 1191 1433 1689 2982 3248 3355 4389 4404 4414 4454 
+	}
+	manpower=129122
+	history={
+		owner = AKR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AKR
+	}
+	buildings_max_level_factor=1.000
+}

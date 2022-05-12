@@ -1,0 +1,21 @@
+state={
+	id=170
+	state_category = town
+	name="Alvada"
+	provinces={
+		705 1482 1697 1800 2025 2227 3010 3615 3621 3623 3653 
+	}
+	history={
+		owner = ARL
+		victory_points = {
+			3615 15
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = ARL
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+}

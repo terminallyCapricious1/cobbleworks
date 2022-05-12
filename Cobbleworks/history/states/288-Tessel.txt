@@ -1,0 +1,21 @@
+state={
+	id=288
+	name="Tessel"
+	state_category = rural
+	provinces={
+		113 213 2078 3160 3218 3322 3814 3816 3833 3840 
+	}
+	manpower=200000
+	history={
+		owner = VIO
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			3833 5		#Shu-Koji
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

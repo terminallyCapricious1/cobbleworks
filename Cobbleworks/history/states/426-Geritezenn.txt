@@ -1,0 +1,17 @@
+state={
+	id=426
+	name="Kogyir"
+	state_category = tiny_island
+	provinces={
+		4527 
+	}
+	manpower=2006
+	history={
+		owner = VIO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

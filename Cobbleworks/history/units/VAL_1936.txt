@@ -1,0 +1,47 @@
+﻿division_template = {
+	name = "Vallian Legion"
+
+	#division_names_group = AFG_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+units = {
+	#BAR Army
+	division = {
+		name = "Harvbarr's Batallion"
+		location = 422
+		division_template = "Vallian Legion"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Western Guard"
+		location = 422
+		division_template = "Vallian Legion"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Eastern Guard"
+		location = 422
+		division_template = "Vallian Legion"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Valle Strikers"
+		location = 422
+		division_template = "Vallian Legion"
+		start_experience_factor = 0.3
+	}
+}

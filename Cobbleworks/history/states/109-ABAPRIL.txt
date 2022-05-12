@@ -1,0 +1,18 @@
+
+state={
+	id=109
+	state_category = rural
+	name="Abapril"
+	provinces={
+		14 398 1097 1334 1553 2179 2598 3144 3214 4083 4122 4150 
+	}
+	manpower=150000
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

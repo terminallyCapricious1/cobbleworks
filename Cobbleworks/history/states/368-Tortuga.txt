@@ -1,0 +1,22 @@
+state={
+	id=368
+	name="Tortuga"
+	state_category = metropolis
+	provinces={
+		3021 
+	}
+	manpower=1250000
+	history={
+		owner = TOR
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2 
+			infrastructure = 3
+		}
+		victory_points = {
+			3021 20
+		}
+		add_core_of = TOR
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,8 @@
+supply_area={
+	id=26
+	name="South Meramhold"
+	value=0
+	states={
+		10 9 7 
+	}
+}

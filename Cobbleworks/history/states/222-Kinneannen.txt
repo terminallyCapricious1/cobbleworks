@@ -1,0 +1,23 @@
+state={
+	id=222
+	name="Kinneannen"
+	state_category = rural
+	provinces={
+		194 317 374 405 732 1161 1225 1248 1323 1438 1608 1817 2077 2365 2537 2647 2717 2729 2752 2785 2941 3756 3786 3791 3798 3806 3813 
+	}
+	manpower=550000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			3813 5
+		}
+		victory_points = {
+			3791 5
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

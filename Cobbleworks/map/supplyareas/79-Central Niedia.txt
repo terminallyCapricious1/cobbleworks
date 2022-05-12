@@ -1,0 +1,9 @@
+
+supply_area={
+	id=79
+	name="Central Niedia"
+	value=0
+	states={
+		114 115 99 222 220 431 
+	}
+}

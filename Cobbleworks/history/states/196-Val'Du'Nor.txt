@@ -1,0 +1,21 @@
+state={
+	id=196
+	name="Val Du Nor"
+	state_category = town
+	provinces={
+		330 743 1206 1428 1449 3002 3768 3783 3792 3804 
+	}
+	manpower=400000
+	history={
+		owner = MUV
+		buildings = {
+			arms_factory = 1 
+			infrastructure = 3
+		}
+		victory_points = {
+			330 5		#Vylkir
+		}
+		add_core_of = MUV
+	}
+	buildings_max_level_factor=1.000
+}

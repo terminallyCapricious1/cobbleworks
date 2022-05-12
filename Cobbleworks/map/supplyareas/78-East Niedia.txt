@@ -1,0 +1,8 @@
+supply_area={
+	id=78
+	name="East Niedia"
+	value=0
+	states={
+		230 224 227 228 226 225 
+	}
+}

@@ -1,0 +1,8 @@
+supply_area={
+	id=81
+	name="Atardon Islands"
+	value=0
+	states={
+		249 207 208 
+	}
+}

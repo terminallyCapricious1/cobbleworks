@@ -1,0 +1,28 @@
+state={
+	id=365
+	name="Nair"
+	state_category = metropolis
+	provinces={
+		662 668 1375 1385 1540 1644 1824 1844 1875 2142 2363 2689 2697 4360 4375 4405 
+	}
+	manpower=2000000
+	history={
+		owner = AKR
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			infrastructure = 3
+		}
+		victory_points = {
+			1844 20		#Kibbutz
+		}
+		victory_points = {
+			1385 15		#Geradith
+		}
+		victory_points = {
+			662 15		#Nair
+		}
+		add_core_of = AKR
+	}
+	buildings_max_level_factor=1.000
+}

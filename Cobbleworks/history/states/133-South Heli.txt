@@ -1,0 +1,18 @@
+state={
+	id=133
+	name="South Heli"
+	provinces={
+		135 434 714 858 988 1535 1653 1729 1937 2098 2152 2199 2457 2843 3017 3045 3152 3466 3490 3496 3502 3508 
+	}
+	state_category = rural
+	manpower=124232
+	history={
+		owner = HEL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = HEL
+	}
+	buildings_max_level_factor=1.000
+}

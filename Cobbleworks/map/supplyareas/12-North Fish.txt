@@ -1,0 +1,8 @@
+supply_area={
+	id=12
+	name="North Fish"
+	value=0
+	states={
+		158 151 148 152 
+	}
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=63
+	name="Huitca"
+	state_category = rural
+	provinces={
+		18 1444 1448 1554 1679 2233 2320 2572 3972 
+	}
+	manpower=86439
+	history={
+		owner = HUI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

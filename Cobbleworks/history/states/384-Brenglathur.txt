@@ -1,0 +1,17 @@
+state={
+	id=384
+	name="Brenglathur"
+	state_category = pastoral
+	provinces={
+		474 488 610 1264 2005 2107 2308 3335 4601 
+	}
+	manpower=33282
+	history={
+		owner = FRO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FRO
+	}
+	buildings_max_level_factor=1.000
+}

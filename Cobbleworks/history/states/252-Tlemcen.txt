@@ -1,0 +1,24 @@
+state={
+	id=252
+	name="Tlemcen"
+	state_category = town
+	provinces={
+		142 721 1506 1581 1731 1807 3402 3422 3450 3459 
+	}
+	manpower=650000
+	history={
+		owner = ALI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			142 5		#Yebiri
+		}
+		victory_points = {
+			1731 10		#Tlemcen
+		}
+		add_core_of = ALI
+	}
+	buildings_max_level_factor=1.000
+}

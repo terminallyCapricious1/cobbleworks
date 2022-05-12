@@ -1,0 +1,28 @@
+state={
+	id=144
+	name="Lennox"
+	state_category = metropolis
+	provinces={
+		421 2214 2602 3193 3489 3509 
+	}
+	history={
+		owner = LEN
+		victory_points = {
+			2214 30
+		}
+		victory_points = {
+			3489 15
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3
+			2214 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = LEN
+	}
+	manpower=1123000
+	buildings_max_level_factor=1.000
+}

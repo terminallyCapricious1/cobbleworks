@@ -1,0 +1,43 @@
+﻿division_template = {
+	name = "Ryzani Infantry"
+
+	division_names_group = AFG_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+
+units = {
+	#Ryzani Army
+	division = {
+		name = "Ryzani Militia"
+		location = 1700
+		division_template = "Ryzani Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Rootcaller Division"
+		location = 1700
+		division_template = "Ryzani Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Volkoregrod Garrison"
+		location = 1700
+		division_template = "Ryzani Infantry"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Josbar's Army"
+		location = 1700
+		division_template = "Ryzani Infantry"
+		start_experience_factor = 0.3
+	}
+}

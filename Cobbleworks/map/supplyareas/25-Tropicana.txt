@@ -1,0 +1,8 @@
+supply_area={
+	id=25
+	name="Tropicana"
+	value=0
+	states={
+		12 8 11 
+	}
+}

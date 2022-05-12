@@ -1,0 +1,17 @@
+state={
+	id=180
+	state_category = pastoral
+	name="Greater Agnarian"
+	provinces={
+		295 2578 3889 3892 
+	}
+	manpower=37128
+	history={
+		owner = HUI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

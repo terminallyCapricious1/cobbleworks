@@ -1,0 +1,17 @@
+state={
+	id=195
+	name="Suda Arbaro"
+	state_category = wasteland
+	provinces={
+		83 293 964 971 2047 3735 3752 3767 
+	}
+	manpower=32939
+	history={
+		owner = FLR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = FLR
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=121
+	name="Remtal"
+	state_category = town
+    history={
+		owner = RYZ
+		victory_points = {
+			2974 30
+		}
+		victory_points = {
+			3566 5
+		}
+		victory_points = {
+			709 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		add_core_of = RYZ
+	}
+	provinces={
+		51 96 350 709 1096 1210 1217 1366 1512 1695 1726 1782 1811 2455 2682 2706 2775 2974 3525 3541 3561 3565 3566 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=77
+	name="North Auron's Peak"
+	state_category = town
+	provinces={
+		883 1153 1432 1952 2022 2434 2447 2824 2917 3636 3665 3670 
+	}
+	manpower=140000
+	history={
+		owner = AUR
+		victory_points = {
+			2022 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 6
+			2022 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = AUR
+	}
+	buildings_max_level_factor=1.000
+}

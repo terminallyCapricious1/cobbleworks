@@ -1,0 +1,22 @@
+
+state={
+	id=302
+	name="Shaloma"
+	state_category = rural
+	provinces={
+		816 1299 1383 1797 2015 2062 2412 3051 3179 3234 4436 4447 4456 4465 4472 4487 
+	}
+	manpower=250000
+	history={
+		owner = VIO
+		buildings = {
+			arms_factory = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			4487 6
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

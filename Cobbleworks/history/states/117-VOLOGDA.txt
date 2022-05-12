@@ -1,0 +1,19 @@
+
+state={
+	id=117
+	name="Vologda"
+	state_category = rural
+	history={
+		owner = RYZ
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = RYZ
+
+	}
+	provinces={
+		2778 3724 
+	}
+	manpower=14821
+	buildings_max_level_factor=1.000
+}

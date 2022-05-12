@@ -1,0 +1,21 @@
+state={
+	id=173
+	state_category = town
+	name="Aurlunoren Islands"
+	provinces={
+		1305 2297 2854 2894 2944 3722 
+	}
+	history={
+		owner = ARL
+		victory_points = {
+			2894 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		add_core_of = ARL
+	}
+	manpower=650000
+	buildings_max_level_factor=1.000
+}

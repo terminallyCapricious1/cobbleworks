@@ -1,0 +1,21 @@
+state={
+	id=289
+	name="Iremith Islands"
+	state_category = town
+	provinces={
+		242 3009 3845 4711 
+	}
+	manpower=500000
+	history={
+		owner = IRM
+		buildings = {
+			industrial_complex = 1 
+			infrastructure = 4
+		}
+		victory_points = {
+			4711 10		#Cacean
+		}
+		add_core_of = IRM
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,8 @@
+supply_area={
+	id=45
+	name="Burgamere"
+	value=0
+	states={
+		86 89 87 88 
+	}
+}

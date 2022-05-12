@@ -1,0 +1,17 @@
+state={
+	id=415
+	state_category = tiny_island
+	name="Cuetzpallee"
+	provinces={
+		814 1350 3881 
+	}
+	manpower= 32120
+	history={
+		owner = HUI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

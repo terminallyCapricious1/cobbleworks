@@ -1,0 +1,17 @@
+state={
+	id=421
+	name="Baranos Island"
+	state_category = small_island
+	provinces={
+		2580 
+	}
+	manpower=12194
+	history = {
+		owner = THI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

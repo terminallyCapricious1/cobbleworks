@@ -1,0 +1,22 @@
+state={
+	id=43
+	name="North Sinatra Sewor"
+	state_category = town
+	provinces={
+		670 865 1579 2809 4117 4125 4137 4140 4147 4177 
+	}
+	manpower=450000
+	history={
+		owner = SEW
+		victory_points = {
+			2809 15
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = SEW
+	}
+	buildings_max_level_factor=1.000
+}

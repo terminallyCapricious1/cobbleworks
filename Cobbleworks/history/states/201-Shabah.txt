@@ -1,0 +1,21 @@
+state={
+	id=201
+	name="Shabah"
+	state_category = rural
+	provinces={
+		144 417 633 755 933 1727 1745 2271 2429 2440 2774 3049 3050 3295 3519 3530 3542 
+	}
+	manpower=450000
+	history={
+		owner = NAJ
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			933 5		#Shahbah
+		}
+		add_core_of = NAJ
+	}
+	buildings_max_level_factor=1.000
+}

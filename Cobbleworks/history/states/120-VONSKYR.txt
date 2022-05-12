@@ -1,0 +1,25 @@
+
+state={
+	id=120
+	name="Vonskyr"
+	state_category = town
+    history={
+		owner = RYZ
+		victory_points = {
+			519 10
+		}
+		victory_points = {
+			1700 50
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+		add_core_of = RYZ
+	}
+	provinces={
+		173 322 325 519 560 983 1572 1700 1796 1946 2097 2366 2404 2458 2490 2569 2629 3121 3596 3606 3624 3649 3654 3671 3675 
+	}
+	manpower= 1210000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=339
+	name="Mudroktupeai"
+	state_category = town
+	provinces={
+		108 232 331 818 847 889 954 1281 1308 1401 1654 1701 2390 2499 2595 2633 2672 2754 3014 3126 3358 4068 4084 4096 4099 4102 
+	}
+	manpower=650000
+	history={
+		owner = MDR
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+		}
+		victory_points = {
+			1308 20		#Chlorus
+		}
+		add_core_of = MDR
+	}
+	buildings_max_level_factor=1.000
+}

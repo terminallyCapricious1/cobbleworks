@@ -1,0 +1,17 @@
+state={
+	id=315
+	name="Great Cibor Redwoods"
+	state_category = pastoral
+	provinces={
+		64 278 301 449 494 799 1102 1661 1715 3187 3299 4549 4574 
+	}
+	manpower=39283
+	history={
+		owner = VIO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

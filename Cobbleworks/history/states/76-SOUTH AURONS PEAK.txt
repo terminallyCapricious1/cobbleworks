@@ -1,0 +1,18 @@
+state={
+	id=76
+	name="South Auron's Peak"
+	state_category = town
+	provinces={
+		2 205 550 2187 2963 3175 3363 3706 
+	}
+	manpower=40000
+	history={
+		owner = AUR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+		add_core_of = AUR
+	}
+	buildings_max_level_factor=1.000
+}

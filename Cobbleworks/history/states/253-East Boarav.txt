@@ -1,0 +1,18 @@
+
+state={
+	id=253
+	name="East Borav"
+	state_category = wasteland
+	history={
+		owner = ALI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ALI
+	}
+	provinces={
+		425 509 1367 1625 3053 3161 3406 3456 
+	}
+	manpower=28283
+	buildings_max_level_factor=1.000
+}

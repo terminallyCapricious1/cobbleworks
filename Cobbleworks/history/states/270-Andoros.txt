@@ -1,0 +1,25 @@
+state={
+	id=270
+	name="Andoros"
+	state_category = megalopolis
+	provinces={
+		169 1101 3319 3505 
+	}
+	manpower=3000000
+	history={
+		owner = TRT
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 3 
+			infrastructure = 5
+		}
+		victory_points = {
+			169 30		#Black Hollow
+		}
+		victory_points = {
+			1101 20		#Andoros
+		}
+		add_core_of = TRT
+	}
+	buildings_max_level_factor=1.000
+}

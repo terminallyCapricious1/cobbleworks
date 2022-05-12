@@ -1,0 +1,21 @@
+state={
+	id=16
+	name="South Boulderov"
+	state_category = large_town
+	provinces={
+		396 844 910 1158 1392 1592 1814 2161 2418 2698 2968 4579 4582 4597 4605 4651 
+	}
+	history={
+		owner = ULD
+		victory_points = {
+			2161 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = ULD
+	}
+	manpower=1450000
+	buildings_max_level_factor=1.000
+}

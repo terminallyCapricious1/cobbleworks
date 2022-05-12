@@ -1,0 +1,17 @@
+state={
+	id=113
+	name="North Savannah"
+	state_category = rural
+	provinces={
+		186 902 935 1239 1740 2045 2052 2274 2289 2874 3212 3827 3864 3868 3891 3894 
+	}
+	manpower=134200
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

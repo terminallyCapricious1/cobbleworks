@@ -1,0 +1,21 @@
+state={
+	id=194
+	name="Old Balreska"
+	state_category = rural
+	history={
+		owner = RYZ
+		victory_points = {
+			925 1
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		add_core_of = RYZ
+	}
+	provinces={
+		337 616 925 1889 2731 3282 
+	}
+	manpower=52148
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=54
+	name="Aequalis"
+	state_category = megalopolis 
+	history={
+		owner = HUI
+		victory_points = {
+			3837 50
+		}
+		victory_points = {
+			1172 15
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 5
+			industrial_complex = 5 
+			2351 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = HUI
+	}
+	provinces={
+		336 1172 2351 2393 2951 3822 3837 3853 3867 
+	}
+	manpower=3850000
+	buildings_max_level_factor=1.000
+}

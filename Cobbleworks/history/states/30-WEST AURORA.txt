@@ -1,0 +1,24 @@
+state={
+	id=30
+	name="West Aurora"
+	state_category = rural
+	provinces={
+		105 334 429 543 559 1086 1231 1441 1514 1837 2381 2558 2679 2804 2928 4358 4376 4413 4439 
+	}
+	manpower=1300000
+	history={
+		owner = ULD
+		victory_points = {
+			1086 20
+		}
+		victory_points = {
+			2928 15
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

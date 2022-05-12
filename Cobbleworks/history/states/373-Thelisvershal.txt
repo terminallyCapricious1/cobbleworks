@@ -1,0 +1,27 @@
+state={
+	id=373
+	name="Thelisvershal"
+	state_category = megalopolis 
+	provinces={
+		202 392 4247 4248 
+	}
+	manpower=2250000
+	history={
+		owner = SIR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+		}
+		victory_points = {
+			4248 20	#Numachi
+		}
+		victory_points = {
+			4247 20	#Aglax
+		}
+		victory_points = {
+			392 20	#Kuclela
+		}
+		add_core_of = SIR
+	}
+	buildings_max_level_factor=1.000
+}

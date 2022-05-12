@@ -1,0 +1,21 @@
+state={
+	id=399
+	name="Lothgardh"
+	state_category = town
+	provinces={
+		2338 4659 4673 
+	}
+	manpower=400000
+	history={
+		owner = LOT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2 
+		}
+		victory_points = {
+			2338 15	#Lumaire
+		}
+		add_core_of = LOT
+	}
+	buildings_max_level_factor=1.000
+}

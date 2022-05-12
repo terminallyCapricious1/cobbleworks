@@ -1,0 +1,31 @@
+
+state={
+	id=123
+	name="Savras"
+
+	state_category = city 
+	
+	history={
+		owner = SAV
+		victory_points = {
+			1969 50
+		}
+		victory_points = {
+			1351 20
+		}
+		buildings = {
+			infrastructure = 3
+			1969 = {
+				naval_base = 4
+			}
+			arms_factory = 2
+		}
+		add_core_of = SAV
+	}
+
+	provinces={
+		387 794 1351 1749 1969 3100 3602 
+	}
+	manpower=1232000
+	buildings_max_level_factor=1.000
+}

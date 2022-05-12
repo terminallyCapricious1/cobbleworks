@@ -1,0 +1,20 @@
+state={
+	id=388
+	name="Novishk"
+	provinces={
+		367 1430 1922 2146 2376 2971 4644 4665 4670 4680 4686 
+	}
+	state_category = rural
+	manpower=200000
+	history={
+		owner = FRO
+		victory_points = {
+			4680 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = FRO
+	}
+	buildings_max_level_factor=1.000
+}

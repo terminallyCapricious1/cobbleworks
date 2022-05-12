@@ -1,0 +1,26 @@
+
+state={
+	id=23
+	state_category = large_town
+	name="Eibenburg"
+	provinces={
+		48 126 326 561 661 825 873 1455 1652 1898 1901 2147 2452 2696 2913 4377 4390 4402 
+	}
+	manpower=1200000
+	history={
+		owner = ULD
+		victory_points = {
+			1898 10
+		}
+		victory_points = {
+			126 20
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3 
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

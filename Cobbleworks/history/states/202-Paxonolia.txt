@@ -1,0 +1,21 @@
+state={
+	id=202
+	name="Mirwa"
+	state_category = metropolis
+	provinces={
+		54 523 1029 1202 1343 1874 2018 2808 3217 3391 3568 3586 
+	}
+	manpower=1050000
+	history={
+		owner = NAJ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2 
+		}
+		victory_points = {
+			3217 20		#Mirwa
+		}
+		add_core_of = NAJ
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=34
+	name="South Trafalgar"
+	state_category = rural
+	provinces={
+		1821 4667 
+	}
+	manpower=148274
+	history={
+		owner = TRF
+		victory_points = {
+			4667 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = TRF
+	}
+	buildings_max_level_factor=1.000
+}

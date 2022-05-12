@@ -1,0 +1,22 @@
+state={
+	id=125
+	state_category = rural
+	name="Wivamovia"
+	provinces={
+		527 802 1001 1013 1677 2115 2276 2538 2801 3444 3462 3477 3478 3483 
+	}
+	manpower=550000
+	history={
+		owner = WIV
+		victory_points = {
+			1001 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = WIV
+	}
+	buildings_max_level_factor=1.000
+}

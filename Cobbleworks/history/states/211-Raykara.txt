@@ -1,0 +1,27 @@
+state={
+	id=211
+	name="Raykara"
+	state_category = large_town
+	provinces={
+		557 1676 1991 2108 2377 2544 2563 2760 2846 3073 3228 3618 3632 3650 3667 3677 
+	}
+	manpower=950000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2 
+		}
+		victory_points = {
+			3228 5	#Raykara
+		}
+		victory_points = {
+			3632 5	#Hartburg
+		}
+		victory_points = {
+			2760 15	#Mortem
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

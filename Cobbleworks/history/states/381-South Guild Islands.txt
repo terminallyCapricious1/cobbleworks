@@ -1,0 +1,20 @@
+state={
+	id=381
+	name="South Guild Islands"
+	state_category = tiny_island
+	provinces={
+		84 642 4474 
+	}
+	manpower=23942
+	history={
+		victory_points = {
+			786 15
+		}
+		owner = SOU
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOU
+	}
+	buildings_max_level_factor=1.000
+}

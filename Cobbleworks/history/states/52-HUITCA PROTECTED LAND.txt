@@ -1,0 +1,17 @@
+state={
+	id=52
+	state_category = pastoral
+	name="Desertlands"
+	history={
+		owner = HUI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HUI
+	}
+	provinces={
+		856 1149 1276 1380 1458 2006 2906 4064 4072 
+	}
+	manpower=12492
+	buildings_max_level_factor=1.000
+}

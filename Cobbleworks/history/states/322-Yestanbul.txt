@@ -1,0 +1,22 @@
+state={
+	id=322
+	name="Yestanbul"
+	state_category = large_town
+	provinces={
+		61 1234 1460 2191 3272 4074 4086 4103 4116 4120 4126 
+	}
+	manpower=850000
+	history={
+		owner = SRF
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3 
+			arms_factory = 2
+		}
+		victory_points = {
+			61 20
+		}
+		add_core_of = SRF
+	}
+	buildings_max_level_factor=1.000
+}

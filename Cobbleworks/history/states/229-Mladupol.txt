@@ -1,0 +1,17 @@
+state={
+	id=229
+	name="Mladupol"
+	state_category = pastoral
+	provinces={
+		333 497 1162 1445 1752 2671 2722 3897 
+	}
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIE
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=285
+	name="Pikaruoka"
+	state_category = rural
+	provinces={
+		4705 4707 
+	}
+	manpower=92993
+	history={
+		owner = PIK
+		buildings = {
+			industrial_complex = 1 
+			infrastructure = 3
+		}
+		add_core_of = PIK
+	}
+	buildings_max_level_factor=1.000
+}

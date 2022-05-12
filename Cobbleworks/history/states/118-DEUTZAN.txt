@@ -1,0 +1,18 @@
+
+state={
+	id=118
+	name="Deutzan"
+	provinces={
+		985 1005 1620 1841 2369 2708 2738 3775 3780 
+	}
+	state_category = rural
+    history={
+		owner = RYZ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RYZ
+	}
+	manpower=81231
+	buildings_max_level_factor=1.000
+}

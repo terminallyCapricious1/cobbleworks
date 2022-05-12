@@ -1,0 +1,19 @@
+state={
+	id=137
+	name="Savras Countryside"
+	state_category = rural 
+	provinces={
+		229 1016 1108 1838 1858 2026 2314 2394 2627 2642 3534 3538 3548 3564 3571 
+	}
+	manpower=32000
+	history={
+		owner = SAV
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = SAV
+
+	}
+	buildings_max_level_factor=1.000
+}

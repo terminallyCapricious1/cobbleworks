@@ -1,0 +1,25 @@
+
+state={
+	id=71
+	name="S New Dorasterrock"
+	state_category = town
+	history={
+		owner = NDR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		add_core_of = NDR
+		victory_points = {
+			3646 15
+		}
+	}
+
+	provinces={
+		3 432 603 653 757 784 981 1271 2012 2076 2273 2484 2921 3246 3646 3696 3704 3737 
+	}
+	manpower=525000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

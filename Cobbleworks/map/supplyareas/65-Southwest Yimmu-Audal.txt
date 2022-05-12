@@ -1,0 +1,8 @@
+supply_area={
+	id=65
+	name="Southwest Yimmu-Audal"
+	value=0
+	states={
+		372 109 96 430 
+	}
+}

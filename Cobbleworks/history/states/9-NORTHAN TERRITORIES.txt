@@ -1,0 +1,18 @@
+state={
+	id=9
+	state_category = rural
+	name="Northern Territories"
+	provinces={
+		274 366 938 990 1180 1237 1244 1489 1584 1636 1754 1816 1935 1985 2311 2403 2584 2847 2995 3377 4476 4479 4497 4500 4502 
+	}
+	manpower=212300
+	history={
+		owner = ULD
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

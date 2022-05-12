@@ -1,0 +1,22 @@
+state={
+	id=396
+	name="Notvenice"
+	state_category = metropolis
+	provinces={
+		34 138 833 853 936 1129 1192 1596 1712 2402 2454 2840 3185 4526 4543 4546 4560 4561 4580 4596 
+	}
+	manpower=1300000
+	history={
+		owner = SOU
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3 
+			arms_factory = 1
+		}
+		victory_points = {
+			4561 20	#Lumaire
+		}
+		add_core_of = SOU
+	}
+	buildings_max_level_factor=1.000
+}

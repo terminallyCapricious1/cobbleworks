@@ -1,0 +1,18 @@
+
+state={
+	id=300
+	name="North Adytum"
+	state_category = pastoral
+	provinces={
+		791 1236 1713 1830 1836 1894 2370 2605 2710 3000 3221 4348 4366 
+	}
+	manpower=44239
+	history={
+		owner = VIO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=163
+	state_category = rural
+	name="Asturcia"
+	provinces={
+		161 329 742 1187 1365 1857 1926 2287 2328 3266 3346 4041 4043 
+	}
+	manpower=250000
+	history={
+		owner = CAV
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CAV
+	}
+	buildings_max_level_factor=1.000
+}

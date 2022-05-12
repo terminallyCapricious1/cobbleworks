@@ -1,0 +1,21 @@
+
+state={
+	id=83
+	state_category = rural
+	name="Kelmar"
+	provinces={
+		59 450 992 2528 2654 3283 4163 4165 4178 4202 
+	}
+	manpower=200000
+	history={
+		owner = UBS
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			2654 5		#Dixon
+		}
+		add_core_of = UBS
+	}
+	buildings_max_level_factor=1.000
+}

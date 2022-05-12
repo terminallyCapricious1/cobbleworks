@@ -1,0 +1,22 @@
+state={
+	id=347
+	name="Askalon"
+	state_category = town
+	provinces={
+		492 819 2038 3013 4291 4295 
+	}
+	manpower=750000
+	history={
+		owner = AVR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1 
+			infrastructure = 3
+		}
+		victory_points = {
+			2038 20		#Askalon
+		}
+		add_core_of = AVR
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=334
+	name="North Fjellm"
+	provinces={
+		279 1113 1577 1604 1992 2513 2540 3328 3976 3980 3981 
+	}
+	manpower=1050000
+	state_category = metropolis
+	history={
+		owner = FJE
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2 
+			infrastructure = 4
+		}
+		victory_points = {
+			279 15		#Hymskidale
+		}
+		victory_points = {
+			1113 20		#Hel'et
+		}
+		add_core_of = FJE
+	}
+	buildings_max_level_factor=1.000
+}

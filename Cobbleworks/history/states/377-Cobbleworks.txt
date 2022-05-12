@@ -1,0 +1,19 @@
+
+state={
+	id=377
+	name="Cobbleworks"
+	state_category = rural
+	provinces={
+		537 700 978 1025 1233 2482 2520 2856 3201 4186 4189 4198 4206 4209 
+	}
+	manpower=450000
+	history={
+		owner = COB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = COB
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,8 @@
+supply_area={
+	id=10
+	name="West Bardonia"
+	value=0
+	states={
+		71 72 69 68 67 182 
+	}
+}

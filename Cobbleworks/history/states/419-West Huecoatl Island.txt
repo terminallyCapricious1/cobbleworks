@@ -1,0 +1,17 @@
+state={
+	id=419
+	name="West Huecoatl Island"
+	state_category = tiny_island
+	provinces={
+		3066 
+	}
+	manpower=12489
+	history={
+		owner = HUI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

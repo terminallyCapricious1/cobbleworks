@@ -1,0 +1,17 @@
+state={
+	id=204
+	name="West Andamooka"
+	state_category = wasteland
+	provinces={
+		318 461 660 1255 1333 1640 2079 3612 3630 3638 
+	}
+	manpower=49382
+	history={
+		owner = NAJ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NAJ
+	}
+	buildings_max_level_factor=1.000
+}

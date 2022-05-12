@@ -1,0 +1,21 @@
+state={
+	id=159
+	name="Sovdal"
+	state_category = rural
+	provinces={
+		942 3438 
+	}
+	manpower=250000
+	history={
+		owner = OWY
+		buildings = {
+			industrial_complex = 2 
+			infrastructure = 3
+		}
+		victory_points = {
+			3438 10		#Sovdal
+		}
+		add_core_of = OWY
+	}
+	buildings_max_level_factor=1.000
+}

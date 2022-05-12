@@ -1,0 +1,17 @@
+state={
+	id=361
+	name="Emerald Isle"
+	state_category = tiny_island
+	provinces={
+		2924 4396 
+	}
+	history={
+		owner = AKR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AKR
+	}
+	manpower=149292
+	buildings_max_level_factor=1.000
+}

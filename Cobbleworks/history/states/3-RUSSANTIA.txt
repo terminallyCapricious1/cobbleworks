@@ -1,0 +1,27 @@
+state={
+	id=3
+	name="Russantia"
+	state_category = metropolis
+	provinces={
+		44 78 127 298 491 501 512 558 812 1095 1315 1389 1469 1529 1573 1806 2131 2150 2726 3092 3206 4323 4331 4351 4374 4380 4383 4392 4427 
+	}
+	history={
+		owner = ULD
+		victory_points = { #Gigney
+			3206 20
+		}
+		victory_points = { #Russantia
+			127 25
+		}
+		victory_points = { #New Baldia
+			812 20
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+		}
+		add_core_of = ULD
+	}
+	manpower=2100000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=283
+	name="Baronov"
+	state_category = town
+	provinces={
+		4694 4695 4697 
+	}
+	manpower=392832
+	history={
+		owner = BAR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=112
+	name="Gebel"
+	state_category = large_town
+	provinces={
+		779 1454 1779 1928 1964 2114 2283 2800 2976 3823 3830 3835 3849 3857 3858 3883 
+	}
+	manpower=1050000
+	history={
+		owner = THI
+		victory_points = {
+			1964 20 #Urnu-Arrak
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

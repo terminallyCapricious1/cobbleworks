@@ -1,0 +1,22 @@
+state={
+	id=85
+	name="Syrgorod"
+	state_category = town
+	provinces={
+		93 411 1093 2034 2304 2524 2796 4109 4123 4128 
+	}
+	manpower=800000
+	history={
+		owner = UBS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			93 20		#Red Pheonix
+		}
+		add_core_of = UBS
+	}
+	buildings_max_level_factor=1.000
+}

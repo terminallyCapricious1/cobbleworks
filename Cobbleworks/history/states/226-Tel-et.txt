@@ -1,0 +1,17 @@
+state={
+	id=226
+	name="Tel-et"
+	state_category = rural
+	provinces={
+		1622 1818 2167 2392 2940 3870 3874 3877 3882 
+	}
+	manpower=250000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

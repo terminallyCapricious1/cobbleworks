@@ -1,0 +1,17 @@
+state={
+	id=274
+	name="North Arlin"
+	state_category = pastoral
+	provinces={
+		864 1912 2991 3334 3556 
+	}
+	manpower=24929
+	history={
+		owner = PLG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PLG
+	}
+	buildings_max_level_factor=1.000
+}

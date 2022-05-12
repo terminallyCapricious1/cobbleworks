@@ -1,0 +1,31 @@
+
+state={
+	id=21
+	state_category = metropolis
+	name="Southern Paloro"
+	provinces={
+		104 225 253 309 415 675 1453 1499 1568 1864 1885 2127 2176 2355 2641 3237 3357 4417 4435 4444 4451 4455 4460 4727 
+	}
+	history={
+		owner = ULD
+		victory_points = { #asahiri
+			4455 10
+		}
+		victory_points = { #Ranka
+			2176 15
+		}
+		victory_points = { #ottilate
+			3237 20
+		}
+		victory_points = { #Palovina
+			1864 25
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+		add_core_of = ULD
+	}
+	manpower=2850000
+	buildings_max_level_factor=1.000
+}

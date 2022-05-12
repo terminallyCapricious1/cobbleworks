@@ -1,0 +1,8 @@
+supply_area={
+	id=84
+	name="Central Plagatea"
+	value=0
+	states={
+		274 273 272 271 270 267 268 269 265 
+	}
+}

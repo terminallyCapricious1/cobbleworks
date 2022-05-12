@@ -1,0 +1,21 @@
+state={
+	id=12
+	name="Southern Territories"
+	state_category = rural
+	provinces={
+		302 836 1132 1409 1949 2063 2216 2300 2617 3257 4584 4599 4612 4620 4622 
+	}
+	history={
+		owner = ULD
+		victory_points = {
+			3257 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = ULD
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+}

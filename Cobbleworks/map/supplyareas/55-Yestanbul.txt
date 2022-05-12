@@ -1,0 +1,8 @@
+supply_area={
+	id=55
+	name="Yestanbul"
+	value=0
+	states={
+		322 325 324 423 422 
+	}
+}

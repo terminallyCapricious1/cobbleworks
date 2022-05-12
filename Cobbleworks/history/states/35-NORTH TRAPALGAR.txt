@@ -1,0 +1,17 @@
+state={
+	id=35
+	state_category = rural
+	name="North Trafalgar"
+	provinces={
+		2285 4632 4637 
+	}
+	manpower=48921
+	history={
+		owner = TRF
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TRF
+	}
+	buildings_max_level_factor=1.000
+}

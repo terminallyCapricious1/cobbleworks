@@ -1,0 +1,21 @@
+state={
+	id=371
+	state_category = town
+	name="Kalasirol"
+	provinces={
+		87 210 1222 1328 1456 2089 2476 2562 2592 2805 2816 3016 3207 3294 3325 4095 4106 4129 4135 4139 4149 4152 4160 
+	}
+	manpower=600000
+	history={
+		owner = SIR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2 
+		}
+		victory_points = {
+			4139 10	#Home Depot
+		}
+		add_core_of = SIR
+	}
+	buildings_max_level_factor=1.000
+}

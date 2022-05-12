@@ -1,0 +1,8 @@
+supply_area={
+	id=62
+	name="Greenstem"
+	value=0
+	states={
+		359 360 358 362 
+	}
+}

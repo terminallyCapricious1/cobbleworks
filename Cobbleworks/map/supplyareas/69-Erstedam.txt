@@ -1,0 +1,8 @@
+supply_area={
+	id=69
+	name="Erstedam"
+	value=0
+	states={
+		378 377 375 420 418 
+	}
+}

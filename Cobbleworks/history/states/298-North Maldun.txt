@@ -1,0 +1,17 @@
+state={
+	id=298
+	name="North Maldun"
+	state_category = small_island
+	provinces={
+		13 598 621 1758 2132 2134 2579 3190 3866 3906 
+	}
+	manpower=12832
+	history={
+		owner = MDR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MDR
+	}
+	buildings_max_level_factor=1.000
+}

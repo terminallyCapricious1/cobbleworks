@@ -1,0 +1,8 @@
+supply_area={
+	id=49
+	name="Syrgorod"
+	value=0
+	states={
+		84 83 85 
+	}
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=369
+	name="Myrmark"
+	state_category = pastoral
+	provinces={
+		282 472 1119 1716 2797 4191 4194 
+	}
+	manpower=25818
+	history={
+		owner = SIR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SIR
+	}
+	buildings_max_level_factor=1.000
+}

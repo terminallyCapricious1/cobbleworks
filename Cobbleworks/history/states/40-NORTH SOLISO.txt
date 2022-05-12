@@ -1,0 +1,22 @@
+state={
+	id=40
+	name="North Solisos"
+	state_category = metropolis
+	provinces={
+		352 463 3236 4141 4144 4148 4156 4159 
+	}
+	history={
+		owner = SOL
+		victory_points = {
+			4144 30
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3
+		}
+		add_core_of = SOL
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+}

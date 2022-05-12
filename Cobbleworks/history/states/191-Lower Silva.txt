@@ -1,0 +1,21 @@
+state={
+	id=191
+	name="Aquize"
+	state_category = rural
+	provinces={
+		310 828 2835 3371 3714 3718 3729 3745 
+	}
+	manpower=229203
+	history={
+		owner = FLR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			828 5		#Aquize
+		}
+		add_core_of = FLR
+	}
+	buildings_max_level_factor=1.000
+}

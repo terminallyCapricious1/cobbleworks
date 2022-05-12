@@ -1,0 +1,19 @@
+state={
+	id=58
+	state_category = town
+	name="West Huitca"
+	history={
+		owner = HUI
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = HUI
+	}
+	provinces={
+		190 377 826 907 1747 2160 2344 2522 2702 3164 3277 4046 4058 4059 4076 4082 4085 4090 4094 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+}

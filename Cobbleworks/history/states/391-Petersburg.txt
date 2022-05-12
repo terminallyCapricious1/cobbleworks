@@ -1,0 +1,18 @@
+state={
+	id=391
+	state_category = rural
+	name="Petersburg"
+	provinces={
+		994 3142 4483 
+	}
+	manpower=239123
+	history={
+		owner = SCH
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1 
+		}
+		add_core_of = SCH
+	}
+	buildings_max_level_factor=1.000
+}

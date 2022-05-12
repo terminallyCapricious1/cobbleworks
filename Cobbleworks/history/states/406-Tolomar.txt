@@ -1,0 +1,25 @@
+state={
+	id=406
+	state_category = metropolis
+	name="Tolomar"
+	provinces={
+		1043 1300 1404 2001 2798 2881 4490 4501 
+	}
+	manpower=1100000
+	history={
+		owner = SOU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2 
+			arms_factory = 1
+		}
+		victory_points = {
+			2001 15	#Yarlei
+		}
+		victory_points = {
+			4490 20	#Tolomar
+		}
+		add_core_of = SOU
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=312
+	name="Nova Terra"
+	state_category = large_town
+	provinces={
+		659 694 893 974 1049 1847 2208 2213 2550 3012 3143 3157 3373 4507 4516 4517 4519 4533 4537 4566 4578 
+	}
+	history={
+		owner = VIO
+		buildings = {
+			industrial_complex = 2 
+			infrastructure = 3
+		}
+		victory_points = {
+			3143 15
+		}
+		add_core_of = VIO
+	}
+	manpower=525000
+	buildings_max_level_factor=1.000
+}

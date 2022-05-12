@@ -1,0 +1,18 @@
+state={
+	id=403
+	name="Madinat-Alahmar"
+	state_category = rural
+	provinces={
+		364 566 698 733 815 1090 1170 1470 1657 1693 2255 2438 2555 2620 2759 2786 2946 4542 4548 4550 4571 4590 4618 
+	}
+	manpower=42728
+	history={
+		owner = SOU
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+		}
+		add_core_of = SOU
+	}
+	buildings_max_level_factor=1.000
+}

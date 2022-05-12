@@ -1,0 +1,30 @@
+state={
+	id=15
+	state_category = metropolis
+	name="North Sanctuary"
+	provinces={
+		409 641 658 941 1228 1295 1435 1536 1567 1812 1881 2294 3171 3232 4464 4466 4471 4493 
+	}
+	history={
+		owner = ULD
+		victory_points = { #sanctuary
+			641 30 
+		}
+		victory_points = { #chervonstad
+			658 25 
+		}
+		victory_points = { #Sharn
+			4471 10 
+		}
+		victory_points = { #Sjaandi
+			4493 10
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+		}
+		add_core_of = ULD
+	}
+	manpower=2500000
+	buildings_max_level_factor=1.000
+}

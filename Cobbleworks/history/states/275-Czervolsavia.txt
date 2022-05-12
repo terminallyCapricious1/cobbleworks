@@ -1,0 +1,25 @@
+state={
+	id=275
+	name="Czervoslavia"
+	state_category = metropolis
+	provinces={
+		840 881 1242 1550 2264 2839 2957 3546 3575 3590 3601 
+	}
+	manpower=1700000
+	history={
+		owner = PLG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			2957 25		#Polskrige
+		}
+		victory_points = {
+			2264 20		#Havenstad
+		}
+		add_core_of = PLG
+	}
+	buildings_max_level_factor=1.000
+}

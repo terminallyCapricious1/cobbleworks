@@ -1,0 +1,21 @@
+state={
+	id=335
+	name="Southeast Frosmyre"
+	state_category = rural
+	provinces={
+		281 1846 2632 2826 3253 3311 4143 4175 4184 
+	}
+	history={
+		owner = MDR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			1846 5		#Heimstadt
+		}
+		add_core_of = MDR
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=130
+	name="Orilin"
+	provinces={
+		841 920 1021 1379 2290 2395 2650 2989 3052 3397 3417 3420 3428 3431 3441 
+	}
+	state_category = city 
+
+	history={
+		owner = SAV
+		victory_points = {
+			841 30
+		}
+		buildings = {
+			infrastructure = 3
+			3420 = {
+				naval_base = 2
+			}
+			arms_factory = 2
+		}
+		add_core_of = SAV
+	}
+	manpower=834000
+	buildings_max_level_factor=1.000
+}

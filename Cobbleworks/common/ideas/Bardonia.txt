@@ -1,0 +1,461 @@
+ideas = {
+
+	country = {
+		garfist_resistance = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = -0.10
+			}
+		}
+		auronspeak_lost = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				consumer_goods_factor = 0.10
+				production_factory_max_efficiency_factor = -0.5 
+			}
+		}
+
+		auronspeak_lost2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				consumer_goods_factor = 0.08
+				production_factory_max_efficiency_factor = -0.3 
+			}
+		}
+		auronspeak_lost3 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_factory_max_efficiency_factor = -0.2
+			}
+		}
+		shattered_visage = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				surrender_limit = -0.8
+				trade_opinion_factor = -0.2
+				generate_wargoal_tension = 0.6
+			}
+		}
+
+		shattered_visage2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				surrender_limit = -0.5
+				trade_opinion_factor = -0.15
+				generate_wargoal_tension = 0.4
+			}
+		}
+		pop_decline = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				monthly_population = -0.25
+			}
+		}
+
+		Exerting_influence = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				local_resources_factor = 0.15
+				trade_opinion_factor = 0.15
+			}
+		}
+		Pop_Boom = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				monthly_population = 1
+			}
+		}
+		Fervent_Nat = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				local_resources_factor = 0.15
+				trade_opinion_factor = 0.15
+				recruitable_population_factor = 0.10
+			}
+		}
+
+		Undying_Nat = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				local_resources_factor = 0.15
+				trade_opinion_factor = 0.15
+				recruitable_population_factor = 0.10
+				local_non_core_manpower = 0.20
+			}
+		}
+
+		Investments_bar = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				consumer_goods_factor = -0.10
+			}
+		}
+
+		NDR_Market = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.25
+			}
+		}
+
+		Dandie_guard = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				land_doctrine_cost_factor = -0.25
+			}
+		}
+		Dandie_guard_better = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				land_doctrine_cost_factor = -0.25
+				planning_speed = 0.25
+				army_org_regain	= 0.10
+				command_power_gain_mult = 0.05
+			}
+		}
+		Dandie_guard_hands = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				land_doctrine_cost_factor = -0.25
+				planning_speed = 0.35
+				army_org_factor = 0.10
+				command_power_gain_mult = -0.15
+				recruitable_population_factor = -0.15
+			}
+		}
+		Dandie_guard_hands2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				research_speed_factor = 0.20
+				planning_speed = 0.35
+				army_org_factor = 0.10
+				command_power_gain_mult = -0.15
+				recruitable_population_factor = -0.15
+			}
+		}
+		Dandie_guard_better2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				research_speed_factor = 0.20
+				planning_speed = 0.25
+				army_org_regain	= 0.10
+				command_power_gain_mult = 0.05
+			}
+		}
+		Dandelist_revive1 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				army_speed_factor = 0.05
+				attrition = -0.15
+			}
+		}
+		Dandelist_revive2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				army_speed_factor = 0.05
+				attrition = -0.15
+				research_speed_factor = 0.05
+			}
+		}
+		Dandelist_revive3 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				army_speed_factor = 0.05
+				attrition = -0.15
+				research_speed_factor = 0.05
+				army_org_factor = 0.05
+			}
+		}
+		Dandelonia = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				weekly_manpower = 1000
+			}
+		}
+		eldham_fail_bard = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				consumer_goods_factor = 0.10
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=395
+	state_category = rural
+	name="North Vandalah"
+	provinces={
+		149 462 736 746 796 1023 1207 1349 1399 2017 2104 2900 4491 4512 4522 4535 4557 4562 4567 
+	}
+	history={
+		owner = VAN
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1 
+		}
+		victory_points = {
+			796 5	#Lumaire
+		}
+		add_core_of = VAN
+	}
+	manpower=166822
+	buildings_max_level_factor=1.000
+}

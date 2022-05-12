@@ -1,0 +1,22 @@
+
+state={
+	id=67
+	name="Bardonia"
+	state_category = town
+	provinces={
+		101 146 158 338 638 1116 1373 1601 3280 3772 3802 3811 3817 
+	}
+	manpower=543121
+	history={
+		owner = BAR
+		victory_points = {
+			1116 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=326
+	name="Dawnstar"
+	state_category = metropolis
+	provinces={
+		16 36 369 467 644 835 2156 2204 2211 2433 2565 2676 2981 3118 3998 4024 4026 4040 
+	}
+	manpower=2750000
+	history={
+		owner = SRF
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3 
+			arms_factory = 3
+		}
+		victory_points = {
+			2156 5		#heidelberg
+		}
+		victory_points = {
+			2565 25		#Valoria
+		}
+		victory_points = {
+			4024 20		#Dawnstar
+		}
+		add_core_of = SRF
+	}
+	buildings_max_level_factor=1.000
+}

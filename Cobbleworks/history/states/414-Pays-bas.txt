@@ -1,0 +1,24 @@
+state={
+	id=414
+	name="Drinomia"
+	state_category = town
+	provinces={
+		918 
+	}
+	manpower=400000
+	history={
+		owner = HUI
+		victory_points = {
+			918 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			918 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

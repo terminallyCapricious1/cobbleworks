@@ -1,0 +1,23 @@
+
+state={
+	id=70
+	name="Dorasterrock"
+	state_category = large_town
+	provinces={
+		55 266 506 924 1230 1396 1521 1955 2058 2411 2532 2668 2746 3030 3069 3238 3338 3672 3684 3728 3740 
+	}
+	manpower=750000
+	history={
+		owner = BAR
+		victory_points = {
+			2058 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

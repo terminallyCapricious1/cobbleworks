@@ -1,0 +1,18 @@
+state={
+	id=136
+	name="Obrithyll"
+	provinces={
+		60 156 357 955 1051 1190 1768 2061 2090 2100 2139 2398 2480 2496 2509 2659 2813 2863 2875 3042 3091 3251 3394 3395 3396 3416 3429 3457 
+	}
+	manpower=52440
+	state_category = rural
+	history = {
+		owner = SAV
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = SAV
+	}
+	buildings_max_level_factor=1.000
+}

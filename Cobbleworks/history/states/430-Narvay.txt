@@ -1,0 +1,17 @@
+state={
+	id=430
+	name="Narvay"
+	state_category = tiny_island
+	provinces={
+		4714 
+	}
+	manpower=2281
+	history={
+		owner = CAV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CAV
+	}
+	buildings_max_level_factor=1.000
+}

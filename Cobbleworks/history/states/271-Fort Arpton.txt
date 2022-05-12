@@ -1,0 +1,17 @@
+state={
+	id=271
+	name="Fort Arpton"
+	state_category = pastoral
+	provinces={
+		347 684 959 1221 1429 1878 3494 3499 3510 
+	}
+	manpower=30395
+	history={
+		owner = PLG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PLG
+	}
+	buildings_max_level_factor=1.000
+}

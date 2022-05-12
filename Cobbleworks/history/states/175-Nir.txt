@@ -1,0 +1,23 @@
+
+state={
+	id=175
+	state_category = rural
+	name="Nir"
+	history={
+		owner = ARL
+		victory_points = {
+			2083 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1 
+		}
+		add_core_of = ARL
+	}
+	provinces={
+		43 68 987 1011 1068 1126 1174 1793 1886 2083 2568 3324 3686 3705 
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+}

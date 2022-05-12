@@ -1,0 +1,13 @@
+technology_sharing_group = {
+
+	id = bard_share_tech
+	name = bard_share_tech_name
+	desc = bard_share_tech_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.2
+
+    available = {
+        is_in_faction_with = BAR
+    }
+}

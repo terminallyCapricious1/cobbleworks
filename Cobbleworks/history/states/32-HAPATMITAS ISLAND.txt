@@ -1,0 +1,21 @@
+state={
+	id=32
+	state_category = large_town
+	name="Bardawulf"
+	provinces={
+		702 1852 2084 4273 
+	}
+	history={
+		owner = ULD
+		victory_points = {
+			2084 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = ULD
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+}

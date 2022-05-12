@@ -1,0 +1,17 @@
+state={
+	id=140
+	name="Norfthorn"
+	state_category = pastoral
+	provinces={
+		440 546 741 897 1659 2137 2201 2269 2379 2424 2862 3521 3522 
+	}
+	manpower=33128
+	history={
+		owner = NRF
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NRF
+	}
+	buildings_max_level_factor=1.000
+}

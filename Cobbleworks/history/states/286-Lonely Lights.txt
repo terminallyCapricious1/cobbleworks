@@ -1,0 +1,17 @@
+state={
+	id=286
+	name="Lonely Lights"
+	state_category = pastoral
+	provinces={
+		4706 4708 
+	}
+	manpower=99482
+	history={
+		owner = VIO
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = VIO
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,8 @@
+supply_area={
+	id=47
+	name="Volturus Islands"
+	value=0
+	states={
+		350 361 
+	}
+}

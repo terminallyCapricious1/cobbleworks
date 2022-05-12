@@ -1,0 +1,21 @@
+state={
+	id=392
+	state_category = rural
+	name="Kronesia"
+	provinces={
+		626 677 2543 4523 
+	}
+	history={
+		owner = SCH
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1 
+		}
+		victory_points = {
+			2543 5	#Kronesia
+		}
+		add_core_of = SCH
+	}
+	manpower=248212
+	buildings_max_level_factor=1.000
+}

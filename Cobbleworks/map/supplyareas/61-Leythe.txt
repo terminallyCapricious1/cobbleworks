@@ -1,0 +1,8 @@
+supply_area={
+	id=61
+	name="Leythe"
+	value=0
+	states={
+		354 355 356 357 353 
+	}
+}

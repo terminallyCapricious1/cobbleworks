@@ -1,0 +1,8 @@
+supply_area={
+	id=56
+	name="Schwaize"
+	value=0
+	states={
+		334 295 296 294 
+	}
+}

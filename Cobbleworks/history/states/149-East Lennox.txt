@@ -1,0 +1,21 @@
+
+state={
+	id=149
+	name="Greater Lennox"
+	state_category = tiny_island
+	provinces={
+		2604 2996 
+	}
+	manpower=35200
+	history={
+		owner = BAR
+		victory_points = {
+			3634 10
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

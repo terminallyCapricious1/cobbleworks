@@ -1,0 +1,25 @@
+state={
+	id=372
+	name="Azethvir"
+	state_category = metropolis
+	provinces={
+		212 807 916 1211 1856 1975 2405 2511 2851 3004 4052 4061 4069 4115 
+	}
+	manpower=1050000
+	history={
+		owner = SIR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3 
+			arms_factory = 1
+		}
+		victory_points = {
+			916 20
+		}
+		victory_points = {
+			3004 15
+		}
+		add_core_of = SIR
+	}
+	buildings_max_level_factor=1.000
+}

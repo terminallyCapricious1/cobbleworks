@@ -1,0 +1,18 @@
+
+state={
+	id=110
+	state_category = pastoral
+	name="Rosecella"
+	provinces={
+		524 628 689 718 967 1151 1940 2503 2637 2937 3085 3146 3244 4157 4161 4182 4192 4199 
+	}
+	manpower=150000
+	history={
+		owner = THI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

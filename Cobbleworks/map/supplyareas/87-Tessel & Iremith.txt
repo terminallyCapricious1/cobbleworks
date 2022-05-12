@@ -1,0 +1,8 @@
+supply_area={
+	id=87
+	name="Tessel and Iremith"
+	value=0
+	states={
+		288 289 
+	}
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=56
+	name="Far North Huitca"
+	state_category = large_town
+	provinces={
+		41 402 764 1250 1833 1966 2188 2435 2903 3022 3150 3326 3859 3887 3902 3918 
+	}
+	manpower=750000
+	history={
+		owner = HUI
+		victory_points = {
+			41 20
+		}
+		victory_points = {
+			1833 15
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4 
+			41 = {
+				naval_base = 4
+			}
+			1833 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

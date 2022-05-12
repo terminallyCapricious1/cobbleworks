@@ -1,0 +1,22 @@
+state={
+	id=433
+	name="Skjoldbrodir"
+	provinces={
+		1294 1827 3411 
+	}
+	state_category = town
+	history={
+		owner = BAR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			1294 10 
+		}
+		add_core_of = BAR
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+}

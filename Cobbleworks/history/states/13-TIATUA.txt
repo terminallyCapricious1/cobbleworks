@@ -1,0 +1,17 @@
+state={
+	id=13
+	state_category = rural
+	name="Tiatua"
+	provinces={
+		381 645 913 1243 1904 4362 4372 4373 4388 
+	}
+	manpower=88210
+	history={
+		owner = ULD
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=126
+	state_category = town
+	name="Northwest Askonia"
+	provinces={
+		399 498 875 1134 1352 1997 2384 3219 3528 
+	}
+	history={
+		owner = VAL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+	}
+	manpower=285200
+	buildings_max_level_factor=1.000
+}

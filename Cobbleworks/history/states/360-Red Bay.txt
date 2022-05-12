@@ -1,0 +1,18 @@
+
+state={
+	id=360
+	name="Red Bay"
+	state_category = pastoral
+	provinces={
+		838 937 982 1164 1717 2361 3046 4344 4369 4379 
+	}
+	manpower=39223
+	history={
+		owner = AKR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AKR
+	}
+	buildings_max_level_factor=1.000
+}

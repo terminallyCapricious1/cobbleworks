@@ -1,0 +1,25 @@
+state={
+	id=193
+	name="Mainland Muviel"
+	state_category = megalopolis
+	provinces={
+		128 809 951 1627 2105 2153 2193 2226 2772 3145 3782 
+	}
+	manpower=2252000
+	history={
+		owner = MUV
+		buildings = {
+			arms_factory = 3
+			industrial_complex = 2
+			infrastructure = 4
+		}
+		victory_points = {
+			1627 30		#Muviel
+		}
+		victory_points = {
+			3782 10		#Grenwood
+		}
+		add_core_of = MUV
+	}
+	buildings_max_level_factor=1.000
+}

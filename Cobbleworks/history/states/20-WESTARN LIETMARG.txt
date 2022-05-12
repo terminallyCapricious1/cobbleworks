@@ -1,0 +1,21 @@
+state={
+	id=20
+	name="Western Lietmarg"
+	state_category = town
+	provinces={
+		163 199 215 291 586 688 795 1031 1071 1181 1395 1542 1788 1789 1943 2172 3133 3378 3381 4603 4611 4615 4654 4669 4677 4682 
+	}
+	history={
+		owner = ULD
+		victory_points = {
+			586 15
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = ULD
+	}
+	manpower=700000
+	buildings_max_level_factor=1.000
+}

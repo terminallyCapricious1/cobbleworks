@@ -1,0 +1,17 @@
+state={
+	id=423
+	name="Reikland"
+	state_category = pastoral
+	provinces={
+		4719 
+	}
+	manpower=159283
+	history={
+		owner = SR1
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SR1
+	}
+	buildings_max_level_factor=1.000
+}

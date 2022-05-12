@@ -1,0 +1,17 @@
+﻿units = {
+	fleet = {
+		name = "Dandelonia Fleet"			
+		naval_base = 1942 # Bayykonia
+		task_force = {				
+			name = "Dandelonia II'"			
+			location = 1942 # Bayykonia
+			ship = { name = "BRD UNI" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAR } } }
+			ship = { name = "BRD NDR" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAR } } }
+			ship = { name = "BRD DOR" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAR } } }
+			ship = { name = "BRD North" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAR } } }	
+			ship = { name = "BRD Tortugan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAR } } }	
+			ship = { name = "NRP Mobius" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BAR } } }	
+		}								
+	}
+} 
+

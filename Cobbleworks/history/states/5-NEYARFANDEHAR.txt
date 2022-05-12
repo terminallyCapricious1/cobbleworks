@@ -1,0 +1,21 @@
+state={
+	id=5
+	name="Neyarfandehar"
+	state_category = rural
+	provinces={
+		125 471 540 600 820 968 1845 2195 2734 4443 4453 4462 4473 4477 
+	}
+	manpower=500000
+	history={
+		owner = ULD
+		victory_points = {
+			820 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

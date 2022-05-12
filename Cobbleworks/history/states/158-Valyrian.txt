@@ -1,0 +1,21 @@
+state={
+	id=158
+	name="Valyrian"
+	state_category = small_island
+	provinces={
+		1556 4696 
+	}
+	manpower=500000
+	history={
+		owner = BAR
+		victory_points = {
+			1556 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

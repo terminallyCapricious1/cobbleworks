@@ -1,0 +1,17 @@
+state={
+	id=186
+	name="Lower Meza"
+	state_category = pastoral
+	provinces={
+		20 813 1287 1447 2378 2492 2507 2763 3047 3700 
+	}
+	history={
+		owner = FLR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = FLR
+	}
+	manpower=49323
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,24 @@
+state={
+	id=416
+	name="Valent-Coyton"
+	state_category = tiny_island
+	history={
+		owner = HUI
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			3312 = {
+				naval_base = 1
+			}
+			1048 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = HUI
+	}
+	provinces={
+		1048 3312 3960 
+	}
+	manpower=88244
+	buildings_max_level_factor=1.000
+}

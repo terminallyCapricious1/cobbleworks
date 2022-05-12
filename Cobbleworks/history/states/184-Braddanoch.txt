@@ -1,0 +1,17 @@
+state={
+	id=184
+	name="Braddanoch"
+	state_category = rural
+	provinces={
+		923 1517 2066 3545 3552 
+	}
+	manpower=32124
+	history={
+		owner = BAR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

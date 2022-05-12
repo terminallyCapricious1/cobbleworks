@@ -1,0 +1,22 @@
+
+state={
+	id=192
+	name="Drako-Primordial"
+	state_category = large_town
+	history={
+		owner = FLR
+		buildings = {
+			arms_factory = 1 
+			infrastructure = 3
+		}
+		victory_points = {
+			3757 15		#Drakonia
+		}
+		add_core_of = FLR
+	}
+	provinces={
+		1069 1854 1909 2016 2936 3716 3743 3753 3757 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+}

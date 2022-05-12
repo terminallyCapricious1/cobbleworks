@@ -1,0 +1,22 @@
+state={
+	id=359
+	name="Greenstem Heartland"
+	state_category = metropolis
+	provinces={
+		24 866 1076 1089 1291 1987 4341 
+	}
+	manpower=1000000
+	history={
+		owner = GRN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			infrastructure = 4
+		}
+		victory_points = {
+			1291 25		#Greenstem
+		}
+		add_core_of = GRN
+	}
+	buildings_max_level_factor=1.000
+}

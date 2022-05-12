@@ -1,0 +1,22 @@
+state={
+	id=375
+	name="Erstedam"
+	state_category = metropolis
+	provinces={
+		287 852 899 1060 1176 1415 1905 3043 3389 4220 4244 4255 4266 
+	}
+	manpower=1000000
+	history={
+		owner = COB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+		}
+		victory_points = {
+			4244 20	#Erstedam
+		}
+		add_core_of = COB
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=367
+	name="Akratia"
+	state_category = town
+	provinces={
+		192 355 1032 1219 1822 2231 2354 2719 3356 4424 
+	}
+	manpower=510000
+	history={
+		owner = AKR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			355 10		#Homa
+		}
+		add_core_of = AKR
+	}
+	buildings_max_level_factor=1.000
+}

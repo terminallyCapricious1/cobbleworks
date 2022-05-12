@@ -1,0 +1,8 @@
+supply_area={
+	id=28
+	name="Paloro"
+	value=0
+	states={
+		21 23 22 
+	}
+}

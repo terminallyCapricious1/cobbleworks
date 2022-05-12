@@ -1,0 +1,22 @@
+state={
+	id=400
+	state_category = metropolis
+	name="Norvos"
+	provinces={
+		4 159 178 579 722 888 940 947 1004 1504 1734 1783 2013 2249 2426 2904 3114 3165 4586 4628 4648 
+	}
+	manpower=1950000
+	buildings_max_level_factor=1.000
+	history={
+		owner = SOU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2  
+			arms_factory = 4
+		}
+		victory_points = {
+			2013 30	#Norvos
+		}
+		add_core_of = SOU
+	}
+}

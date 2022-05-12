@@ -1,0 +1,17 @@
+state={
+	id=387
+	name="Skjaldreja"
+	state_category = pastoral
+	provinces={
+		94 548 582 932 1124 1472 1709 2374 2470 2677 3153 4614 4629 4646 4647 
+	}
+	manpower=62182
+	history={
+		owner = FRO
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FRO
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=284
+	name="Avalon"
+	state_category = town
+	provinces={
+		4699 
+	}
+	manpower=593932
+	history={
+		owner = BAR
+		buildings = {
+			arms_factory = 1
+			infrastructure = 4
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=291
+	name="Kapuno"
+	state_category = pastoral
+	provinces={
+		243 663 1182 1531 2897 3130 3720 3747 3762 
+	}
+	manpower=250000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+		}
+		victory_points = {
+			2897 5
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

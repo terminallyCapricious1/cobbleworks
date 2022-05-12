@@ -1,0 +1,18 @@
+
+state={
+	id=214
+	name="Ekona"
+	state_category = pastoral
+	provinces={
+		695 950 1175 1685 2583 2748 2922 3071 3680 3717 3733 
+	}
+	manpower=24814
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

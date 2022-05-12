@@ -1,0 +1,18 @@
+state={
+	id=348
+	name="Shirun"
+	state_category = pastoral
+	provinces={
+		664 1411 1528 1615 2609 4378 
+	}
+	manpower=250000
+	history={
+		owner = SHR
+		buildings = {
+			arms_factory = 1
+			infrastructure = 2
+		}
+		add_core_of = SHR
+	}
+	buildings_max_level_factor=1.000
+}

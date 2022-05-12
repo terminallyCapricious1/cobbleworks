@@ -1,0 +1,24 @@
+state={
+	id=412
+	state_category = town
+	name="Tlahatl"
+	history={
+		owner = HUI
+		victory_points = {
+			758 20
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			758 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = HUI
+	}
+	provinces={
+		758 2436 2448 2557 3872 
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=247
+	name="Lumeno"
+	state_category = metropolis
+	provinces={
+		999 2502 2607 3044 3413 3414 3435 3442 3458 
+	}
+	manpower=1000000
+	history={
+		owner = LUM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			3044 20		#Lumeno
+		}
+		add_core_of = LUM
+	}
+	buildings_max_level_factor=1.000
+}

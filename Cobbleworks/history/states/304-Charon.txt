@@ -1,0 +1,20 @@
+state={
+	id=304
+	name="Charon"
+	state_category = town
+	provinces={
+		98 237 264 382 597 613 761 801 1656 1769 2291 2588 3023 4480 4494 4495 4504 4505 
+	}
+	manpower=850000		#Reduce to 59328 on Ferrymen ban
+	history={
+		owner = VIO
+		buildings = {
+			arms_factory = 3
+			infrastructure = 2
+		}
+		victory_points = {
+			382 20
+		}	#Make this  a ferrymen core eventually idk
+	}
+	buildings_max_level_factor=1.000
+}

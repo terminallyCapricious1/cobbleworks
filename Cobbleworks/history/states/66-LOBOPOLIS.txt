@@ -1,0 +1,25 @@
+state={
+	id=66
+	name="Lobopolis"
+	state_category = metropolis
+	provinces={
+		748 877 922 1061 1201 1629 1748 1840 1965 2093 2462 2768 2987 3742 3749 3754 3760 3761 3773 3778 3790 3799 
+	}
+	manpower=2150000
+	history={
+		owner = BAR
+		victory_points = {
+			3760 30
+		}
+		victory_points = {
+			1201 15
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 3 
+		}
+		add_core_of = BAR
+	}
+	buildings_max_level_factor=1.000
+}

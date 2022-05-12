@@ -1,0 +1,17 @@
+state={
+	id=208
+	name="Krieg"
+	state_category = pastoral
+	history={
+		owner = NAJ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NAJ
+	}
+	provinces={
+		759 
+	}
+	manpower=149293
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,8 @@
+supply_area={
+	id=16
+	name="Astoria"
+	value=0
+	states={
+		237 160 156 159 157 240 150 147 
+	}
+}

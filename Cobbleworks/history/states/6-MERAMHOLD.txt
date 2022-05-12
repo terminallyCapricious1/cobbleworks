@@ -1,0 +1,25 @@
+state={
+	id=6
+	name="Meramhold"
+	state_category = large_town
+	provinces={
+		131 341 407 419 614 630 1569 1582 1705 1938 1954 2123 2321 2391 2700 2967 3138 3302 4422 4426 4441 4445 4446 4461 4463 
+	}
+	manpower=850000
+	history={
+		owner = ULD
+		victory_points = {
+			4463 15 #meramhold
+		}
+		victory_points = {
+			2391 10 #Urusia
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		add_core_of = ULD
+	}
+	buildings_max_level_factor=1.000
+}

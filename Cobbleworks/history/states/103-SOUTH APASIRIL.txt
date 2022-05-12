@@ -1,0 +1,32 @@
+
+state={
+	id=103
+	name="Konushum"
+	state_category = metropolis
+	provinces={
+		118 284 510 1019 1024 1033 1213 1275 2037 2292 2349 2793 2958 3344 3964 3965 3973 3974 4004 4011 
+	}
+	history={
+		owner = THI
+		victory_points = {
+			1019 30 #Konushum
+		}
+		victory_points = {
+			118 25 #Ersetu
+		}
+		victory_points = {
+			2037 25 #Fairavon
+		}
+		victory_points = {
+			3973 15 #Liones
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 3
+		}
+		add_core_of = THI
+	}
+	manpower=6100000
+	buildings_max_level_factor=1.000
+}

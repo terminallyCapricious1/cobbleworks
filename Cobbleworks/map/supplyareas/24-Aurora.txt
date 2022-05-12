@@ -1,0 +1,8 @@
+supply_area={
+	id=24
+	name="Aurora"
+	value=0
+	states={
+		28 31 30 29 
+	}
+}

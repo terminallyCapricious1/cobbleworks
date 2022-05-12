@@ -1,0 +1,22 @@
+state={
+	id=301
+	name="Valentum"
+	state_category = metropolis
+	provinces={
+		75 1152 1974 2136 3048 4400 4406 4412 
+	}
+	history={
+		owner = VIO
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			infrastructure = 3
+		}
+		victory_points = {
+			4406 20
+		}
+		add_core_of = VIO
+	}
+	manpower=1150000
+	buildings_max_level_factor=1.000
+}

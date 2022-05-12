@@ -1,0 +1,25 @@
+
+state={
+	id=53
+	name="Erenova"
+	state_category = rural
+	provinces={
+		234 514 863 1559 1848 2362 2821 3856 3879 
+	}
+	manpower=350000
+	history={
+		owner = HUI
+		victory_points = {
+			2362 5
+		}
+		buildings = {
+			863 = {
+				naval_base = 1
+			}
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = HUI
+	}
+	buildings_max_level_factor=1.000
+}

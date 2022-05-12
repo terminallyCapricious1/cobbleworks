@@ -1,0 +1,21 @@
+
+state={
+	id=212
+	name="Nikephoros"
+	state_category = pastoral
+	provinces={
+		27 297 363 388 570 744 745 1357 1680 1706 2203 2316 2356 2539 3163 3608 3625 3635 3642 3647 3660 3668 3678 
+	}
+	manpower=250000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			3647 5
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

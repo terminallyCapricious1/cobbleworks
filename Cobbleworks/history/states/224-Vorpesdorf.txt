@@ -1,0 +1,22 @@
+state={
+	id=224
+	name="Vorpesdorf"
+	state_category = large_town
+	provinces={
+		160 410 479 503 712 862 965 1424 2643 2962 3309 3781 3787 3800 3805 3809 3825 
+	}
+	manpower=753923
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1 
+			arms_factory = 1
+		}
+		victory_points = {
+			3800 20	#Novigrad
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

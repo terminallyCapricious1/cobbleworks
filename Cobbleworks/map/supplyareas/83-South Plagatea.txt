@@ -1,0 +1,8 @@
+supply_area={
+	id=83
+	name="South Plagatea"
+	value=0
+	states={
+		275 276 277 278 279 266 287 286 
+	}
+}

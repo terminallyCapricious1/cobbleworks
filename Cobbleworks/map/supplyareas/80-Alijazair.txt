@@ -1,0 +1,8 @@
+supply_area={
+	id=80
+	name="Alijazair"
+	value=0
+	states={
+		242 243 245 254 255 244 248 247 246 408 
+	}
+}

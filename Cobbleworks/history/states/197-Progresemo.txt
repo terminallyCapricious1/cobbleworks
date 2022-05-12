@@ -1,0 +1,21 @@
+state={
+	id=197
+	name="Progresemo"
+	state_category = large_town
+	provinces={
+		251 1537 1651 1725 2611 3614 3629 3655 
+	}
+	manpower=900000
+	history={
+		owner = FLR
+		buildings = {
+			industrial_complex = 2 
+			infrastructure = 3
+		}
+		victory_points = {
+			3629 20		#Mubria
+		}
+		add_core_of = FLR
+	}
+	buildings_max_level_factor=1.000
+}

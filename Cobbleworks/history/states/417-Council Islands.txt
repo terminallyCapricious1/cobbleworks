@@ -1,0 +1,17 @@
+state={
+	id=417
+	state_category = tiny_island
+	name="Council Islands"
+	history={
+		owner = KOC
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = KOC
+	}
+	provinces={
+		4715 4717 4718 
+	}
+	manpower=129840
+	buildings_max_level_factor=1.000
+}

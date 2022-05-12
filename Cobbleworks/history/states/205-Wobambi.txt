@@ -1,0 +1,27 @@
+state={
+	id=205
+	name="Wobambi"
+	state_category = metropolis
+	provinces={
+		81 884 1111 1136 1260 1312 1669 1784 2163 2348 2589 2720 3040 3113 3329 3604 3640 3659 3662 3676 3697 
+	}
+	manpower=1000000
+	history={
+		owner = NAJ
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			3659 15		#Wobambi-on-Sea
+		}
+		victory_points = {
+			884 10		#Ajek_Point
+		}
+		victory_points = {
+			1260 10		#Phinos
+		}
+		add_core_of = NAJ
+	}
+	buildings_max_level_factor=1.000
+}

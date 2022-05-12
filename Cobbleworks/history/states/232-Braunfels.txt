@@ -1,0 +1,20 @@
+state={
+	id=232
+	name="Braunfels"
+	state_category = pastoral
+	provinces={
+		40 117 209 265 323 768 2068 2130 2437 3925 3938 3950 
+	}
+	manpower=200000
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			265 5
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

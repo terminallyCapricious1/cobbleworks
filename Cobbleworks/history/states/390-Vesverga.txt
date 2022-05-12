@@ -1,0 +1,21 @@
+state={
+	id=390
+	name="Vesverga"
+	state_category = rural
+	provinces={
+		15 376 589 867 1054 1475 1635 1787 1872 2112 2257 2288 2423 2431 2645 2712 4506 4510 4547 
+	}
+	manpower=150000
+	history={
+		owner = FRO
+		victory_points = {
+			867 5		#Vesturperla
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = FRO
+	}
+	buildings_max_level_factor=1.000
+}

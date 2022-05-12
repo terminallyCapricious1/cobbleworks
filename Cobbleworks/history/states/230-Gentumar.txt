@@ -1,0 +1,17 @@
+state={
+	id=230
+	name="Gentumar"
+	state_category = pastoral
+	provinces={
+		489 500 839 845 1159 1624 2841 2960 3036 3863 3865 3888 
+	}
+	manpower=32831
+	history={
+		owner = NIE
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NIE
+	}
+	buildings_max_level_factor=1.000
+}

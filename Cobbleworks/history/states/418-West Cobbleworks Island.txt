@@ -1,0 +1,17 @@
+state={
+	id=418
+	state_category = rural
+	name="Yurisport"
+	provinces={
+		10 3261 4201 
+	}
+	manpower=149292
+	history={
+		owner = COB
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = COB
+	}
+	buildings_max_level_factor=1.000
+}

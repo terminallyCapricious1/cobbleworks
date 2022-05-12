@@ -1,0 +1,18 @@
+
+state={
+	id=243
+	name="West Paludis"
+	state_category = pastoral
+	provinces={
+		33 457 3359 3376 3516 
+	}
+	manpower=33929
+	history={
+		owner = OWY
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = OWY
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=96
+	state_category = large_town
+	name="Ayesinco"
+	provinces={
+		21 218 221 245 1106 1148 1317 1487 1518 1683 2459 2526 2670 2848 2925 2961 3188 3191 3252 3291 3979 3991 4009 4013 4027 4039 4070 4080 
+	}
+	manpower=1800000
+	history={
+		owner = THI
+		victory_points = {
+			2459 15 #Pasouthak
+		}
+		victory_points = {
+			2526 15 #Carrotona
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		add_core_of = THI
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,8 @@
+supply_area={
+	id=43
+	name="Central Viodoxa"
+	value=0
+	states={
+		313 308 310 
+	}
+}
